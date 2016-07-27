@@ -1,0 +1,144 @@
+[ 2016-07-27T14:30:47+08:00 ] 127.0.0.1 /xs/
+ERR: Syntax Error in template "F:/web/xs/Home/View\Index\index.html"  on line 549 "data: {ret:0,tag:1},"  - Unexpected ":", expected one of: "}" , " "
+
+[ 2016-07-27T14:32:55+08:00 ] 127.0.0.1 /xs/
+ERR: Syntax Error in template "F:/web/xs/Home/View\Index\index.html"  on line 549 "data: {ret:0,tag:1},"  - Unexpected ":", expected one of: "}" , " "
+
+[ 2016-07-27T14:32:56+08:00 ] 127.0.0.1 /xs/
+ERR: Syntax Error in template "F:/web/xs/Home/View\Index\index.html"  on line 608 "if(window.devicePixelRatio &amp;&amp; window.devicePixelRatio &gt;=2){//判断是否为Retina屏"  - Unexpected "/", expected one of: "identifier"
+
+[ 2016-07-27T14:32:57+08:00 ] 127.0.0.1 /xs/
+ERR: Syntax Error in template "F:/web/xs/Home/View\Index\index.html"  on line 608 "if(window.devicePixelRatio &amp;&amp; window.devicePixelRatio &gt;=2){//判断是否为Retina屏"  - Unexpected "/", expected one of: "identifier"
+
+[ 2016-07-27T14:32:57+08:00 ] 127.0.0.1 /xs/
+ERR: Syntax Error in template "F:/web/xs/Home/View\Index\index.html"  on line 608 "if(window.devicePixelRatio &amp;&amp; window.devicePixelRatio &gt;=2){//判断是否为Retina屏"  - Unexpected "/", expected one of: "identifier"
+
+[ 2016-07-27T14:32:57+08:00 ] 127.0.0.1 /xs/
+ERR: Syntax Error in template "F:/web/xs/Home/View\Index\index.html"  on line 608 "if(window.devicePixelRatio &amp;&amp; window.devicePixelRatio &gt;=2){//判断是否为Retina屏"  - Unexpected "/", expected one of: "identifier"
+
+[ 2016-07-27T14:32:57+08:00 ] 127.0.0.1 /xs/
+ERR: Syntax Error in template "F:/web/xs/Home/View\Index\index.html"  on line 608 "if(window.devicePixelRatio &amp;&amp; window.devicePixelRatio &gt;=2){//判断是否为Retina屏"  - Unexpected "/", expected one of: "identifier"
+
+[ 2016-07-27T14:32:58+08:00 ] 127.0.0.1 /xs/
+ERR: Syntax Error in template "F:/web/xs/Home/View\Index\index.html"  on line 608 "if(window.devicePixelRatio &amp;&amp; window.devicePixelRatio &gt;=2){//判断是否为Retina屏"  - Unexpected "/", expected one of: "identifier"
+
+[ 2016-07-27T14:33:16+08:00 ] 127.0.0.1 /xs/
+ERR: Syntax Error in template "F:/web/xs/Home/View\Index\index.html"  on line 608 "if(window.devicePixelRatio &amp;&amp; window.devicePixelRatio &gt;=2){//判断是否为Retina屏"  - Unexpected "/", expected one of: "identifier"
+
+[ 2016-07-27T15:55:01+08:00 ] 127.0.0.1 /xs/
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'limit 3 )' at line 1
+ [ SQL语句 ] : SELECT * FROM `xs_book` WHERE ( limit 3 ) 
+
+[ 2016-07-27T18:08:31+08:00 ] 127.0.0.1 /xs/
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '%校园 limit 6' at line 1
+ [ SQL语句 ] : select id,book_name,book_img,book_desc,book_author,book_sign from xs_book where book_sign like %校园 limit 6
+
+[ 2016-07-27T18:08:43+08:00 ] 127.0.0.1 /xs/
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '%校园 limit 6' at line 1
+ [ SQL语句 ] : select id,book_name,book_img,book_desc,book_author,book_sign from xs_book where book_sign like %校园 limit 6
+
+[ 2016-07-27T18:08:44+08:00 ] 127.0.0.1 /xs/
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '%玄幻 limit 6' at line 1
+ [ SQL语句 ] : select id,book_name,book_img,book_desc,book_author,book_sign from xs_book where book_sign like %玄幻 limit 6
+
+[ 2016-07-27T18:09:11+08:00 ] 127.0.0.1 /xs/
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '%黑道 limit 6' at line 1
+ [ SQL语句 ] : select id,book_name,book_img,book_desc,book_author,book_sign from xs_book where book_sign like %黑道 limit 6
+
+[ 2016-07-27T18:09:12+08:00 ] 127.0.0.1 /xs/
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '%黑道 limit 6' at line 1
+ [ SQL语句 ] : select id,book_name,book_img,book_desc,book_author,book_sign from xs_book where book_sign like %黑道 limit 6
+
+[ 2016-07-27T18:09:12+08:00 ] 127.0.0.1 /xs/
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '%校园 limit 6' at line 1
+ [ SQL语句 ] : select id,book_name,book_img,book_desc,book_author,book_sign from xs_book where book_sign like %校园 limit 6
+
+[ 2016-07-27T18:09:12+08:00 ] 127.0.0.1 /xs/
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '%玄幻 limit 6' at line 1
+ [ SQL语句 ] : select id,book_name,book_img,book_desc,book_author,book_sign from xs_book where book_sign like %玄幻 limit 6
+
+[ 2016-07-27T18:09:12+08:00 ] 127.0.0.1 /xs/
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '%修真 limit 6' at line 1
+ [ SQL语句 ] : select id,book_name,book_img,book_desc,book_author,book_sign from xs_book where book_sign like %修真 limit 6
+
+[ 2016-07-27T18:09:13+08:00 ] 127.0.0.1 /xs/
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '%修真 limit 6' at line 1
+ [ SQL语句 ] : select id,book_name,book_img,book_desc,book_author,book_sign from xs_book where book_sign like %修真 limit 6
+
+[ 2016-07-27T18:09:13+08:00 ] 127.0.0.1 /xs/
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '%校园 limit 6' at line 1
+ [ SQL语句 ] : select id,book_name,book_img,book_desc,book_author,book_sign from xs_book where book_sign like %校园 limit 6
+
+[ 2016-07-27T18:09:13+08:00 ] 127.0.0.1 /xs/
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '%黑道 limit 6' at line 1
+ [ SQL语句 ] : select id,book_name,book_img,book_desc,book_author,book_sign from xs_book where book_sign like %黑道 limit 6
+
+[ 2016-07-27T18:09:14+08:00 ] 127.0.0.1 /xs/
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '%修真 limit 6' at line 1
+ [ SQL语句 ] : select id,book_name,book_img,book_desc,book_author,book_sign from xs_book where book_sign like %修真 limit 6
+
+[ 2016-07-27T18:09:14+08:00 ] 127.0.0.1 /xs/
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '%修真 limit 6' at line 1
+ [ SQL语句 ] : select id,book_name,book_img,book_desc,book_author,book_sign from xs_book where book_sign like %修真 limit 6
+
+[ 2016-07-27T18:09:14+08:00 ] 127.0.0.1 /xs/
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '%玄幻 limit 6' at line 1
+ [ SQL语句 ] : select id,book_name,book_img,book_desc,book_author,book_sign from xs_book where book_sign like %玄幻 limit 6
+
+[ 2016-07-27T18:09:14+08:00 ] 127.0.0.1 /xs/
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '%黑道 limit 6' at line 1
+ [ SQL语句 ] : select id,book_name,book_img,book_desc,book_author,book_sign from xs_book where book_sign like %黑道 limit 6
+
+[ 2016-07-27T18:09:15+08:00 ] 127.0.0.1 /xs/
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '%黑道 limit 6' at line 1
+ [ SQL语句 ] : select id,book_name,book_img,book_desc,book_author,book_sign from xs_book where book_sign like %黑道 limit 6
+
+[ 2016-07-27T18:09:37+08:00 ] 127.0.0.1 /xs/
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '%校园 limit 6' at line 1
+ [ SQL语句 ] : select id,book_name,book_img,book_desc,book_author,book_sign from xs_book where book_sign like %校园 limit 6
+
+[ 2016-07-27T18:48:56+08:00 ] 127.0.0.1 /xs/
+ERR: XML标签语法错误 : start=0 end="3"
+
+[ 2016-07-27T18:48:57+08:00 ] 127.0.0.1 /xs/
+ERR: XML标签语法错误 : start=0 end="3"
+
+[ 2016-07-27T18:48:58+08:00 ] 127.0.0.1 /xs/
+ERR: XML标签语法错误 : start=0 end="3"
+
+[ 2016-07-27T18:50:02+08:00 ] 127.0.0.1 /xs/
+ERR: XML标签语法错误 : start=0 end="3"
+
+[ 2016-07-27T18:50:03+08:00 ] 127.0.0.1 /xs/
+ERR: XML标签语法错误 : start=0 end="3"
+
+[ 2016-07-27T18:51:24+08:00 ] 127.0.0.1 /xs/
+ERR: XML标签语法错误 : start=0 end="3"
+
+[ 2016-07-27T18:51:25+08:00 ] 127.0.0.1 /xs/
+ERR: XML标签语法错误 : start=0 end="3"
+
+[ 2016-07-27T18:51:25+08:00 ] 127.0.0.1 /xs/
+ERR: XML标签语法错误 : start=0 end="3"
+
+[ 2016-07-27T18:51:25+08:00 ] 127.0.0.1 /xs/
+ERR: XML标签语法错误 : start=0 end="3"
+
+[ 2016-07-27T18:51:25+08:00 ] 127.0.0.1 /xs/
+ERR: XML标签语法错误 : start=0 end="3"
+
+[ 2016-07-27T18:51:25+08:00 ] 127.0.0.1 /xs/
+ERR: XML标签语法错误 : start=0 end="3"
+
+[ 2016-07-27T18:51:26+08:00 ] 127.0.0.1 /xs/
+ERR: XML标签语法错误 : start=0 end="3"
+
+[ 2016-07-27T18:51:26+08:00 ] 127.0.0.1 /xs/
+ERR: XML标签语法错误 : start=0 end="3"
+
+[ 2016-07-27T18:51:26+08:00 ] 127.0.0.1 /xs/
+ERR: XML标签语法错误 : start=0 end="3"
+
+[ 2016-07-27T18:51:26+08:00 ] 127.0.0.1 /xs/
+ERR: XML标签语法错误 : start=0 end="3"
+

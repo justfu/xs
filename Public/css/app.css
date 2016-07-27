@@ -1,0 +1,19 @@
+.home-fenlei .link-in{
+    background:none;
+    text-align: left;
+}
+.home-fenlei .link-in em{
+    background: none;
+    color: #030303;
+}
+.home-fenlei .link-in:last-child{
+    background:none;
+}
+.menu .active, .menu a{
+    background-color: #F400FF;
+    color: #ffffff;
+}
+.menu .active, .menu a:hover{
+    background-color: orange;
+    color: #ffffff;
+}

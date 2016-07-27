@@ -1,0 +1,1 @@
+var adMshow_122496567031 = false,useAdTicket_122496567031 = false;
