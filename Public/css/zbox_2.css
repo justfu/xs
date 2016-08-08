@@ -1,0 +1,13 @@
+﻿.zbox-main{position:fixed;z-index:9000;min-height:70px;text-align:center;overflow:hidden}
+.zbox-wrapper iframe{border:none;border-radius:5px;-webkit-border-radius:5px;width:100%;padding:0;margin:0;margin-left:-10000px}
+.zbox-loader{position:fixed;left:50%;top:50%;margin:-30px 0 0 -30px;width:50px;height:50px;padding:10px;background:rgba(255,255,255,.7);border-radius:5px;-webkit-border-radius:5px}
+.zbox-cover{position:absolute;z-index:8000;width:100%;background:rgba(0,0,0,.4);left:0;top:0}
+.zbox-loader>span{display:block;height:46px;width:46px;border:2px solid #61615e;border-left-color:transparent;border-right-color:transparent;border-radius:50%;animation:spin 2s infinite;-webkit-animation:spin 2s infinite}
+@-webkit-keyframes spin{0%{-webkit-transform:rotate(0)}
+50%{-webkit-transform:rotate(360deg)}
+100%{-webkit-transform:rotate(0)}
+}
+@keyframes spin{0%{transform:rotate(0)}
+50%{transform:rotate(360deg)}
+100%{transform:rotate(0)}
+}

@@ -1,0 +1,91 @@
+﻿.popbox{ position: relative; top: 50%; left: 50%; text-align: center; width: 88%; background: #fff; padding:8% 5% 8% 5%;box-sizing:border-box;box-shadow: 0px 0px 5px  rgba(0,0,0,.75);-webkit-box-shadow: 0px 0px 5px  rgba(0,0,0,.75); border-radius: 3px;-webkit-border-radius: 3px; z-index: 999;-webkit-transform:translate(-50%,-50%); transform:translate(-50%,-50%);display: inline-block;}
+.popbox .box_bd{ display: inline-block;}
+.popbox .main_text{ font-size: 14px; color: #333; line-height: 24px; margin: 5px 0 10px;}
+.popbox .form{ display: -webkit-box;}
+.popbox .form .btn{ border: none; display:block;-webkit-box-flex:1; background: #00aeef; color: #fff; font-size: 16px; height: 40px; line-height: 40px;border-radius: 6px;-webkit-border-radius: 6px;}
+.popbox .form .btn_cancel{ margin: 0 0 0 30px;}
+.overWrap{ position: fixed;left: 0; top: 0; width: 100%; height: 100%; z-index: 888; background: rgba(0,0,0,.6);-webkit-transform-style:flat;transform-style:flat;transition: all .2s linear;}
+.newalertup{-webkit-animation: uptodown .4s ease-out;animation: uptodown .4s ease-out;}
+@keyframes uptodown
+{
+    from
+    {        
+        opacity: 0;
+        transform: translate(-50%,-50%) scale(1.4);
+    }
+    to
+    {
+        opacity: 1;
+        transform: translate(-50%,-50%) scale(1);
+    }
+}
+
+@-webkit-keyframes uptodown
+{
+    from
+    {        
+        opacity: 0;
+        -webkit-transform: translate(-50%,-50%) scale(1.4);
+    }
+    to
+    {
+        opacity: 1;
+        -webkit-transform: translate(-50%,-50%) scale(1);
+    }
+}
+@font-face {font-family: "iconfont";
+  src: url('iconfont.ttf?v=20160701') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+*/
+  url('iconfont.svg?v=20160701') format('svg'); /* iOS 4.1- */
+}
+
+.iconfont { font-family:"iconfont" !important; font-style:normal; -webkit-font-smoothing: antialiased; -webkit-text-stroke-width: 0.2px; -moz-osx-font-smoothing: grayscale;}
+.iconfont_checkbox:before{ content: "\e608";}
+.iconfont_checkedbox:before{ content: "\e609";}
+.iconfont_help:before{ content: "\e60b";}
+.iconfont_close:before{ content: "\e60c";}
+
+.icon-yejing:before { content: "\e620"; }
+.icon-yueliang:before { content: "\e621"; }
+.icon-liwu:before { content: "\e622"; }
+.icon-category:before { content: "\e60d"; }
+.icon-comments:before { content: "\e60e"; }
+.icon-favorite:before { content: "\e618"; }
+.icon-set:before { content: "\e60f"; }
+.icon-viewheadline:before { content: "\e628"; }
+.icon-community:before { content: "\e619"; }
+.icon-31qing:before { content: "\e61a"; }
+.icon-liwuhuodong:before { content: "\e61b"; }
+.icon-31liebiao:before { content: "\e623"; }
+.icon-gifts:before { content: "\e610"; }
+.icon-dark:before { content: "\e624"; }
+.icon-light:before { content: "\e625"; }
+.icon-brightness:before { content: "\e61c"; }
+.icon-moon:before { content: "\e62a"; }
+.icon-cc-menu-more:before { content: "\e629"; }
+.icon-icmenu24px:before { content: "\e611"; }
+.icon-wenhao:before { content: "\e60a"; }
+.icon-caidan:before { content: "\e626"; }
+.icon-shoucang:before { content: "\e61d"; }
+.icon-shezhi:before { content: "\e61e"; }
+.icon-pinglun:before { content: "\e61f"; }
+.icon-pinglun1:before { content: "\e62b"; }
+.icon-yduigerenzhongxinxuanzhong:before { content: "\e606"; }
+.icon-iconsz4:before { content: "\e605"; }
+.icon-wode2:before { content: "\e604"; }
+.icon-t207sousuo:before { content: "\e600"; }
+.icon-iconfontchexiao:before { content: "\e603"; }
+.icon-iconfontjianyi:before { content: "\e601"; }
+.icon-iconfontqq:before { content: "\e602"; }
+.icon-pinglun2:before { content: "\e62c"; }
+.icon-volumeup:before { content: "\e607"; }
+.icon-more:before { content: "\e612"; }
+.icon-collect:before { content: "\e613"; }
+.icon-liwu1:before { content: "\e62d"; }
+.icon-alignjustify:before { content: "\e614"; }
+.icon-back:before { content: "\e615"; }
+.icon-iczuoyouduiqi24px:before { content: "\e616"; }
+.icon-download:before { content: "\e617"; }
+.icon-ictuodong24px:before { content: "\e627"; }
+
+.horizontalcenter{left:50%;-webkit-transform:translateX(-50%); transform:translateX(-50%);}
+.verticalcenter{top:50%;-webkit-transform:translateY(-50%); transform:translateY(-50%);}

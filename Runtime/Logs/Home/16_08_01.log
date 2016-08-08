@@ -1,0 +1,2409 @@
+[ 2016-08-01T09:08:14+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/getRadomBook.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `xs_book` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `xs_book` [ RunTime:0.0010s ]
+SQL: SELECT `id`,`book_img`,`book_name`,`book_len`,`book_type` FROM `xs_book` WHERE ( book_type = '都市生活' ) ORDER BY rand() LIMIT 3   [ RunTime:0.0020s ]
+
+[ 2016-08-01T09:08:23+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/getRadomBook.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+SQL: SHOW COLUMNS FROM `xs_book` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `xs_book` [ RunTime:0.0030s ]
+SQL: SELECT `id`,`book_img`,`book_name`,`book_len`,`book_type` FROM `xs_book` WHERE ( book_type = '都市生活' ) ORDER BY rand() LIMIT 3   [ RunTime:0.0010s ]
+
+[ 2016-08-01T09:08:32+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/getRadomBook.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `xs_book` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `xs_book` [ RunTime:0.0010s ]
+SQL: SELECT `id`,`book_img`,`book_name`,`book_len`,`book_type` FROM `xs_book` WHERE ( book_type = '都市生活' ) ORDER BY rand() LIMIT 3   [ RunTime:0.0000s ]
+
+[ 2016-08-01T09:08:35+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/getRadomBook.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `xs_book` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `xs_book` [ RunTime:0.0020s ]
+SQL: SELECT `id`,`book_img`,`book_name`,`book_len`,`book_type` FROM `xs_book` WHERE ( book_type = '都市生活' ) ORDER BY rand() LIMIT 3   [ RunTime:0.0000s ]
+
+[ 2016-08-01T09:08:49+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/getRadomBook.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `xs_book` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `xs_book` [ RunTime:0.0020s ]
+SQL: SELECT `id`,`book_img`,`book_name`,`book_len`,`book_type` FROM `xs_book` WHERE ( book_type = '都市生活' ) ORDER BY rand() LIMIT 3   [ RunTime:0.0000s ]
+
+[ 2016-08-01T09:16:11+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/getRadomBook.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `xs_book` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `xs_book` [ RunTime:0.0010s ]
+SQL: SELECT `id`,`book_img`,`book_name`,`book_len`,`book_type` FROM `xs_book` WHERE ( book_type = '都市生活' ) ORDER BY rand() LIMIT 3   [ RunTime:0.0010s ]
+
+[ 2016-08-01T09:16:14+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/getRadomBook.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `xs_book` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `xs_book` [ RunTime:0.0030s ]
+SQL: SELECT `id`,`book_img`,`book_name`,`book_len`,`book_type` FROM `xs_book` WHERE ( book_type = '都市生活' ) ORDER BY rand() LIMIT 3   [ RunTime:0.0000s ]
+
+[ 2016-08-01T09:19:06+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/getRadomBook.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `xs_book` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `xs_book` [ RunTime:0.0010s ]
+SQL: SELECT `id`,`book_img`,`book_name`,`book_len`,`book_type` FROM `xs_book` WHERE ( book_type = '都市生活' ) ORDER BY rand() LIMIT 3   [ RunTime:0.0000s ]
+
+[ 2016-08-01T09:20:41+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/getRadomBook.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `xs_book` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `xs_book` [ RunTime:0.0010s ]
+SQL: SELECT `id`,`book_img`,`book_name`,`book_len`,`book_type` FROM `xs_book` WHERE ( book_type = '都市生活' ) ORDER BY rand() LIMIT 3   [ RunTime:0.0000s ]
+
+[ 2016-08-01T09:20:47+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/getRadomBook.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `xs_book` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `xs_book` [ RunTime:0.0010s ]
+SQL: SELECT `id`,`book_img`,`book_name`,`book_len`,`book_type` FROM `xs_book` WHERE ( book_type = '都市生活' ) ORDER BY rand() LIMIT 3   [ RunTime:0.0010s ]
+
+[ 2016-08-01T09:20:52+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/getRadomBook.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `xs_book` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `xs_book` [ RunTime:0.0020s ]
+SQL: SELECT `id`,`book_img`,`book_name`,`book_len`,`book_type` FROM `xs_book` WHERE ( book_type = '都市生活' ) ORDER BY rand() LIMIT 3   [ RunTime:0.0010s ]
+
+[ 2016-08-01T09:20:53+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/getRadomBook.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `xs_book` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `xs_book` [ RunTime:0.0010s ]
+SQL: SELECT `id`,`book_img`,`book_name`,`book_len`,`book_type` FROM `xs_book` WHERE ( book_type = '都市生活' ) ORDER BY rand() LIMIT 3   [ RunTime:0.0000s ]
+
+[ 2016-08-01T09:20:55+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/getRadomBook.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `xs_book` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `xs_book` [ RunTime:0.0020s ]
+SQL: SELECT `id`,`book_img`,`book_name`,`book_len`,`book_type` FROM `xs_book` WHERE ( book_type = '都市生活' ) ORDER BY rand() LIMIT 3   [ RunTime:0.0010s ]
+
+[ 2016-08-01T09:20:57+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/getRadomBook.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `xs_book` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `xs_book` [ RunTime:0.0020s ]
+SQL: SELECT `id`,`book_img`,`book_name`,`book_len`,`book_type` FROM `xs_book` WHERE ( book_type = '都市生活' ) ORDER BY rand() LIMIT 3   [ RunTime:0.0010s ]
+
+[ 2016-08-01T09:28:47+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/getRadomBook.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `xs_book` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `xs_book` [ RunTime:0.0010s ]
+SQL: SELECT `id`,`book_img`,`book_name`,`book_len`,`book_type` FROM `xs_book` WHERE ( book_type = '都市生活' ) ORDER BY rand() LIMIT 3   [ RunTime:0.0000s ]
+
+[ 2016-08-01T09:28:48+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/getRadomBook.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `xs_book` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `xs_book` [ RunTime:0.0010s ]
+SQL: SELECT `id`,`book_img`,`book_name`,`book_len`,`book_type` FROM `xs_book` WHERE ( book_type = '都市生活' ) ORDER BY rand() LIMIT 3   [ RunTime:0.0010s ]
+
+[ 2016-08-01T09:28:50+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/getRadomBook.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `xs_book` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `xs_book` [ RunTime:0.0030s ]
+SQL: SELECT `id`,`book_img`,`book_name`,`book_len`,`book_type` FROM `xs_book` WHERE ( book_type = '都市生活' ) ORDER BY rand() LIMIT 3   [ RunTime:0.0010s ]
+
+[ 2016-08-01T09:28:52+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/getRadomBook.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `xs_book` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `xs_book` [ RunTime:0.0010s ]
+SQL: SELECT `id`,`book_img`,`book_name`,`book_len`,`book_type` FROM `xs_book` WHERE ( book_type = '都市生活' ) ORDER BY rand() LIMIT 3   [ RunTime:0.0010s ]
+
+[ 2016-08-01T09:28:53+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/getRadomBook.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `xs_book` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `xs_book` [ RunTime:0.0020s ]
+SQL: SELECT `id`,`book_img`,`book_name`,`book_len`,`book_type` FROM `xs_book` WHERE ( book_type = '都市生活' ) ORDER BY rand() LIMIT 3   [ RunTime:0.0010s ]
+
+[ 2016-08-01T09:28:54+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/getRadomBook.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `xs_book` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `xs_book` [ RunTime:0.0020s ]
+SQL: SELECT `id`,`book_img`,`book_name`,`book_len`,`book_type` FROM `xs_book` WHERE ( book_type = '都市生活' ) ORDER BY rand() LIMIT 3   [ RunTime:0.0000s ]
+
+[ 2016-08-01T09:28:56+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/getRadomBook.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `xs_book` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `xs_book` [ RunTime:0.0020s ]
+SQL: SELECT `id`,`book_img`,`book_name`,`book_len`,`book_type` FROM `xs_book` WHERE ( book_type = '都市生活' ) ORDER BY rand() LIMIT 3   [ RunTime:0.0000s ]
+
+[ 2016-08-01T09:28:57+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/getRadomBook.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `xs_book` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `xs_book` [ RunTime:0.0020s ]
+SQL: SELECT `id`,`book_img`,`book_name`,`book_len`,`book_type` FROM `xs_book` WHERE ( book_type = '都市生活' ) ORDER BY rand() LIMIT 3   [ RunTime:0.0000s ]
+
+[ 2016-08-01T09:28:59+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/getRadomBook.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `xs_book` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `xs_book` [ RunTime:0.0010s ]
+SQL: SELECT `id`,`book_img`,`book_name`,`book_len`,`book_type` FROM `xs_book` WHERE ( book_type = '都市生活' ) ORDER BY rand() LIMIT 3   [ RunTime:0.0010s ]
+
+[ 2016-08-01T09:29:02+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/getRadomBook.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `xs_book` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `xs_book` [ RunTime:0.0020s ]
+SQL: SELECT `id`,`book_img`,`book_name`,`book_len`,`book_type` FROM `xs_book` WHERE ( book_type = '都市生活' ) ORDER BY rand() LIMIT 3   [ RunTime:0.0010s ]
+
+[ 2016-08-01T09:29:04+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/getRadomBook.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `xs_book` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `xs_book` [ RunTime:0.0030s ]
+SQL: SELECT `id`,`book_img`,`book_name`,`book_len`,`book_type` FROM `xs_book` WHERE ( book_type = '都市生活' ) ORDER BY rand() LIMIT 3   [ RunTime:0.0010s ]
+
+[ 2016-08-01T09:29:07+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/getRadomBook.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `xs_book` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `xs_book` [ RunTime:0.0010s ]
+SQL: SELECT `id`,`book_img`,`book_name`,`book_len`,`book_type` FROM `xs_book` WHERE ( book_type = '都市生活' ) ORDER BY rand() LIMIT 3   [ RunTime:0.0000s ]
+
+[ 2016-08-01T09:29:22+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/getRadomBook.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `xs_book` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `xs_book` [ RunTime:0.0010s ]
+SQL: SELECT `id`,`book_img`,`book_name`,`book_len`,`book_type` FROM `xs_book` WHERE ( book_type = '都市生活' ) ORDER BY rand() LIMIT 3   [ RunTime:0.0010s ]
+
+[ 2016-08-01T09:30:40+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/getRadomBook.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `xs_book` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `xs_book` [ RunTime:0.0020s ]
+SQL: SELECT `id`,`book_img`,`book_name`,`book_len`,`book_type` FROM `xs_book` WHERE ( book_type = '都市生活' ) ORDER BY rand() LIMIT 3   [ RunTime:0.0010s ]
+
+[ 2016-08-01T09:30:41+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/getRadomBook.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `xs_book` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `xs_book` [ RunTime:0.0010s ]
+SQL: SELECT `id`,`book_img`,`book_name`,`book_len`,`book_type` FROM `xs_book` WHERE ( book_type = '都市生活' ) ORDER BY rand() LIMIT 3   [ RunTime:0.0020s ]
+
+[ 2016-08-01T09:38:37+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/getRadomBook.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `xs_book` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `xs_book` [ RunTime:0.0010s ]
+SQL: SELECT `id`,`book_img`,`book_name`,`book_len`,`book_type` FROM `xs_book` WHERE ( book_type = '都市生活' ) ORDER BY rand() LIMIT 3   [ RunTime:0.0010s ]
+
+[ 2016-08-01T09:42:52+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/getRadomBook.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `xs_book` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `xs_book` [ RunTime:0.0020s ]
+SQL: SELECT `id`,`book_img`,`book_name`,`book_len`,`book_type` FROM `xs_book` WHERE ( book_type = '都市生活' ) ORDER BY rand() LIMIT 3   [ RunTime:0.0000s ]
+
+[ 2016-08-01T09:43:00+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/Book/chapter/bookId/2084
+ERR: 非法操作:Book
+
+[ 2016-08-01T09:43:14+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/Book/chapter/bookId/2084
+ERR: 非法操作:Book
+
+[ 2016-08-01T09:43:16+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/Book/chapter/bookId/2084
+ERR: 非法操作:Book
+
+[ 2016-08-01T09:43:16+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/Book/chapter/bookId/2084
+ERR: 非法操作:Book
+
+[ 2016-08-01T09:43:16+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/Book/chapter/bookId/2084
+ERR: 非法操作:Book
+
+[ 2016-08-01T09:43:17+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/Book/chapter/bookId/2084
+ERR: 非法操作:Book
+
+[ 2016-08-01T09:43:37+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/Book/chapter/bookId/2084
+ERR: 非法操作:Book
+
+[ 2016-08-01T09:43:39+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/getRadomBook.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `xs_book` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `xs_book` [ RunTime:0.0020s ]
+SQL: SELECT `id`,`book_img`,`book_name`,`book_len`,`book_type` FROM `xs_book` WHERE ( book_type = '都市生活' ) ORDER BY rand() LIMIT 3   [ RunTime:0.0000s ]
+
+[ 2016-08-01T09:44:46+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/getRadomBook.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `xs_book` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `xs_book` [ RunTime:0.0020s ]
+SQL: SELECT `id`,`book_img`,`book_name`,`book_len`,`book_type` FROM `xs_book` WHERE ( book_type = '都市生活' ) ORDER BY rand() LIMIT 3   [ RunTime:0.0000s ]
+
+[ 2016-08-01T09:44:48+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/getRadomBook.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `xs_book` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `xs_book` [ RunTime:0.0010s ]
+SQL: SELECT `id`,`book_img`,`book_name`,`book_len`,`book_type` FROM `xs_book` WHERE ( book_type = '都市生活' ) ORDER BY rand() LIMIT 3   [ RunTime:0.0000s ]
+
+[ 2016-08-01T09:44:49+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/Book/chapter.html?bookId=2110
+ERR: 非法操作:Book
+
+[ 2016-08-01T09:45:06+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/getRadomBook.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `xs_book` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `xs_book` [ RunTime:0.0020s ]
+SQL: SELECT `id`,`book_img`,`book_name`,`book_len`,`book_type` FROM `xs_book` WHERE ( book_type = '都市生活' ) ORDER BY rand() LIMIT 3   [ RunTime:0.0010s ]
+
+[ 2016-08-01T09:45:07+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/Book/chapter.html?bookId=2110
+ERR: 非法操作:Book
+
+[ 2016-08-01T09:45:09+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/getRadomBook.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `xs_book` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `xs_book` [ RunTime:0.0010s ]
+SQL: SELECT `id`,`book_img`,`book_name`,`book_len`,`book_type` FROM `xs_book` WHERE ( book_type = '都市生活' ) ORDER BY rand() LIMIT 3   [ RunTime:0.0010s ]
+
+[ 2016-08-01T09:45:10+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/getRadomBook.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `xs_book` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `xs_book` [ RunTime:0.0010s ]
+SQL: SELECT `id`,`book_img`,`book_name`,`book_len`,`book_type` FROM `xs_book` WHERE ( book_type = '都市生活' ) ORDER BY rand() LIMIT 3   [ RunTime:0.0010s ]
+
+[ 2016-08-01T09:45:31+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/getRadomBook.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `xs_book` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `xs_book` [ RunTime:0.0010s ]
+SQL: SELECT `id`,`book_img`,`book_name`,`book_len`,`book_type` FROM `xs_book` WHERE ( book_type = '都市生活' ) ORDER BY rand() LIMIT 3   [ RunTime:0.0010s ]
+
+[ 2016-08-01T09:45:32+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/js/xiaoxiang.min.js
+ERR: 非法操作:js
+
+[ 2016-08-01T09:45:32+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/css/mcommon_2.css
+ERR: 非法操作:css
+
+[ 2016-08-01T09:45:32+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/js/site_1.js
+ERR: 非法操作:js
+
+[ 2016-08-01T09:45:32+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/js/jquery.min.js
+ERR: 非法操作:js
+
+[ 2016-08-01T09:45:32+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/css/css2_2.css
+ERR: 非法操作:css
+
+[ 2016-08-01T09:45:32+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/css/login.css
+ERR: 非法操作:css
+
+[ 2016-08-01T09:45:32+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/css/global.css
+ERR: 非法操作:css
+
+[ 2016-08-01T09:45:32+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/css/zbox_2.css
+ERR: 非法操作:css
+
+[ 2016-08-01T09:45:32+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/css/style.css
+ERR: 非法操作:css
+
+[ 2016-08-01T09:45:32+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/js/c.php
+ERR: 非法操作:js
+
+[ 2016-08-01T09:45:32+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/js/xxsy.js
+ERR: 非法操作:js
+
+[ 2016-08-01T09:45:32+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/js/c_1.php
+ERR: 非法操作:js
+
+[ 2016-08-01T09:45:32+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/js/footjs.js
+ERR: 非法操作:js
+
+[ 2016-08-01T09:45:32+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/js/fastclick.js
+ERR: 非法操作:js
+
+[ 2016-08-01T09:45:32+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/js/site_1.js
+ERR: 非法操作:js
+
+[ 2016-08-01T09:45:32+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/css/css2_2.css
+ERR: 非法操作:css
+
+[ 2016-08-01T09:45:32+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/css/login.css
+ERR: 非法操作:css
+
+[ 2016-08-01T09:45:32+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/css/global.css
+ERR: 非法操作:css
+
+[ 2016-08-01T09:45:32+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/css/zbox_2.css
+ERR: 非法操作:css
+
+[ 2016-08-01T09:45:32+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/css/style.css
+ERR: 非法操作:css
+
+[ 2016-08-01T09:45:32+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/js/c.php
+ERR: 非法操作:js
+
+[ 2016-08-01T09:45:32+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/js/c_1.php
+ERR: 非法操作:js
+
+[ 2016-08-01T09:45:33+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/js/fastclick.js
+ERR: 非法操作:js
+
+[ 2016-08-01T09:45:33+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/js/xxsy.js
+ERR: 非法操作:js
+
+[ 2016-08-01T09:45:33+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/js/footjs.js
+ERR: 非法操作:js
+
+[ 2016-08-01T09:46:14+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/js/xiaoxiang.min.js
+ERR: 非法操作:js
+
+[ 2016-08-01T09:46:14+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/css/mcommon_2.css
+ERR: 非法操作:css
+
+[ 2016-08-01T09:46:14+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/js/jquery.min.js
+ERR: 非法操作:js
+
+[ 2016-08-01T09:46:14+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/js/site_1.js
+ERR: 非法操作:js
+
+[ 2016-08-01T09:46:14+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/css/css2_2.css
+ERR: 非法操作:css
+
+[ 2016-08-01T09:46:14+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/css/login.css
+ERR: 非法操作:css
+
+[ 2016-08-01T09:46:14+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/css/global.css
+ERR: 非法操作:css
+
+[ 2016-08-01T09:46:14+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/css/zbox_2.css
+ERR: 非法操作:css
+
+[ 2016-08-01T09:46:14+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/css/style.css
+ERR: 非法操作:css
+
+[ 2016-08-01T09:46:14+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/js/c.php
+ERR: 非法操作:js
+
+[ 2016-08-01T09:46:14+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/js/c_1.php
+ERR: 非法操作:js
+
+[ 2016-08-01T09:46:14+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/js/fastclick.js
+ERR: 非法操作:js
+
+[ 2016-08-01T09:46:14+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/js/xxsy.js
+ERR: 非法操作:js
+
+[ 2016-08-01T09:46:14+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/js/footjs.js
+ERR: 非法操作:js
+
+[ 2016-08-01T09:46:15+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/js/xiaoxiang.min.js
+ERR: 非法操作:js
+
+[ 2016-08-01T09:46:15+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/js/jquery.min.js
+ERR: 非法操作:js
+
+[ 2016-08-01T09:46:15+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/js/site_1.js
+ERR: 非法操作:js
+
+[ 2016-08-01T09:46:15+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/js/c.php
+ERR: 非法操作:js
+
+[ 2016-08-01T09:46:15+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/js/fastclick.js
+ERR: 非法操作:js
+
+[ 2016-08-01T09:46:15+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/js/c_1.php
+ERR: 非法操作:js
+
+[ 2016-08-01T09:46:15+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/js/xxsy.js
+ERR: 非法操作:js
+
+[ 2016-08-01T09:46:15+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/js/footjs.js
+ERR: 非法操作:js
+
+[ 2016-08-01T09:46:15+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/js/c.php
+ERR: 非法操作:js
+
+[ 2016-08-01T09:46:15+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/js/c_1.php
+ERR: 非法操作:js
+
+[ 2016-08-01T09:46:15+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/js/fastclick.js
+ERR: 非法操作:js
+
+[ 2016-08-01T09:46:15+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/js/xxsy.js
+ERR: 非法操作:js
+
+[ 2016-08-01T09:46:15+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/js/footjs.js
+ERR: 非法操作:js
+
+[ 2016-08-01T09:46:25+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/js/xiaoxiang.min.js
+ERR: 非法操作:js
+
+[ 2016-08-01T09:46:25+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/js/site_1.js
+ERR: 非法操作:js
+
+[ 2016-08-01T09:46:25+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/js/jquery.min.js
+ERR: 非法操作:js
+
+[ 2016-08-01T09:46:25+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/js/c.php
+ERR: 非法操作:js
+
+[ 2016-08-01T09:46:25+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/js/c_1.php
+ERR: 非法操作:js
+
+[ 2016-08-01T09:46:25+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/js/fastclick.js
+ERR: 非法操作:js
+
+[ 2016-08-01T09:46:25+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/js/xxsy.js
+ERR: 非法操作:js
+
+[ 2016-08-01T09:46:25+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/js/footjs.js
+ERR: 非法操作:js
+
+[ 2016-08-01T09:46:25+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/js/site_1.js
+ERR: 非法操作:js
+
+[ 2016-08-01T09:46:25+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/js/c.php
+ERR: 非法操作:js
+
+[ 2016-08-01T09:46:25+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/js/c_1.php
+ERR: 非法操作:js
+
+[ 2016-08-01T09:46:25+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/js/fastclick.js
+ERR: 非法操作:js
+
+[ 2016-08-01T09:46:25+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/js/xxsy.js
+ERR: 非法操作:js
+
+[ 2016-08-01T09:46:25+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/js/footjs.js
+ERR: 非法操作:js
+
+[ 2016-08-01T09:46:29+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/js/xiaoxiang.min.js
+ERR: 非法操作:js
+
+[ 2016-08-01T09:46:29+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/js/site_1.js
+ERR: 非法操作:js
+
+[ 2016-08-01T09:46:29+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/js/jquery.min.js
+ERR: 非法操作:js
+
+[ 2016-08-01T09:46:29+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/js/c_1.php
+ERR: 非法操作:js
+
+[ 2016-08-01T09:46:29+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/js/c.php
+ERR: 非法操作:js
+
+[ 2016-08-01T09:46:29+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/js/fastclick.js
+ERR: 非法操作:js
+
+[ 2016-08-01T09:46:29+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/js/xxsy.js
+ERR: 非法操作:js
+
+[ 2016-08-01T09:46:29+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/js/footjs.js
+ERR: 非法操作:js
+
+[ 2016-08-01T09:46:29+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/js/site_1.js
+ERR: 非法操作:js
+
+[ 2016-08-01T09:46:29+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/js/c.php
+ERR: 非法操作:js
+
+[ 2016-08-01T09:46:29+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/js/c_1.php
+ERR: 非法操作:js
+
+[ 2016-08-01T09:46:29+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/js/fastclick.js
+ERR: 非法操作:js
+
+[ 2016-08-01T09:46:29+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/js/xxsy.js
+ERR: 非法操作:js
+
+[ 2016-08-01T09:46:29+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/js/footjs.js
+ERR: 非法操作:js
+
+[ 2016-08-01T09:47:00+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/js/xiaoxiang.min.js
+ERR: 非法操作:js
+
+[ 2016-08-01T09:47:00+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/js/jquery.min.js
+ERR: 非法操作:js
+
+[ 2016-08-01T09:47:00+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/js/site_1.js
+ERR: 非法操作:js
+
+[ 2016-08-01T09:47:00+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/js/c.php
+ERR: 非法操作:js
+
+[ 2016-08-01T09:47:00+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/js/c_1.php
+ERR: 非法操作:js
+
+[ 2016-08-01T09:47:00+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/js/fastclick.js
+ERR: 非法操作:js
+
+[ 2016-08-01T09:47:00+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/js/xxsy.js
+ERR: 非法操作:js
+
+[ 2016-08-01T09:47:00+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/js/footjs.js
+ERR: 非法操作:js
+
+[ 2016-08-01T09:47:00+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/js/jquery.min.js
+ERR: 非法操作:js
+
+[ 2016-08-01T09:47:00+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/js/xiaoxiang.min.js
+ERR: 非法操作:js
+
+[ 2016-08-01T09:47:00+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/js/site_1.js
+ERR: 非法操作:js
+
+[ 2016-08-01T09:47:00+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/js/c.php
+ERR: 非法操作:js
+
+[ 2016-08-01T09:47:00+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/js/c_1.php
+ERR: 非法操作:js
+
+[ 2016-08-01T09:47:00+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/js/fastclick.js
+ERR: 非法操作:js
+
+[ 2016-08-01T09:47:00+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/js/xxsy.js
+ERR: 非法操作:js
+
+[ 2016-08-01T09:47:00+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/js/footjs.js
+ERR: 非法操作:js
+
+[ 2016-08-01T09:47:00+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/js/jquery.min.js
+ERR: 非法操作:js
+
+[ 2016-08-01T09:47:00+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/js/site_1.js
+ERR: 非法操作:js
+
+[ 2016-08-01T09:47:01+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/js/c.php
+ERR: 非法操作:js
+
+[ 2016-08-01T09:47:01+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/js/c_1.php
+ERR: 非法操作:js
+
+[ 2016-08-01T09:47:01+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/js/fastclick.js
+ERR: 非法操作:js
+
+[ 2016-08-01T09:47:01+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/js/xxsy.js
+ERR: 非法操作:js
+
+[ 2016-08-01T09:47:01+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/js/footjs.js
+ERR: 非法操作:js
+
+[ 2016-08-01T09:47:01+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/js/xiaoxiang.min.js
+ERR: 非法操作:js
+
+[ 2016-08-01T09:47:01+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/js/jquery.min.js
+ERR: 非法操作:js
+
+[ 2016-08-01T09:47:01+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/js/site_1.js
+ERR: 非法操作:js
+
+[ 2016-08-01T09:47:01+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/js/c.php
+ERR: 非法操作:js
+
+[ 2016-08-01T09:47:01+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/js/c_1.php
+ERR: 非法操作:js
+
+[ 2016-08-01T09:47:01+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/js/fastclick.js
+ERR: 非法操作:js
+
+[ 2016-08-01T09:47:01+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/js/xxsy.js
+ERR: 非法操作:js
+
+[ 2016-08-01T09:47:01+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/js/footjs.js
+ERR: 非法操作:js
+
+[ 2016-08-01T09:47:01+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/js/c.php
+ERR: 非法操作:js
+
+[ 2016-08-01T09:47:01+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/js/c_1.php
+ERR: 非法操作:js
+
+[ 2016-08-01T09:47:01+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/js/fastclick.js
+ERR: 非法操作:js
+
+[ 2016-08-01T09:47:01+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/js/xxsy.js
+ERR: 非法操作:js
+
+[ 2016-08-01T09:47:01+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/js/footjs.js
+ERR: 非法操作:js
+
+[ 2016-08-01T09:47:02+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/js/xiaoxiang.min.js
+ERR: 非法操作:js
+
+[ 2016-08-01T09:47:02+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/js/jquery.min.js
+ERR: 非法操作:js
+
+[ 2016-08-01T09:47:02+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/js/site_1.js
+ERR: 非法操作:js
+
+[ 2016-08-01T09:47:02+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/js/c.php
+ERR: 非法操作:js
+
+[ 2016-08-01T09:47:02+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/js/c_1.php
+ERR: 非法操作:js
+
+[ 2016-08-01T09:47:02+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/js/fastclick.js
+ERR: 非法操作:js
+
+[ 2016-08-01T09:47:02+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/js/xxsy.js
+ERR: 非法操作:js
+
+[ 2016-08-01T09:47:02+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/js/footjs.js
+ERR: 非法操作:js
+
+[ 2016-08-01T09:47:02+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/js/c.php
+ERR: 非法操作:js
+
+[ 2016-08-01T09:47:02+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/js/c_1.php
+ERR: 非法操作:js
+
+[ 2016-08-01T09:47:02+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/js/fastclick.js
+ERR: 非法操作:js
+
+[ 2016-08-01T09:47:02+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/js/xxsy.js
+ERR: 非法操作:js
+
+[ 2016-08-01T09:47:02+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/js/footjs.js
+ERR: 非法操作:js
+
+[ 2016-08-01T09:47:02+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/js/jquery.min.js
+ERR: 非法操作:js
+
+[ 2016-08-01T09:47:02+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/js/xiaoxiang.min.js
+ERR: 非法操作:js
+
+[ 2016-08-01T09:47:02+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/js/site_1.js
+ERR: 非法操作:js
+
+[ 2016-08-01T09:47:02+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/js/c.php
+ERR: 非法操作:js
+
+[ 2016-08-01T09:47:02+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/js/c_1.php
+ERR: 非法操作:js
+
+[ 2016-08-01T09:47:02+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/js/fastclick.js
+ERR: 非法操作:js
+
+[ 2016-08-01T09:47:02+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/js/xxsy.js
+ERR: 非法操作:js
+
+[ 2016-08-01T09:47:02+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/js/footjs.js
+ERR: 非法操作:js
+
+[ 2016-08-01T09:47:02+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/js/jquery.min.js
+ERR: 非法操作:js
+
+[ 2016-08-01T09:47:02+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/js/site_1.js
+ERR: 非法操作:js
+
+[ 2016-08-01T09:47:02+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/js/c.php
+ERR: 非法操作:js
+
+[ 2016-08-01T09:47:02+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/js/c_1.php
+ERR: 非法操作:js
+
+[ 2016-08-01T09:47:02+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/js/fastclick.js
+ERR: 非法操作:js
+
+[ 2016-08-01T09:47:02+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/js/xxsy.js
+ERR: 非法操作:js
+
+[ 2016-08-01T09:47:02+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/js/footjs.js
+ERR: 非法操作:js
+
+[ 2016-08-01T09:47:02+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/js/jquery.min.js
+ERR: 非法操作:js
+
+[ 2016-08-01T09:47:02+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/js/xiaoxiang.min.js
+ERR: 非法操作:js
+
+[ 2016-08-01T09:47:02+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/js/site_1.js
+ERR: 非法操作:js
+
+[ 2016-08-01T09:47:02+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/js/c.php
+ERR: 非法操作:js
+
+[ 2016-08-01T09:47:02+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/js/c_1.php
+ERR: 非法操作:js
+
+[ 2016-08-01T09:47:02+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/js/fastclick.js
+ERR: 非法操作:js
+
+[ 2016-08-01T09:47:02+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/js/xxsy.js
+ERR: 非法操作:js
+
+[ 2016-08-01T09:47:02+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/js/footjs.js
+ERR: 非法操作:js
+
+[ 2016-08-01T09:47:02+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/js/jquery.min.js
+ERR: 非法操作:js
+
+[ 2016-08-01T09:47:02+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/js/site_1.js
+ERR: 非法操作:js
+
+[ 2016-08-01T09:47:02+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/js/c.php
+ERR: 非法操作:js
+
+[ 2016-08-01T09:47:02+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/js/c_1.php
+ERR: 非法操作:js
+
+[ 2016-08-01T09:47:02+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/js/fastclick.js
+ERR: 非法操作:js
+
+[ 2016-08-01T09:47:02+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/js/xxsy.js
+ERR: 非法操作:js
+
+[ 2016-08-01T09:47:02+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/js/footjs.js
+ERR: 非法操作:js
+
+[ 2016-08-01T09:47:06+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/js/xiaoxiang.min.js
+ERR: 非法操作:js
+
+[ 2016-08-01T09:47:06+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/js/site_1.js
+ERR: 非法操作:js
+
+[ 2016-08-01T09:47:06+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/js/jquery.min.js
+ERR: 非法操作:js
+
+[ 2016-08-01T09:47:06+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/js/c.php
+ERR: 非法操作:js
+
+[ 2016-08-01T09:47:06+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/js/c_1.php
+ERR: 非法操作:js
+
+[ 2016-08-01T09:47:06+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/js/fastclick.js
+ERR: 非法操作:js
+
+[ 2016-08-01T09:47:06+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/js/xxsy.js
+ERR: 非法操作:js
+
+[ 2016-08-01T09:47:06+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/js/footjs.js
+ERR: 非法操作:js
+
+[ 2016-08-01T09:47:06+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/js/site_1.js
+ERR: 非法操作:js
+
+[ 2016-08-01T09:47:06+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/js/c.php
+ERR: 非法操作:js
+
+[ 2016-08-01T09:47:06+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/js/c_1.php
+ERR: 非法操作:js
+
+[ 2016-08-01T09:47:06+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/js/fastclick.js
+ERR: 非法操作:js
+
+[ 2016-08-01T09:47:06+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/js/xxsy.js
+ERR: 非法操作:js
+
+[ 2016-08-01T09:47:06+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/js/footjs.js
+ERR: 非法操作:js
+
+[ 2016-08-01T09:48:23+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/js/xiaoxiang.min.js
+ERR: 非法操作:js
+
+[ 2016-08-01T09:48:23+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/js/jquery.min.js
+ERR: 非法操作:js
+
+[ 2016-08-01T09:48:23+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/js/site_1.js
+ERR: 非法操作:js
+
+[ 2016-08-01T09:48:23+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/js/c.php
+ERR: 非法操作:js
+
+[ 2016-08-01T09:48:23+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/js/c_1.php
+ERR: 非法操作:js
+
+[ 2016-08-01T09:48:23+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/js/fastclick.js
+ERR: 非法操作:js
+
+[ 2016-08-01T09:48:23+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/js/xxsy.js
+ERR: 非法操作:js
+
+[ 2016-08-01T09:48:23+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/js/footjs.js
+ERR: 非法操作:js
+
+[ 2016-08-01T09:48:23+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/js/c.php
+ERR: 非法操作:js
+
+[ 2016-08-01T09:48:23+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/js/c_1.php
+ERR: 非法操作:js
+
+[ 2016-08-01T09:48:23+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/js/fastclick.js
+ERR: 非法操作:js
+
+[ 2016-08-01T09:48:23+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/js/xxsy.js
+ERR: 非法操作:js
+
+[ 2016-08-01T09:48:23+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/js/footjs.js
+ERR: 非法操作:js
+
+[ 2016-08-01T09:48:24+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/js/jquery.min.js
+ERR: 非法操作:js
+
+[ 2016-08-01T09:48:24+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/js/xiaoxiang.min.js
+ERR: 非法操作:js
+
+[ 2016-08-01T09:48:24+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/js/site_1.js
+ERR: 非法操作:js
+
+[ 2016-08-01T09:48:24+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/js/c.php
+ERR: 非法操作:js
+
+[ 2016-08-01T09:48:24+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/js/c_1.php
+ERR: 非法操作:js
+
+[ 2016-08-01T09:48:24+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/js/fastclick.js
+ERR: 非法操作:js
+
+[ 2016-08-01T09:48:24+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/js/footjs.js
+ERR: 非法操作:js
+
+[ 2016-08-01T09:48:24+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/js/xxsy.js
+ERR: 非法操作:js
+
+[ 2016-08-01T09:48:24+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/js/jquery.min.js
+ERR: 非法操作:js
+
+[ 2016-08-01T09:48:24+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/js/site_1.js
+ERR: 非法操作:js
+
+[ 2016-08-01T09:48:24+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/js/c.php
+ERR: 非法操作:js
+
+[ 2016-08-01T09:48:24+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/js/c_1.php
+ERR: 非法操作:js
+
+[ 2016-08-01T09:48:24+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/js/fastclick.js
+ERR: 非法操作:js
+
+[ 2016-08-01T09:48:24+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/js/xxsy.js
+ERR: 非法操作:js
+
+[ 2016-08-01T09:48:24+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/js/footjs.js
+ERR: 非法操作:js
+
+[ 2016-08-01T09:48:24+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/js/xiaoxiang.min.js
+ERR: 非法操作:js
+
+[ 2016-08-01T09:48:24+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/js/jquery.min.js
+ERR: 非法操作:js
+
+[ 2016-08-01T09:48:24+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/js/site_1.js
+ERR: 非法操作:js
+
+[ 2016-08-01T09:48:24+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/js/c.php
+ERR: 非法操作:js
+
+[ 2016-08-01T09:48:24+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/js/c_1.php
+ERR: 非法操作:js
+
+[ 2016-08-01T09:48:24+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/js/fastclick.js
+ERR: 非法操作:js
+
+[ 2016-08-01T09:48:24+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/js/xxsy.js
+ERR: 非法操作:js
+
+[ 2016-08-01T09:48:24+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/js/footjs.js
+ERR: 非法操作:js
+
+[ 2016-08-01T09:48:24+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/js/c.php
+ERR: 非法操作:js
+
+[ 2016-08-01T09:48:24+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/js/c_1.php
+ERR: 非法操作:js
+
+[ 2016-08-01T09:48:24+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/js/fastclick.js
+ERR: 非法操作:js
+
+[ 2016-08-01T09:48:24+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/js/xxsy.js
+ERR: 非法操作:js
+
+[ 2016-08-01T09:48:24+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/js/footjs.js
+ERR: 非法操作:js
+
+[ 2016-08-01T09:48:25+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/js/jquery.min.js
+ERR: 非法操作:js
+
+[ 2016-08-01T09:48:25+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/js/xiaoxiang.min.js
+ERR: 非法操作:js
+
+[ 2016-08-01T09:48:25+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/js/site_1.js
+ERR: 非法操作:js
+
+[ 2016-08-01T09:48:25+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/js/fastclick.js
+ERR: 非法操作:js
+
+[ 2016-08-01T09:48:25+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/js/xxsy.js
+ERR: 非法操作:js
+
+[ 2016-08-01T09:48:25+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/js/footjs.js
+ERR: 非法操作:js
+
+[ 2016-08-01T09:48:25+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/js/jquery.min.js
+ERR: 非法操作:js
+
+[ 2016-08-01T09:48:25+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/js/c.php
+ERR: 非法操作:js
+
+[ 2016-08-01T09:48:25+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/js/c_1.php
+ERR: 非法操作:js
+
+[ 2016-08-01T09:48:25+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/js/site_1.js
+ERR: 非法操作:js
+
+[ 2016-08-01T09:48:25+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/js/c.php
+ERR: 非法操作:js
+
+[ 2016-08-01T09:48:25+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/js/c_1.php
+ERR: 非法操作:js
+
+[ 2016-08-01T09:48:25+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/js/fastclick.js
+ERR: 非法操作:js
+
+[ 2016-08-01T09:48:25+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/js/xxsy.js
+ERR: 非法操作:js
+
+[ 2016-08-01T09:48:25+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/js/footjs.js
+ERR: 非法操作:js
+
+[ 2016-08-01T09:48:31+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/js/xiaoxiang.min.js
+ERR: 非法操作:js
+
+[ 2016-08-01T09:48:31+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/js/jquery.min.js
+ERR: 非法操作:js
+
+[ 2016-08-01T09:48:31+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/js/site_1.js
+ERR: 非法操作:js
+
+[ 2016-08-01T09:48:31+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/js/c.php
+ERR: 非法操作:js
+
+[ 2016-08-01T09:48:31+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/js/c_1.php
+ERR: 非法操作:js
+
+[ 2016-08-01T09:48:31+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/js/fastclick.js
+ERR: 非法操作:js
+
+[ 2016-08-01T09:48:31+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/js/xxsy.js
+ERR: 非法操作:js
+
+[ 2016-08-01T09:48:31+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/js/footjs.js
+ERR: 非法操作:js
+
+[ 2016-08-01T09:48:31+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/js/c.php
+ERR: 非法操作:js
+
+[ 2016-08-01T09:48:31+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/js/c_1.php
+ERR: 非法操作:js
+
+[ 2016-08-01T09:48:31+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/js/fastclick.js
+ERR: 非法操作:js
+
+[ 2016-08-01T09:48:31+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/js/xxsy.js
+ERR: 非法操作:js
+
+[ 2016-08-01T09:48:31+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/js/footjs.js
+ERR: 非法操作:js
+
+[ 2016-08-01T09:48:32+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/js/jquery.min.js
+ERR: 非法操作:js
+
+[ 2016-08-01T09:48:32+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/js/xiaoxiang.min.js
+ERR: 非法操作:js
+
+[ 2016-08-01T09:48:32+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/js/site_1.js
+ERR: 非法操作:js
+
+[ 2016-08-01T09:48:32+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/js/c.php
+ERR: 非法操作:js
+
+[ 2016-08-01T09:48:32+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/js/c_1.php
+ERR: 非法操作:js
+
+[ 2016-08-01T09:48:32+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/js/fastclick.js
+ERR: 非法操作:js
+
+[ 2016-08-01T09:48:32+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/js/xxsy.js
+ERR: 非法操作:js
+
+[ 2016-08-01T09:48:32+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/js/footjs.js
+ERR: 非法操作:js
+
+[ 2016-08-01T09:48:32+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/js/jquery.min.js
+ERR: 非法操作:js
+
+[ 2016-08-01T09:48:32+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/js/site_1.js
+ERR: 非法操作:js
+
+[ 2016-08-01T09:48:32+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/js/c.php
+ERR: 非法操作:js
+
+[ 2016-08-01T09:48:32+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/js/c_1.php
+ERR: 非法操作:js
+
+[ 2016-08-01T09:48:32+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/js/fastclick.js
+ERR: 非法操作:js
+
+[ 2016-08-01T09:48:32+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/js/xxsy.js
+ERR: 非法操作:js
+
+[ 2016-08-01T09:48:32+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/js/footjs.js
+ERR: 非法操作:js
+
+[ 2016-08-01T09:48:32+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/js/xiaoxiang.min.js
+ERR: 非法操作:js
+
+[ 2016-08-01T09:48:32+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/js/jquery.min.js
+ERR: 非法操作:js
+
+[ 2016-08-01T09:48:32+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/js/site_1.js
+ERR: 非法操作:js
+
+[ 2016-08-01T09:48:32+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/js/fastclick.js
+ERR: 非法操作:js
+
+[ 2016-08-01T09:48:32+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/js/xxsy.js
+ERR: 非法操作:js
+
+[ 2016-08-01T09:48:32+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/js/footjs.js
+ERR: 非法操作:js
+
+[ 2016-08-01T09:48:32+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/js/c.php
+ERR: 非法操作:js
+
+[ 2016-08-01T09:48:32+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/js/c_1.php
+ERR: 非法操作:js
+
+[ 2016-08-01T09:48:32+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/js/c.php
+ERR: 非法操作:js
+
+[ 2016-08-01T09:48:32+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/js/c_1.php
+ERR: 非法操作:js
+
+[ 2016-08-01T09:48:32+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/js/fastclick.js
+ERR: 非法操作:js
+
+[ 2016-08-01T09:48:32+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/js/xxsy.js
+ERR: 非法操作:js
+
+[ 2016-08-01T09:48:32+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/js/footjs.js
+ERR: 非法操作:js
+
+[ 2016-08-01T09:48:37+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/js/xiaoxiang.min.js
+ERR: 非法操作:js
+
+[ 2016-08-01T09:48:37+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/js/jquery.min.js
+ERR: 非法操作:js
+
+[ 2016-08-01T09:48:37+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/js/site_1.js
+ERR: 非法操作:js
+
+[ 2016-08-01T09:48:37+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/js/c.php
+ERR: 非法操作:js
+
+[ 2016-08-01T09:48:37+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/js/c_1.php
+ERR: 非法操作:js
+
+[ 2016-08-01T09:48:37+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/js/fastclick.js
+ERR: 非法操作:js
+
+[ 2016-08-01T09:48:37+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/js/xxsy.js
+ERR: 非法操作:js
+
+[ 2016-08-01T09:48:37+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/js/footjs.js
+ERR: 非法操作:js
+
+[ 2016-08-01T09:48:37+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/js/c.php
+ERR: 非法操作:js
+
+[ 2016-08-01T09:48:37+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/js/c_1.php
+ERR: 非法操作:js
+
+[ 2016-08-01T09:48:37+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/js/fastclick.js
+ERR: 非法操作:js
+
+[ 2016-08-01T09:48:38+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/js/xxsy.js
+ERR: 非法操作:js
+
+[ 2016-08-01T09:48:38+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/js/footjs.js
+ERR: 非法操作:js
+
+[ 2016-08-01T09:52:58+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/js/c.php
+ERR: 非法操作:js
+
+[ 2016-08-01T09:52:58+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/js/c_1.php
+ERR: 非法操作:js
+
+[ 2016-08-01T09:52:58+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/js/fastclick.js
+ERR: 非法操作:js
+
+[ 2016-08-01T09:52:58+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/js/xxsy.js
+ERR: 非法操作:js
+
+[ 2016-08-01T09:52:58+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/js/footjs.js
+ERR: 非法操作:js
+
+[ 2016-08-01T09:52:58+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/js/c.php
+ERR: 非法操作:js
+
+[ 2016-08-01T09:52:58+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/js/c_1.php
+ERR: 非法操作:js
+
+[ 2016-08-01T09:52:58+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/js/fastclick.js
+ERR: 非法操作:js
+
+[ 2016-08-01T09:52:58+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/js/xxsy.js
+ERR: 非法操作:js
+
+[ 2016-08-01T09:52:58+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/js/footjs.js
+ERR: 非法操作:js
+
+[ 2016-08-01T09:54:57+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/js/c.php
+ERR: 非法操作:js
+
+[ 2016-08-01T09:54:57+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/js/c_1.php
+ERR: 非法操作:js
+
+[ 2016-08-01T09:54:57+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/js/fastclick.js
+ERR: 非法操作:js
+
+[ 2016-08-01T09:54:57+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/js/xxsy.js
+ERR: 非法操作:js
+
+[ 2016-08-01T09:54:57+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/js/footjs.js
+ERR: 非法操作:js
+
+[ 2016-08-01T09:54:57+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/js/c.php
+ERR: 非法操作:js
+
+[ 2016-08-01T09:54:57+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/js/c_1.php
+ERR: 非法操作:js
+
+[ 2016-08-01T09:54:57+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/js/fastclick.js
+ERR: 非法操作:js
+
+[ 2016-08-01T09:54:58+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/js/xxsy.js
+ERR: 非法操作:js
+
+[ 2016-08-01T09:54:58+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/js/footjs.js
+ERR: 非法操作:js
+
+[ 2016-08-01T09:54:58+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/js/xxsy.js
+ERR: 非法操作:js
+
+[ 2016-08-01T09:54:58+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/js/fastclick.js
+ERR: 非法操作:js
+
+[ 2016-08-01T09:54:58+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/js/footjs.js
+ERR: 非法操作:js
+
+[ 2016-08-01T09:54:58+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/js/fastclick.js
+ERR: 非法操作:js
+
+[ 2016-08-01T09:54:58+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/js/xxsy.js
+ERR: 非法操作:js
+
+[ 2016-08-01T09:54:58+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/js/footjs.js
+ERR: 非法操作:js
+
+[ 2016-08-01T09:54:58+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/js/fastclick.js
+ERR: 非法操作:js
+
+[ 2016-08-01T09:54:58+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/js/xxsy.js
+ERR: 非法操作:js
+
+[ 2016-08-01T09:54:58+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/js/footjs.js
+ERR: 非法操作:js
+
+[ 2016-08-01T09:54:58+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/js/fastclick.js
+ERR: 非法操作:js
+
+[ 2016-08-01T09:54:58+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/js/xxsy.js
+ERR: 非法操作:js
+
+[ 2016-08-01T09:54:58+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/js/footjs.js
+ERR: 非法操作:js
+
+[ 2016-08-01T09:55:03+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/js/xxsy.js
+ERR: 非法操作:js
+
+[ 2016-08-01T09:55:03+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/js/fastclick.js
+ERR: 非法操作:js
+
+[ 2016-08-01T09:55:03+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/js/footjs.js
+ERR: 非法操作:js
+
+[ 2016-08-01T09:55:03+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/js/fastclick.js
+ERR: 非法操作:js
+
+[ 2016-08-01T09:55:03+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/js/xxsy.js
+ERR: 非法操作:js
+
+[ 2016-08-01T09:55:03+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/js/footjs.js
+ERR: 非法操作:js
+
+[ 2016-08-01T10:21:16+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/getRadomBook.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `xs_book` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `xs_book` [ RunTime:0.0010s ]
+SQL: SELECT `id`,`book_img`,`book_name`,`book_len`,`book_type` FROM `xs_book` WHERE ( book_type = '都市生活' ) ORDER BY rand() LIMIT 3   [ RunTime:0.0000s ]
+
+[ 2016-08-01T10:21:35+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/getRadomBook.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `xs_book` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `xs_book` [ RunTime:0.0010s ]
+SQL: SELECT `id`,`book_img`,`book_name`,`book_len`,`book_type` FROM `xs_book` WHERE ( book_type = '都市生活' ) ORDER BY rand() LIMIT 3   [ RunTime:0.0000s ]
+
+[ 2016-08-01T10:21:39+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/getRadomBook.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `xs_book` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `xs_book` [ RunTime:0.0040s ]
+SQL: SELECT `id`,`book_img`,`book_name`,`book_len`,`book_type` FROM `xs_book` WHERE ( book_type = '都市生活' ) ORDER BY rand() LIMIT 3   [ RunTime:0.0010s ]
+
+[ 2016-08-01T11:04:59+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/chapter.html?bookId=2110
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '('DB_PREFIX'). limit 10*(-1),10' at line 1
+ [ SQL语句 ] : select id,title from C('DB_PREFIX'). limit 10*(-1),10
+
+[ 2016-08-01T11:05:31+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/chapter.html?bookId=2110
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '('DB_PREFIX'). limit 10*(-1),10' at line 1
+ [ SQL语句 ] : select id,title from C('DB_PREFIX'). limit 10*(-1),10
+
+[ 2016-08-01T11:13:47+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/chapter.html?bookId=2110
+ERR: Think\Model:fields方法不存在！
+
+[ 2016-08-01T11:13:49+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/chapter.html?bookId=2110
+ERR: Think\Model:fields方法不存在！
+
+[ 2016-08-01T11:14:08+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/chapter.html?bookId=2110
+ERR: Think\Model:fields方法不存在！
+
+[ 2016-08-01T11:20:47+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/chapter.html?bookId=2110
+ERR: 1054:Unknown column 'bookId' in 'where clause'
+ [ SQL语句 ] : SELECT count(*) FROM `xs_book_list` WHERE ( bookId=2110 ) 
+
+[ 2016-08-01T11:21:32+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/chapter.html?bookId=2110
+ERR: 1054:Unknown column 'bookId' in 'where clause'
+ [ SQL语句 ] : SELECT count(*) FROM `xs_book_list` WHERE ( bookId=2110 ) 
+
+[ 2016-08-01T11:21:33+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/chapter.html?bookId=2110
+ERR: 1054:Unknown column 'bookId' in 'where clause'
+ [ SQL语句 ] : SELECT count(*) FROM `xs_book_list` WHERE ( bookId=2110 ) 
+
+[ 2016-08-01T11:21:33+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/chapter.html?bookId=2110
+ERR: 1054:Unknown column 'bookId' in 'where clause'
+ [ SQL语句 ] : SELECT count(*) FROM `xs_book_list` WHERE ( bookId=2110 ) 
+
+[ 2016-08-01T11:21:33+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/chapter.html?bookId=2110
+ERR: 1054:Unknown column 'bookId' in 'where clause'
+ [ SQL语句 ] : SELECT count(*) FROM `xs_book_list` WHERE ( bookId=2110 ) 
+
+[ 2016-08-01T11:21:33+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/chapter.html?bookId=2110
+ERR: 1054:Unknown column 'bookId' in 'where clause'
+ [ SQL语句 ] : SELECT count(*) FROM `xs_book_list` WHERE ( bookId=2110 ) 
+
+[ 2016-08-01T11:21:34+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/chapter.html?bookId=2110
+ERR: 1054:Unknown column 'bookId' in 'where clause'
+ [ SQL语句 ] : SELECT count(*) FROM `xs_book_list` WHERE ( bookId=2110 ) 
+
+[ 2016-08-01T11:21:34+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/chapter.html?bookId=2110
+ERR: 1054:Unknown column 'bookId' in 'where clause'
+ [ SQL语句 ] : SELECT count(*) FROM `xs_book_list` WHERE ( bookId=2110 ) 
+
+[ 2016-08-01T11:31:52+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/chapter.html?bookId=2110
+ERR: XML标签语法错误 : name="chapterData" name="v"
+
+[ 2016-08-01T11:43:17+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/chapter.html?bookId=2122&page=0
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '-10,10' at line 1
+ [ SQL语句 ] : SELECT `id`,`title` FROM `xs_book_list` WHERE ( book_id=2122 ) LIMIT -10,10  
+
+[ 2016-08-01T11:49:34+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/chapter.html?bookId=2110&page=0
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '-10,10' at line 1
+ [ SQL语句 ] : SELECT `id`,`title` FROM `xs_book_list` WHERE ( book_id=2110 ) LIMIT -10,10  
+
+[ 2016-08-01T11:51:32+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/chapter.html?bookId=2110&page=0
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '-10,10' at line 1
+ [ SQL语句 ] : SELECT `id`,`title` FROM `xs_book_list` WHERE ( book_id=2110 ) LIMIT -10,10  
+
+[ 2016-08-01T13:39:36+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/chapter?bookId=&page=10
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : SELECT `id`,`title`,`book_id` FROM `xs_book_list` WHERE ( book_id= ) 
+
+[ 2016-08-01T13:55:50+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/chapter?bookId=2110&page=13
+ERR: XML标签语法错误 : $nowpage="{$i+1}"
+
+[ 2016-08-01T13:57:35+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/chapter?bookId=2110&page=13
+ERR: XML标签语法错误 : condition="$nowpage="{$i+1}"
+
+[ 2016-08-01T13:57:35+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/chapter?bookId=2110&page=13
+ERR: XML标签语法错误 : condition="$nowpage="{$i+1}"
+
+[ 2016-08-01T13:57:35+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/chapter?bookId=2110&page=13
+ERR: XML标签语法错误 : condition="$nowpage="{$i+1}"
+
+[ 2016-08-01T13:57:36+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/chapter?bookId=2110&page=13
+ERR: XML标签语法错误 : condition="$nowpage="{$i+1}"
+
+[ 2016-08-01T14:02:57+08:00 ] 127.0.0.1 /xs/index.php/Home/Bookdetail?bookId=2110
+ERR: 无法加载控制器:Bookdetail
+
+[ 2016-08-01T14:03:05+08:00 ] 127.0.0.1 /xs/index.php/Home/Bookdetail?bookId=2110
+ERR: 无法加载控制器:Bookdetail
+
+[ 2016-08-01T14:03:06+08:00 ] 127.0.0.1 /xs/index.php/Home/Bookdetail?bookId=2110
+ERR: 无法加载控制器:Bookdetail
+
+[ 2016-08-01T14:03:10+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/getRadomBook.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `xs_book` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `xs_book` [ RunTime:0.0030s ]
+SQL: SELECT `id`,`book_img`,`book_name`,`book_len`,`book_type` FROM `xs_book` WHERE ( book_type = '都市生活' ) ORDER BY rand() LIMIT 3   [ RunTime:0.0000s ]
+
+[ 2016-08-01T14:03:11+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/getRadomBook.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `xs_book` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `xs_book` [ RunTime:0.0020s ]
+SQL: SELECT `id`,`book_img`,`book_name`,`book_len`,`book_type` FROM `xs_book` WHERE ( book_type = '都市生活' ) ORDER BY rand() LIMIT 3   [ RunTime:0.0000s ]
+
+[ 2016-08-01T14:03:18+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/getRadomBook.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `xs_book` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `xs_book` [ RunTime:0.0020s ]
+SQL: SELECT `id`,`book_img`,`book_name`,`book_len`,`book_type` FROM `xs_book` WHERE ( book_type = '都市生活' ) ORDER BY rand() LIMIT 3   [ RunTime:0.0010s ]
+
+[ 2016-08-01T14:03:21+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/getRadomBook.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `xs_book` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `xs_book` [ RunTime:0.0020s ]
+SQL: SELECT `id`,`book_img`,`book_name`,`book_len`,`book_type` FROM `xs_book` WHERE ( book_type = '都市生活' ) ORDER BY rand() LIMIT 3   [ RunTime:0.0000s ]
+
+[ 2016-08-01T14:09:02+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/getRadomBook.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `xs_book` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `xs_book` [ RunTime:0.0020s ]
+SQL: SELECT `id`,`book_img`,`book_name`,`book_len`,`book_type` FROM `xs_book` WHERE ( book_type = '都市生活' ) ORDER BY rand() LIMIT 3   [ RunTime:0.0000s ]
+
+[ 2016-08-01T14:09:04+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/getRadomBook.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `xs_book` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `xs_book` [ RunTime:0.0010s ]
+SQL: SELECT `id`,`book_img`,`book_name`,`book_len`,`book_type` FROM `xs_book` WHERE ( book_type = '都市生活' ) ORDER BY rand() LIMIT 3   [ RunTime:0.0000s ]
+
+[ 2016-08-01T14:09:12+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/getRadomBook.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `xs_book` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `xs_book` [ RunTime:0.0010s ]
+SQL: SELECT `id`,`book_img`,`book_name`,`book_len`,`book_type` FROM `xs_book` WHERE ( book_type = '都市生活' ) ORDER BY rand() LIMIT 3   [ RunTime:0.0000s ]
+
+[ 2016-08-01T14:09:26+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/getRadomBook.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `xs_book` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `xs_book` [ RunTime:0.0030s ]
+SQL: SELECT `id`,`book_img`,`book_name`,`book_len`,`book_type` FROM `xs_book` WHERE ( book_type = '都市生活' ) ORDER BY rand() LIMIT 3   [ RunTime:0.0010s ]
+
+[ 2016-08-01T14:09:29+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/getRadomBook.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `xs_book` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `xs_book` [ RunTime:0.0020s ]
+SQL: SELECT `id`,`book_img`,`book_name`,`book_len`,`book_type` FROM `xs_book` WHERE ( book_type = '都市生活' ) ORDER BY rand() LIMIT 3   [ RunTime:0.0000s ]
+
+[ 2016-08-01T14:09:45+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/getRadomBook.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `xs_book` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `xs_book` [ RunTime:0.0010s ]
+SQL: SELECT `id`,`book_img`,`book_name`,`book_len`,`book_type` FROM `xs_book` WHERE ( book_type = '都市生活' ) ORDER BY rand() LIMIT 3   [ RunTime:0.0010s ]
+
+[ 2016-08-01T14:09:54+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/getRadomBook.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `xs_book` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `xs_book` [ RunTime:0.0020s ]
+SQL: SELECT `id`,`book_img`,`book_name`,`book_len`,`book_type` FROM `xs_book` WHERE ( book_type = '都市生活' ) ORDER BY rand() LIMIT 3   [ RunTime:0.0000s ]
+
+[ 2016-08-01T14:09:56+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/getRadomBook.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `xs_book` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `xs_book` [ RunTime:0.0010s ]
+SQL: SELECT `id`,`book_img`,`book_name`,`book_len`,`book_type` FROM `xs_book` WHERE ( book_type = '都市生活' ) ORDER BY rand() LIMIT 3   [ RunTime:0.0010s ]
+
+[ 2016-08-01T14:09:57+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/getRadomBook.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `xs_book` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `xs_book` [ RunTime:0.0010s ]
+SQL: SELECT `id`,`book_img`,`book_name`,`book_len`,`book_type` FROM `xs_book` WHERE ( book_type = '都市生活' ) ORDER BY rand() LIMIT 3   [ RunTime:0.0000s ]
+
+[ 2016-08-01T14:10:10+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/getRadomBook.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `xs_book` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `xs_book` [ RunTime:0.0020s ]
+SQL: SELECT `id`,`book_img`,`book_name`,`book_len`,`book_type` FROM `xs_book` WHERE ( book_type = '都市生活' ) ORDER BY rand() LIMIT 3   [ RunTime:0.0010s ]
+
+[ 2016-08-01T14:38:13+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/getRadomBook.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `xs_book` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `xs_book` [ RunTime:0.0020s ]
+SQL: SELECT `id`,`book_img`,`book_name`,`book_len`,`book_type` FROM `xs_book` WHERE ( book_type = '都市生活' ) ORDER BY rand() LIMIT 3   [ RunTime:0.0000s ]
+
+[ 2016-08-01T14:38:18+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/getRadomBook.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `xs_book` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `xs_book` [ RunTime:0.0010s ]
+SQL: SELECT `id`,`book_img`,`book_name`,`book_len`,`book_type` FROM `xs_book` WHERE ( book_type = '都市生活' ) ORDER BY rand() LIMIT 3   [ RunTime:0.0010s ]
+
+[ 2016-08-01T14:38:24+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/getRadomBook.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `xs_book` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `xs_book` [ RunTime:0.0010s ]
+SQL: SELECT `id`,`book_img`,`book_name`,`book_len`,`book_type` FROM `xs_book` WHERE ( book_type = '都市生活' ) ORDER BY rand() LIMIT 3   [ RunTime:0.0010s ]
+
+[ 2016-08-01T14:40:07+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/getRadomBook.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `xs_book` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `xs_book` [ RunTime:0.0020s ]
+SQL: SELECT `id`,`book_img`,`book_name`,`book_len`,`book_type` FROM `xs_book` WHERE ( book_type = '都市生活' ) ORDER BY rand() LIMIT 3   [ RunTime:0.0000s ]
+
+[ 2016-08-01T14:40:09+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/getRadomBook.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `xs_book` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `xs_book` [ RunTime:0.0020s ]
+SQL: SELECT `id`,`book_img`,`book_name`,`book_len`,`book_type` FROM `xs_book` WHERE ( book_type = '都市生活' ) ORDER BY rand() LIMIT 3   [ RunTime:0.0000s ]
+
+[ 2016-08-01T14:40:18+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/getRadomBook.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `xs_book` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `xs_book` [ RunTime:0.0020s ]
+SQL: SELECT `id`,`book_img`,`book_name`,`book_len`,`book_type` FROM `xs_book` WHERE ( book_type = '都市生活' ) ORDER BY rand() LIMIT 3   [ RunTime:0.0010s ]
+
+[ 2016-08-01T14:40:21+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/getRadomBook.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `xs_book` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `xs_book` [ RunTime:0.0020s ]
+SQL: SELECT `id`,`book_img`,`book_name`,`book_len`,`book_type` FROM `xs_book` WHERE ( book_type = '都市生活' ) ORDER BY rand() LIMIT 3   [ RunTime:0.0000s ]
+
+[ 2016-08-01T14:42:40+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/getRadomBook.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `xs_book` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `xs_book` [ RunTime:0.0020s ]
+SQL: SELECT `id`,`book_img`,`book_name`,`book_len`,`book_type` FROM `xs_book` WHERE ( book_type = '都市生活' ) ORDER BY rand() LIMIT 3   [ RunTime:0.0000s ]
+
+[ 2016-08-01T14:43:00+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/getRadomBook.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `xs_book` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `xs_book` [ RunTime:0.0030s ]
+SQL: SELECT `id`,`book_img`,`book_name`,`book_len`,`book_type` FROM `xs_book` WHERE ( book_type = '都市生活' ) ORDER BY rand() LIMIT 3   [ RunTime:0.0020s ]
+
+[ 2016-08-01T14:43:03+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/getRadomBook.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `xs_book` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `xs_book` [ RunTime:0.0010s ]
+SQL: SELECT `id`,`book_img`,`book_name`,`book_len`,`book_type` FROM `xs_book` WHERE ( book_type = '都市生活' ) ORDER BY rand() LIMIT 3   [ RunTime:0.0010s ]
+
+[ 2016-08-01T14:43:07+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/getRadomBook.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `xs_book` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `xs_book` [ RunTime:0.0020s ]
+SQL: SELECT `id`,`book_img`,`book_name`,`book_len`,`book_type` FROM `xs_book` WHERE ( book_type = '都市生活' ) ORDER BY rand() LIMIT 3   [ RunTime:0.0000s ]
+
+[ 2016-08-01T14:43:09+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/getRadomBook.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `xs_book` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `xs_book` [ RunTime:0.0020s ]
+SQL: SELECT `id`,`book_img`,`book_name`,`book_len`,`book_type` FROM `xs_book` WHERE ( book_type = '都市生活' ) ORDER BY rand() LIMIT 3   [ RunTime:0.0010s ]
+
+[ 2016-08-01T14:43:10+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/getRadomBook.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `xs_book` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `xs_book` [ RunTime:0.0020s ]
+SQL: SELECT `id`,`book_img`,`book_name`,`book_len`,`book_type` FROM `xs_book` WHERE ( book_type = '都市生活' ) ORDER BY rand() LIMIT 3   [ RunTime:0.0000s ]
+
+[ 2016-08-01T14:43:12+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/getRadomBook.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `xs_book` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `xs_book` [ RunTime:0.0030s ]
+SQL: SELECT `id`,`book_img`,`book_name`,`book_len`,`book_type` FROM `xs_book` WHERE ( book_type = '都市生活' ) ORDER BY rand() LIMIT 3   [ RunTime:0.0000s ]
+
+[ 2016-08-01T14:44:02+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/getRadomBook.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `xs_book` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `xs_book` [ RunTime:0.0020s ]
+SQL: SELECT `id`,`book_img`,`book_name`,`book_len`,`book_type` FROM `xs_book` WHERE ( book_type = '都市生活' ) ORDER BY rand() LIMIT 3   [ RunTime:0.0010s ]
+
+[ 2016-08-01T14:44:09+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/getRadomBook.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `xs_book` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `xs_book` [ RunTime:0.0010s ]
+SQL: SELECT `id`,`book_img`,`book_name`,`book_len`,`book_type` FROM `xs_book` WHERE ( book_type = '都市生活' ) ORDER BY rand() LIMIT 3   [ RunTime:0.0000s ]
+
+[ 2016-08-01T14:44:11+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/getRadomBook.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `xs_book` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `xs_book` [ RunTime:0.0020s ]
+SQL: SELECT `id`,`book_img`,`book_name`,`book_len`,`book_type` FROM `xs_book` WHERE ( book_type = '都市生活' ) ORDER BY rand() LIMIT 3   [ RunTime:0.0000s ]
+
+[ 2016-08-01T14:44:23+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/getRadomBook.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `xs_book` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `xs_book` [ RunTime:0.0020s ]
+SQL: SELECT `id`,`book_img`,`book_name`,`book_len`,`book_type` FROM `xs_book` WHERE ( book_type = '都市生活' ) ORDER BY rand() LIMIT 3   [ RunTime:0.0010s ]
+
+[ 2016-08-01T14:44:25+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/getRadomBook.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `xs_book` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `xs_book` [ RunTime:0.0010s ]
+SQL: SELECT `id`,`book_img`,`book_name`,`book_len`,`book_type` FROM `xs_book` WHERE ( book_type = '都市生活' ) ORDER BY rand() LIMIT 3   [ RunTime:0.0000s ]
+
+[ 2016-08-01T15:06:23+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/js/xiaoxiang.min.js
+ERR: 非法操作:js
+
+[ 2016-08-01T15:06:23+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/js/readchapter.js
+ERR: 非法操作:js
+
+[ 2016-08-01T15:06:23+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/js/jquery.min.js
+ERR: 非法操作:js
+
+[ 2016-08-01T15:06:23+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/js/zbox.js
+ERR: 非法操作:js
+
+[ 2016-08-01T15:06:23+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/css/css2.css
+ERR: 非法操作:css
+
+[ 2016-08-01T15:06:23+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/css/mcommon.css
+ERR: 非法操作:css
+
+[ 2016-08-01T15:06:23+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/css/readercss.css
+ERR: 非法操作:css
+
+[ 2016-08-01T15:06:23+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/js/site.js
+ERR: 非法操作:js
+
+[ 2016-08-01T15:06:23+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/css/zbox.css
+ERR: 非法操作:css
+
+[ 2016-08-01T15:06:23+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/js/c_1.php
+ERR: 非法操作:js
+
+[ 2016-08-01T15:06:23+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/js/c.php
+ERR: 非法操作:js
+
+[ 2016-08-01T15:06:23+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/js/fastclick.js
+ERR: 非法操作:js
+
+[ 2016-08-01T15:06:23+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/js/xxsy.js
+ERR: 非法操作:js
+
+[ 2016-08-01T15:06:23+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/js/footjs.js
+ERR: 非法操作:js
+
+[ 2016-08-01T15:06:23+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/js/readchapter.js
+ERR: 非法操作:js
+
+[ 2016-08-01T15:06:23+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/js/zbox.js
+ERR: 非法操作:js
+
+[ 2016-08-01T15:06:23+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/css/css2.css
+ERR: 非法操作:css
+
+[ 2016-08-01T15:06:23+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/css/readercss.css
+ERR: 非法操作:css
+
+[ 2016-08-01T15:06:23+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/css/zbox.css
+ERR: 非法操作:css
+
+[ 2016-08-01T15:06:23+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/js/c.php
+ERR: 非法操作:js
+
+[ 2016-08-01T15:06:23+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/js/c_1.php
+ERR: 非法操作:js
+
+[ 2016-08-01T15:06:23+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/js/fastclick.js
+ERR: 非法操作:js
+
+[ 2016-08-01T15:06:23+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/js/xxsy.js
+ERR: 非法操作:js
+
+[ 2016-08-01T15:06:23+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/js/footjs.js
+ERR: 非法操作:js
+
+[ 2016-08-01T15:07:12+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/js/xiaoxiang.min.js
+ERR: 非法操作:js
+
+[ 2016-08-01T15:07:12+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/js/site.js
+ERR: 非法操作:js
+
+[ 2016-08-01T15:07:12+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/js/jquery.min.js
+ERR: 非法操作:js
+
+[ 2016-08-01T15:07:12+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/js/zbox.js
+ERR: 非法操作:js
+
+[ 2016-08-01T15:07:12+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/js/c.php
+ERR: 非法操作:js
+
+[ 2016-08-01T15:07:12+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/js/c_1.php
+ERR: 非法操作:js
+
+[ 2016-08-01T15:07:12+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/js/readchapter.js
+ERR: 非法操作:js
+
+[ 2016-08-01T15:07:12+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/js/fastclick.js
+ERR: 非法操作:js
+
+[ 2016-08-01T15:07:12+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/js/footjs.js
+ERR: 非法操作:js
+
+[ 2016-08-01T15:07:12+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/js/xxsy.js
+ERR: 非法操作:js
+
+[ 2016-08-01T15:07:12+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/js/site.js
+ERR: 非法操作:js
+
+[ 2016-08-01T15:07:12+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/js/readchapter.js
+ERR: 非法操作:js
+
+[ 2016-08-01T15:07:12+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/js/zbox.js
+ERR: 非法操作:js
+
+[ 2016-08-01T15:07:12+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/js/c.php
+ERR: 非法操作:js
+
+[ 2016-08-01T15:07:12+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/js/c_1.php
+ERR: 非法操作:js
+
+[ 2016-08-01T15:07:12+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/js/fastclick.js
+ERR: 非法操作:js
+
+[ 2016-08-01T15:07:12+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/js/xxsy.js
+ERR: 非法操作:js
+
+[ 2016-08-01T15:07:12+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/js/footjs.js
+ERR: 非法操作:js
+
+[ 2016-08-01T15:07:13+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/js/xiaoxiang.min.js
+ERR: 非法操作:js
+
+[ 2016-08-01T15:07:13+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/js/readchapter.js
+ERR: 非法操作:js
+
+[ 2016-08-01T15:07:13+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/js/jquery.min.js
+ERR: 非法操作:js
+
+[ 2016-08-01T15:07:13+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/js/site.js
+ERR: 非法操作:js
+
+[ 2016-08-01T15:07:13+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/js/zbox.js
+ERR: 非法操作:js
+
+[ 2016-08-01T15:07:13+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/js/xxsy.js
+ERR: 非法操作:js
+
+[ 2016-08-01T15:07:13+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/js/c_1.php
+ERR: 非法操作:js
+
+[ 2016-08-01T15:07:13+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/js/footjs.js
+ERR: 非法操作:js
+
+[ 2016-08-01T15:07:13+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/js/site.js
+ERR: 非法操作:js
+
+[ 2016-08-01T15:07:13+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/js/c.php
+ERR: 非法操作:js
+
+[ 2016-08-01T15:07:13+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/js/fastclick.js
+ERR: 非法操作:js
+
+[ 2016-08-01T15:07:13+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/js/readchapter.js
+ERR: 非法操作:js
+
+[ 2016-08-01T15:07:13+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/js/zbox.js
+ERR: 非法操作:js
+
+[ 2016-08-01T15:07:13+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/js/c.php
+ERR: 非法操作:js
+
+[ 2016-08-01T15:07:13+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/js/c_1.php
+ERR: 非法操作:js
+
+[ 2016-08-01T15:07:13+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/js/fastclick.js
+ERR: 非法操作:js
+
+[ 2016-08-01T15:07:13+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/js/xxsy.js
+ERR: 非法操作:js
+
+[ 2016-08-01T15:07:13+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/js/footjs.js
+ERR: 非法操作:js
+
+[ 2016-08-01T15:07:13+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/js/site.js
+ERR: 非法操作:js
+
+[ 2016-08-01T15:07:13+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/js/zbox.js
+ERR: 非法操作:js
+
+[ 2016-08-01T15:07:13+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/js/readchapter.js
+ERR: 非法操作:js
+
+[ 2016-08-01T15:07:13+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/js/xiaoxiang.min.js
+ERR: 非法操作:js
+
+[ 2016-08-01T15:07:13+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/js/jquery.min.js
+ERR: 非法操作:js
+
+[ 2016-08-01T15:07:13+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/js/c.php
+ERR: 非法操作:js
+
+[ 2016-08-01T15:07:14+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/js/c_1.php
+ERR: 非法操作:js
+
+[ 2016-08-01T15:07:14+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/js/fastclick.js
+ERR: 非法操作:js
+
+[ 2016-08-01T15:07:14+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/js/xxsy.js
+ERR: 非法操作:js
+
+[ 2016-08-01T15:07:14+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/js/footjs.js
+ERR: 非法操作:js
+
+[ 2016-08-01T15:07:14+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/js/site.js
+ERR: 非法操作:js
+
+[ 2016-08-01T15:07:14+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/js/readchapter.js
+ERR: 非法操作:js
+
+[ 2016-08-01T15:07:14+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/js/zbox.js
+ERR: 非法操作:js
+
+[ 2016-08-01T15:07:14+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/js/c.php
+ERR: 非法操作:js
+
+[ 2016-08-01T15:07:14+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/js/c_1.php
+ERR: 非法操作:js
+
+[ 2016-08-01T15:07:14+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/js/fastclick.js
+ERR: 非法操作:js
+
+[ 2016-08-01T15:07:14+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/js/xxsy.js
+ERR: 非法操作:js
+
+[ 2016-08-01T15:07:14+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/js/footjs.js
+ERR: 非法操作:js
+
+[ 2016-08-01T15:07:14+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/js/zbox.js
+ERR: 非法操作:js
+
+[ 2016-08-01T15:07:14+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/js/xiaoxiang.min.js
+ERR: 非法操作:js
+
+[ 2016-08-01T15:07:14+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/js/site.js
+ERR: 非法操作:js
+
+[ 2016-08-01T15:07:14+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/js/jquery.min.js
+ERR: 非法操作:js
+
+[ 2016-08-01T15:07:14+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/js/readchapter.js
+ERR: 非法操作:js
+
+[ 2016-08-01T15:07:14+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/js/c_1.php
+ERR: 非法操作:js
+
+[ 2016-08-01T15:07:14+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/js/xxsy.js
+ERR: 非法操作:js
+
+[ 2016-08-01T15:07:14+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/js/c.php
+ERR: 非法操作:js
+
+[ 2016-08-01T15:07:14+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/js/footjs.js
+ERR: 非法操作:js
+
+[ 2016-08-01T15:07:14+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/js/fastclick.js
+ERR: 非法操作:js
+
+[ 2016-08-01T15:07:14+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/js/site.js
+ERR: 非法操作:js
+
+[ 2016-08-01T15:07:14+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/js/readchapter.js
+ERR: 非法操作:js
+
+[ 2016-08-01T15:07:14+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/js/zbox.js
+ERR: 非法操作:js
+
+[ 2016-08-01T15:07:14+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/js/c.php
+ERR: 非法操作:js
+
+[ 2016-08-01T15:07:14+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/js/c_1.php
+ERR: 非法操作:js
+
+[ 2016-08-01T15:07:14+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/js/fastclick.js
+ERR: 非法操作:js
+
+[ 2016-08-01T15:07:14+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/js/xxsy.js
+ERR: 非法操作:js
+
+[ 2016-08-01T15:07:14+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/js/footjs.js
+ERR: 非法操作:js
+
+[ 2016-08-01T15:07:17+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/js/readchapter.js
+ERR: 非法操作:js
+
+[ 2016-08-01T15:07:17+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/js/jquery.min.js
+ERR: 非法操作:js
+
+[ 2016-08-01T15:07:17+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/js/xiaoxiang.min.js
+ERR: 非法操作:js
+
+[ 2016-08-01T15:07:17+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/js/zbox.js
+ERR: 非法操作:js
+
+[ 2016-08-01T15:07:17+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/js/site.js
+ERR: 非法操作:js
+
+[ 2016-08-01T15:07:17+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/js/c_1.php
+ERR: 非法操作:js
+
+[ 2016-08-01T15:07:17+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/js/c.php
+ERR: 非法操作:js
+
+[ 2016-08-01T15:07:17+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/js/xxsy.js
+ERR: 非法操作:js
+
+[ 2016-08-01T15:07:17+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/js/fastclick.js
+ERR: 非法操作:js
+
+[ 2016-08-01T15:07:17+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/js/jquery.min.js
+ERR: 非法操作:js
+
+[ 2016-08-01T15:07:17+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/js/footjs.js
+ERR: 非法操作:js
+
+[ 2016-08-01T15:07:17+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/js/site.js
+ERR: 非法操作:js
+
+[ 2016-08-01T15:07:17+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/js/readchapter.js
+ERR: 非法操作:js
+
+[ 2016-08-01T15:07:17+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/js/zbox.js
+ERR: 非法操作:js
+
+[ 2016-08-01T15:07:17+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/js/c.php
+ERR: 非法操作:js
+
+[ 2016-08-01T15:07:17+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/js/c_1.php
+ERR: 非法操作:js
+
+[ 2016-08-01T15:07:17+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/js/fastclick.js
+ERR: 非法操作:js
+
+[ 2016-08-01T15:07:17+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/js/xxsy.js
+ERR: 非法操作:js
+
+[ 2016-08-01T15:07:17+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/js/footjs.js
+ERR: 非法操作:js
+
+[ 2016-08-01T15:07:46+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/js/xiaoxiang.min.js
+ERR: 非法操作:js
+
+[ 2016-08-01T15:07:46+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/js/site.js
+ERR: 非法操作:js
+
+[ 2016-08-01T15:07:46+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/js/jquery.min.js
+ERR: 非法操作:js
+
+[ 2016-08-01T15:07:46+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/js/readchapter.js
+ERR: 非法操作:js
+
+[ 2016-08-01T15:07:46+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/js/zbox.js
+ERR: 非法操作:js
+
+[ 2016-08-01T15:07:46+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/js/fastclick.js
+ERR: 非法操作:js
+
+[ 2016-08-01T15:07:46+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/js/xxsy.js
+ERR: 非法操作:js
+
+[ 2016-08-01T15:07:46+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/js/c_1.php
+ERR: 非法操作:js
+
+[ 2016-08-01T15:07:46+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/js/c.php
+ERR: 非法操作:js
+
+[ 2016-08-01T15:07:46+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/js/site.js
+ERR: 非法操作:js
+
+[ 2016-08-01T15:07:46+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/js/footjs.js
+ERR: 非法操作:js
+
+[ 2016-08-01T15:07:46+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/js/readchapter.js
+ERR: 非法操作:js
+
+[ 2016-08-01T15:07:46+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/js/zbox.js
+ERR: 非法操作:js
+
+[ 2016-08-01T15:07:46+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/js/c.php
+ERR: 非法操作:js
+
+[ 2016-08-01T15:07:46+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/js/c_1.php
+ERR: 非法操作:js
+
+[ 2016-08-01T15:07:46+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/js/fastclick.js
+ERR: 非法操作:js
+
+[ 2016-08-01T15:07:46+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/js/xxsy.js
+ERR: 非法操作:js
+
+[ 2016-08-01T15:07:46+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/js/footjs.js
+ERR: 非法操作:js
+
+[ 2016-08-01T15:15:02+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/js/xiaoxiang.min.js
+ERR: 非法操作:js
+
+[ 2016-08-01T15:15:02+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/js/site.js
+ERR: 非法操作:js
+
+[ 2016-08-01T15:15:02+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/js/jquery.min.js
+ERR: 非法操作:js
+
+[ 2016-08-01T15:15:02+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/js/readchapter.js
+ERR: 非法操作:js
+
+[ 2016-08-01T15:15:02+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/js/zbox.js
+ERR: 非法操作:js
+
+[ 2016-08-01T15:15:02+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/js/c.php
+ERR: 非法操作:js
+
+[ 2016-08-01T15:15:02+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/js/c_1.php
+ERR: 非法操作:js
+
+[ 2016-08-01T15:15:02+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/js/fastclick.js
+ERR: 非法操作:js
+
+[ 2016-08-01T15:15:02+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/js/xxsy.js
+ERR: 非法操作:js
+
+[ 2016-08-01T15:15:02+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/js/footjs.js
+ERR: 非法操作:js
+
+[ 2016-08-01T15:15:02+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/js/site.js
+ERR: 非法操作:js
+
+[ 2016-08-01T15:15:02+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/js/readchapter.js
+ERR: 非法操作:js
+
+[ 2016-08-01T15:15:02+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/js/zbox.js
+ERR: 非法操作:js
+
+[ 2016-08-01T15:15:02+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/js/c.php
+ERR: 非法操作:js
+
+[ 2016-08-01T15:15:02+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/js/c_1.php
+ERR: 非法操作:js
+
+[ 2016-08-01T15:15:02+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/js/fastclick.js
+ERR: 非法操作:js
+
+[ 2016-08-01T15:15:02+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/js/xxsy.js
+ERR: 非法操作:js
+
+[ 2016-08-01T15:15:02+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/js/footjs.js
+ERR: 非法操作:js
+
+[ 2016-08-01T15:15:45+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/js/xiaoxiang.min.js
+ERR: 非法操作:js
+
+[ 2016-08-01T15:15:45+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/js/jquery.min.js
+ERR: 非法操作:js
+
+[ 2016-08-01T15:15:45+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/js/site.js
+ERR: 非法操作:js
+
+[ 2016-08-01T15:15:45+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/js/readchapter.js
+ERR: 非法操作:js
+
+[ 2016-08-01T15:15:45+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/js/zbox.js
+ERR: 非法操作:js
+
+[ 2016-08-01T15:15:45+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/js/c.php
+ERR: 非法操作:js
+
+[ 2016-08-01T15:15:45+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/js/c_1.php
+ERR: 非法操作:js
+
+[ 2016-08-01T15:15:45+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/js/xxsy.js
+ERR: 非法操作:js
+
+[ 2016-08-01T15:15:45+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/js/fastclick.js
+ERR: 非法操作:js
+
+[ 2016-08-01T15:15:45+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/js/footjs.js
+ERR: 非法操作:js
+
+[ 2016-08-01T15:15:45+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/js/xxsy.js
+ERR: 非法操作:js
+
+[ 2016-08-01T15:15:45+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/js/footjs.js
+ERR: 非法操作:js
+
+[ 2016-08-01T15:15:56+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/js/xiaoxiang.min.js
+ERR: 非法操作:js
+
+[ 2016-08-01T15:15:56+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/js/jquery.min.js
+ERR: 非法操作:js
+
+[ 2016-08-01T15:15:56+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/js/site.js
+ERR: 非法操作:js
+
+[ 2016-08-01T15:15:56+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/js/readchapter.js
+ERR: 非法操作:js
+
+[ 2016-08-01T15:15:56+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/js/zbox.js
+ERR: 非法操作:js
+
+[ 2016-08-01T15:15:56+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/js/c.php
+ERR: 非法操作:js
+
+[ 2016-08-01T15:15:56+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/js/c_1.php
+ERR: 非法操作:js
+
+[ 2016-08-01T15:15:56+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/js/fastclick.js
+ERR: 非法操作:js
+
+[ 2016-08-01T15:15:56+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/js/xxsy.js
+ERR: 非法操作:js
+
+[ 2016-08-01T15:15:56+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/js/footjs.js
+ERR: 非法操作:js
+
+[ 2016-08-01T15:15:56+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/js/site.js
+ERR: 非法操作:js
+
+[ 2016-08-01T15:15:56+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/js/readchapter.js
+ERR: 非法操作:js
+
+[ 2016-08-01T15:15:56+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/js/zbox.js
+ERR: 非法操作:js
+
+[ 2016-08-01T15:15:56+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/js/c.php
+ERR: 非法操作:js
+
+[ 2016-08-01T15:15:56+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/js/c_1.php
+ERR: 非法操作:js
+
+[ 2016-08-01T15:15:56+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/js/fastclick.js
+ERR: 非法操作:js
+
+[ 2016-08-01T15:15:56+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/js/xxsy.js
+ERR: 非法操作:js
+
+[ 2016-08-01T15:15:56+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/js/footjs.js
+ERR: 非法操作:js
+
+[ 2016-08-01T15:16:55+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/js/xiaoxiang.min.js
+ERR: 非法操作:js
+
+[ 2016-08-01T15:16:55+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/js/jquery.min.js
+ERR: 非法操作:js
+
+[ 2016-08-01T15:16:55+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/js/site.js
+ERR: 非法操作:js
+
+[ 2016-08-01T15:16:55+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/js/readchapter.js
+ERR: 非法操作:js
+
+[ 2016-08-01T15:16:55+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/js/zbox.js
+ERR: 非法操作:js
+
+[ 2016-08-01T15:16:55+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/js/c.php
+ERR: 非法操作:js
+
+[ 2016-08-01T15:16:55+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/js/c_1.php
+ERR: 非法操作:js
+
+[ 2016-08-01T15:16:55+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/js/fastclick.js
+ERR: 非法操作:js
+
+[ 2016-08-01T15:16:55+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/js/xxsy.js
+ERR: 非法操作:js
+
+[ 2016-08-01T15:16:55+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/js/footjs.js
+ERR: 非法操作:js
+
+[ 2016-08-01T15:16:56+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/js/xiaoxiang.min.js
+ERR: 非法操作:js
+
+[ 2016-08-01T15:16:56+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/js/jquery.min.js
+ERR: 非法操作:js
+
+[ 2016-08-01T15:16:56+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/js/site.js
+ERR: 非法操作:js
+
+[ 2016-08-01T15:16:56+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/js/readchapter.js
+ERR: 非法操作:js
+
+[ 2016-08-01T15:16:56+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/js/zbox.js
+ERR: 非法操作:js
+
+[ 2016-08-01T15:16:56+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/js/c.php
+ERR: 非法操作:js
+
+[ 2016-08-01T15:16:56+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/js/c_1.php
+ERR: 非法操作:js
+
+[ 2016-08-01T15:16:56+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/js/fastclick.js
+ERR: 非法操作:js
+
+[ 2016-08-01T15:16:56+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/js/xxsy.js
+ERR: 非法操作:js
+
+[ 2016-08-01T15:16:56+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/js/footjs.js
+ERR: 非法操作:js
+
+[ 2016-08-01T19:06:18+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/getRadomBook.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `xs_book` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `xs_book` [ RunTime:0.0050s ]
+SQL: SELECT `id`,`book_img`,`book_name`,`book_len`,`book_type` FROM `xs_book` WHERE ( book_type = '都市生活' ) ORDER BY rand() LIMIT 3   [ RunTime:0.0020s ]
+
+[ 2016-08-01T19:06:22+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/getRadomBook.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `xs_book` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `xs_book` [ RunTime:0.0020s ]
+SQL: SELECT `id`,`book_img`,`book_name`,`book_len`,`book_type` FROM `xs_book` WHERE ( book_type = '都市生活' ) ORDER BY rand() LIMIT 3   [ RunTime:0.0000s ]
+
+[ 2016-08-01T19:06:24+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/getRadomBook.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `xs_book` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `xs_book` [ RunTime:0.0060s ]
+SQL: SELECT `id`,`book_img`,`book_name`,`book_len`,`book_type` FROM `xs_book` WHERE ( book_type = '都市生活' ) ORDER BY rand() LIMIT 3   [ RunTime:0.0010s ]
+
+[ 2016-08-01T19:06:47+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/getRadomBook.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `xs_book` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `xs_book` [ RunTime:0.0020s ]
+SQL: SELECT `id`,`book_img`,`book_name`,`book_len`,`book_type` FROM `xs_book` WHERE ( book_type = '都市生活' ) ORDER BY rand() LIMIT 3   [ RunTime:0.0000s ]
+
+[ 2016-08-01T19:07:30+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/getRadomBook.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `xs_book` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `xs_book` [ RunTime:0.0030s ]
+SQL: SELECT `id`,`book_img`,`book_name`,`book_len`,`book_type` FROM `xs_book` WHERE ( book_type = '都市生活' ) ORDER BY rand() LIMIT 3   [ RunTime:0.0000s ]
+
+[ 2016-08-01T19:10:54+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/getRadomBook.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `xs_book` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `xs_book` [ RunTime:0.0020s ]
+SQL: SELECT `id`,`book_img`,`book_name`,`book_len`,`book_type` FROM `xs_book` WHERE ( book_type = '都市生活' ) ORDER BY rand() LIMIT 3   [ RunTime:0.0000s ]
+
+[ 2016-08-01T19:16:10+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/getRadomBook.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `xs_book` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `xs_book` [ RunTime:0.0010s ]
+SQL: SELECT `id`,`book_img`,`book_name`,`book_len`,`book_type` FROM `xs_book` WHERE ( book_type = '都市生活' ) ORDER BY rand() LIMIT 3   [ RunTime:0.0010s ]
+
+[ 2016-08-01T19:18:09+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/getRadomBook.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `xs_book` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `xs_book` [ RunTime:0.0020s ]
+SQL: SELECT `id`,`book_img`,`book_name`,`book_len`,`book_type` FROM `xs_book` WHERE ( book_type = '都市生活' ) ORDER BY rand() LIMIT 3   [ RunTime:0.0000s ]
+
+[ 2016-08-01T19:18:11+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/getRadomBook.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `xs_book` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `xs_book` [ RunTime:0.0030s ]
+SQL: SELECT `id`,`book_img`,`book_name`,`book_len`,`book_type` FROM `xs_book` WHERE ( book_type = '都市生活' ) ORDER BY rand() LIMIT 3   [ RunTime:0.0010s ]
+
+[ 2016-08-01T19:18:12+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/reading.html?bookId=$detail[%27id%27]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '['id'] ) LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT `id` FROM `xs_book_list` WHERE ( book_id=$detail['id'] ) LIMIT 1  
+
+[ 2016-08-01T19:18:33+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/getRadomBook.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `xs_book` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `xs_book` [ RunTime:0.0040s ]
+SQL: SELECT `id`,`book_img`,`book_name`,`book_len`,`book_type` FROM `xs_book` WHERE ( book_type = '都市生活' ) ORDER BY rand() LIMIT 3   [ RunTime:0.0000s ]
+
+[ 2016-08-01T19:18:33+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/reading.html?bookId=$detail[%27id%27]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '['id'] ) LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT `id` FROM `xs_book_list` WHERE ( book_id=$detail['id'] ) LIMIT 1  
+
+[ 2016-08-01T19:18:36+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/getRadomBook.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `xs_book` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `xs_book` [ RunTime:0.0020s ]
+SQL: SELECT `id`,`book_img`,`book_name`,`book_len`,`book_type` FROM `xs_book` WHERE ( book_type = '都市生活' ) ORDER BY rand() LIMIT 3   [ RunTime:0.0010s ]
+
+[ 2016-08-01T19:18:37+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/reading.html?bookId=$detail[%27id%27]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '['id'] ) LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT `id` FROM `xs_book_list` WHERE ( book_id=$detail['id'] ) LIMIT 1  
+
+[ 2016-08-01T19:18:57+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/getRadomBook.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `xs_book` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `xs_book` [ RunTime:0.0010s ]
+SQL: SELECT `id`,`book_img`,`book_name`,`book_len`,`book_type` FROM `xs_book` WHERE ( book_type = '都市生活' ) ORDER BY rand() LIMIT 3   [ RunTime:0.0000s ]
+
+[ 2016-08-01T19:18:59+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/getRadomBook.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `xs_book` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `xs_book` [ RunTime:0.0020s ]
+SQL: SELECT `id`,`book_img`,`book_name`,`book_len`,`book_type` FROM `xs_book` WHERE ( book_type = '都市生活' ) ORDER BY rand() LIMIT 3   [ RunTime:0.0000s ]
+
+[ 2016-08-01T19:19:10+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/getRadomBook.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `xs_book` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `xs_book` [ RunTime:0.0040s ]
+SQL: SELECT `id`,`book_img`,`book_name`,`book_len`,`book_type` FROM `xs_book` WHERE ( book_type = '都市生活' ) ORDER BY rand() LIMIT 3   [ RunTime:0.0010s ]
+
+[ 2016-08-01T19:19:41+08:00 ] 127.0.0.1 /xs/index.php/Home/Book/getRadomBook.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006000s ]
+SQL: SHOW COLUMNS FROM `xs_book` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `xs_book` [ RunTime:0.0020s ]
+SQL: SELECT `id`,`book_img`,`book_name`,`book_len`,`book_type` FROM `xs_book` WHERE ( book_type = '都市生活' ) ORDER BY rand() LIMIT 3   [ RunTime:0.0000s ]
+
