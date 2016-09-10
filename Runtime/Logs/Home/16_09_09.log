@@ -1,0 +1,581 @@
+[ 2016-09-09T01:13:42+08:00 ] 61.151.226.189 /Home/Book/getSaveReading?pageNum%3D1%26t%3D1473308097396
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000103s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000052s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000102s ]
+
+[ 2016-09-09T01:15:44+08:00 ] 180.153.214.176 /Home/User/pageLogin.htmlaaaa%3Ddetail%26bookId%3D2074
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000105s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000036s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000069s ]
+ERR: 非法操作:pageLogin.htmlaaaa=detail&bookId=2074
+
+[ 2016-09-09T01:16:40+08:00 ] 140.207.185.109 /Home/Book/detail.html/bookId/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000113s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000056s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000110s ]
+ERR: 非法操作:detail.html
+
+[ 2016-09-09T01:18:37+08:00 ] 112.65.193.13 /Home/User/pageLogin.htmlaaaa%3Ddetail%26bookId%3D2074
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000131s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000088s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000138s ]
+ERR: 非法操作:pageLogin.htmlaaaa=detail&bookId=2074
+
+[ 2016-09-09T01:18:39+08:00 ] 101.226.33.205 /Home/User/pageLogin.htmlaaaa%3Ddetail%26bookId%3D2074
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000116s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000053s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000110s ]
+ERR: 非法操作:pageLogin.htmlaaaa=detail&bookId=2074
+
+[ 2016-09-09T01:18:43+08:00 ] 101.226.99.195 /Home/User/pageLogin.htmlaaaa%3Ddetail%26bookId%3D2074
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000147s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000038s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000078s ]
+ERR: 非法操作:pageLogin.htmlaaaa=detail&bookId=2074
+
+[ 2016-09-09T01:20:59+08:00 ] 101.226.33.204 /Home/Book/detail.html/bookId/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000124s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000060s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000111s ]
+ERR: 非法操作:detail.html
+
+[ 2016-09-09T01:21:18+08:00 ] 119.147.146.189 /Home/Book/detail.html/bookId/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000148s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000095s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000147s ]
+ERR: 非法操作:detail.html
+
+[ 2016-09-09T01:21:22+08:00 ] 119.147.146.189 /Home/Book/detail.html/bookId/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000111s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000054s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000136s ]
+ERR: 非法操作:detail.html
+
+[ 2016-09-09T01:23:38+08:00 ] 101.226.125.103 /Home/Book/bookshelf.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000124s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000058s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000123s ]
+ERR: 模板不存在:/data/wwwroot/xs/Home/View/Book/bookshelf.html
+
+[ 2016-09-09T01:25:37+08:00 ] 122.246.50.71 /Home/Book/bookshelf.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000128s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000035s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000067s ]
+ERR: 模板不存在:/data/wwwroot/xs/Home/View/Book/bookshelf.html
+
+[ 2016-09-09T04:26:49+08:00 ] 180.153.214.191 /Home/Book/getRadomBook.html
+WARN: ajax请求数据失败,错误原因:未传递post信息
+[ 2016-09-09T04:26:49+08:00 ] 180.153.214.191 /Home/Book/getRadomBook.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000123s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000057s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000138s ]
+NOTIC: [8] Undefined index: bookType /data/wwwroot/xs/Home/Controller/BookController.class.php 第 49 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000055s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000124s ]
+
+[ 2016-09-09T04:29:28+08:00 ] 101.226.33.239 /Home/User/checkIsLogin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000121s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000060s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000126s ]
+
+[ 2016-09-09T04:32:11+08:00 ] 180.153.205.252 /Home/User/checkIsLogin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000119s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000060s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000115s ]
+
+[ 2016-09-09T04:32:11+08:00 ] 101.226.65.107 /Home/User/checkIsLogin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000106s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000046s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000093s ]
+
+[ 2016-09-09T04:32:18+08:00 ] 101.226.69.246 /Home/User/checkIsLogin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000112s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000050s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000103s ]
+
+[ 2016-09-09T04:35:18+08:00 ] 112.90.82.196 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000116s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000056s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000117s ]
+SQL: SHOW COLUMNS FROM `xs_book` [ RunTime:0.0013s ]
+SQL: SHOW COLUMNS FROM `xs_book` [ RunTime:0.0011s ]
+SQL: SHOW COLUMNS FROM `xs_read_count` [ RunTime:0.0017s ]
+SQL: select * from xs_read_count order BY rcount desc limit 3 [ RunTime:0.0002s ]
+SQL: select id,book_name,book_img,book_desc,book_author,book_sign from xs_book where id in (2076,2075,2074) [ RunTime:0.0001s ]
+SQL: select id,book_name,book_img,book_desc,book_author,book_sign from xs_book where book_sign like '%现代%' limit 6 [ RunTime:0.0003s ]
+SQL: select id,book_name,book_img,book_desc,book_author,book_sign from xs_book where book_sign like '%搞笑%' limit 6 [ RunTime:0.0001s ]
+SQL: select id,book_name,book_img,book_desc,book_author,book_sign from xs_book where id in(2080) limit 1 [ RunTime:0.0001s ]
+SQL: select id,book_name,book_author from xs_book where id in(2092,2099,2119,2132) limit 5 [ RunTime:0.0001s ]
+SQL: select id,book_name,book_author from xs_book where id in(2099,2121,2122,2128) limit 5 [ RunTime:0.0002s ]
+SQL: select id,book_name,book_img,book_desc,book_author,book_sign from xs_book where id in(3000) limit 1 [ RunTime:0.0001s ]
+SQL: select id,book_name,book_author from xs_book where id in(2126,2102,2096,2092) limit 5 [ RunTime:0.0001s ]
+SQL: select id,book_name,book_img,book_desc,book_author,book_sign from xs_book where id in(2120) limit 1 [ RunTime:0.0003s ]
+SQL: select id,book_name,book_img from xs_book where id in(2100,2101,2102) limit 3 [ RunTime:0.0001s ]
+SQL: select id,book_name,book_img from xs_book order by last_update desc limit 3 [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000256s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000345s ]
+NOTIC: [8] Undefined variable: duShiOnebook /data/wwwroot/xs/Runtime/Cache/Home/23d3b4541d8aa2ec253d95c6c45c2493.php 第 206 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.028783s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028858s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000080s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000129s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000057s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000112s ]
+
+[ 2016-09-09T04:45:38+08:00 ] 101.226.66.174 /Home/Book/getSaveBookByDb.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000120s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000159s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000214s ]
+
+[ 2016-09-09T05:48:59+08:00 ] 101.226.66.178 /Home/Book/reading.html?bookId%3D2074
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000115s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000049s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000091s ]
+ERR: 参数错误或者未定义:bookId
+
+[ 2016-09-09T05:57:19+08:00 ] 180.153.214.181 /Home/Book/detail.html.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000150s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000060s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000113s ]
+ERR: 非法操作:detail.html
+
+[ 2016-09-09T06:47:17+08:00 ] 123.125.143.148 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000117s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000059s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000114s ]
+SQL: SHOW COLUMNS FROM `xs_book` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `xs_book` [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `xs_read_count` [ RunTime:0.0006s ]
+SQL: select * from xs_read_count order BY rcount desc limit 3 [ RunTime:0.0001s ]
+SQL: select id,book_name,book_img,book_desc,book_author,book_sign from xs_book where id in (2076,2075,2074) [ RunTime:0.0001s ]
+SQL: select id,book_name,book_img,book_desc,book_author,book_sign from xs_book where book_sign like '%校园%' limit 6 [ RunTime:0.0002s ]
+SQL: select id,book_name,book_img,book_desc,book_author,book_sign from xs_book where book_sign like '%爱情%' limit 6 [ RunTime:0.0001s ]
+SQL: select id,book_name,book_img,book_desc,book_author,book_sign from xs_book where id in(2080) limit 1 [ RunTime:0.0001s ]
+SQL: select id,book_name,book_author from xs_book where id in(2092,2099,2119,2132) limit 5 [ RunTime:0.0001s ]
+SQL: select id,book_name,book_author from xs_book where id in(2099,2121,2122,2128) limit 5 [ RunTime:0.0001s ]
+SQL: select id,book_name,book_img,book_desc,book_author,book_sign from xs_book where id in(3000) limit 1 [ RunTime:0.0001s ]
+SQL: select id,book_name,book_author from xs_book where id in(2126,2102,2096,2092) limit 5 [ RunTime:0.0001s ]
+SQL: select id,book_name,book_img,book_desc,book_author,book_sign from xs_book where id in(2120) limit 1 [ RunTime:0.0002s ]
+SQL: select id,book_name,book_img from xs_book where id in(2100,2101,2102) limit 3 [ RunTime:0.0001s ]
+SQL: select id,book_name,book_img from xs_book order by last_update desc limit 3 [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000144s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000342s ]
+NOTIC: [8] Undefined variable: duShiOnebook /data/wwwroot/xs/Runtime/Cache/Home/23d3b4541d8aa2ec253d95c6c45c2493.php 第 206 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.065188s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.065275s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000079s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000127s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000055s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000108s ]
+
+[ 2016-09-09T11:01:00+08:00 ] 219.133.40.15 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000118s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000039s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000092s ]
+SQL: SHOW COLUMNS FROM `xs_book` [ RunTime:0.0011s ]
+SQL: SHOW COLUMNS FROM `xs_book` [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `xs_read_count` [ RunTime:0.0006s ]
+SQL: select * from xs_read_count order BY rcount desc limit 3 [ RunTime:0.0001s ]
+SQL: select id,book_name,book_img,book_desc,book_author,book_sign from xs_book where id in (2076,2075,2074) [ RunTime:0.0002s ]
+SQL: select id,book_name,book_img,book_desc,book_author,book_sign from xs_book where book_sign like '%校园%' limit 6 [ RunTime:0.0001s ]
+SQL: select id,book_name,book_img,book_desc,book_author,book_sign from xs_book where book_sign like '%爱情%' limit 6 [ RunTime:0.0001s ]
+SQL: select id,book_name,book_img,book_desc,book_author,book_sign from xs_book where id in(2080) limit 1 [ RunTime:0.0001s ]
+SQL: select id,book_name,book_author from xs_book where id in(2092,2099,2119,2132) limit 5 [ RunTime:0.0001s ]
+SQL: select id,book_name,book_author from xs_book where id in(2099,2121,2122,2128) limit 5 [ RunTime:0.0001s ]
+SQL: select id,book_name,book_img,book_desc,book_author,book_sign from xs_book where id in(3000) limit 1 [ RunTime:0.0001s ]
+SQL: select id,book_name,book_author from xs_book where id in(2126,2102,2096,2092) limit 5 [ RunTime:0.0001s ]
+SQL: select id,book_name,book_img,book_desc,book_author,book_sign from xs_book where id in(2120) limit 1 [ RunTime:0.0001s ]
+SQL: select id,book_name,book_img from xs_book where id in(2100,2101,2102) limit 3 [ RunTime:0.0001s ]
+SQL: select id,book_name,book_img from xs_book order by last_update desc limit 3 [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000146s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000231s ]
+NOTIC: [8] Undefined variable: duShiOnebook /data/wwwroot/xs/Runtime/Cache/Home/23d3b4541d8aa2ec253d95c6c45c2493.php 第 206 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020519s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020575s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000057s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000095s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000050s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000100s ]
+
+[ 2016-09-09T11:01:03+08:00 ] 183.232.90.80 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000092s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000040s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000081s ]
+SQL: SHOW COLUMNS FROM `xs_book` [ RunTime:0.0031s ]
+SQL: SHOW COLUMNS FROM `xs_book` [ RunTime:0.0018s ]
+SQL: SHOW COLUMNS FROM `xs_read_count` [ RunTime:0.0009s ]
+SQL: select * from xs_read_count order BY rcount desc limit 3 [ RunTime:0.0002s ]
+SQL: select id,book_name,book_img,book_desc,book_author,book_sign from xs_book where id in (2076,2075,2074) [ RunTime:0.0003s ]
+SQL: select id,book_name,book_img,book_desc,book_author,book_sign from xs_book where book_sign like '%黑帮%' limit 6 [ RunTime:0.0014s ]
+SQL: select id,book_name,book_img,book_desc,book_author,book_sign from xs_book where book_sign like '%豪门%' limit 6 [ RunTime:0.0012s ]
+SQL: select id,book_name,book_img,book_desc,book_author,book_sign from xs_book where id in(2080) limit 1 [ RunTime:0.0008s ]
+SQL: select id,book_name,book_author from xs_book where id in(2092,2099,2119,2132) limit 5 [ RunTime:0.0004s ]
+SQL: select id,book_name,book_author from xs_book where id in(2099,2121,2122,2128) limit 5 [ RunTime:0.0003s ]
+SQL: select id,book_name,book_img,book_desc,book_author,book_sign from xs_book where id in(3000) limit 1 [ RunTime:0.0003s ]
+SQL: select id,book_name,book_author from xs_book where id in(2126,2102,2096,2092) limit 5 [ RunTime:0.0003s ]
+SQL: select id,book_name,book_img,book_desc,book_author,book_sign from xs_book where id in(2120) limit 1 [ RunTime:0.0003s ]
+SQL: select id,book_name,book_img from xs_book where id in(2100,2101,2102) limit 3 [ RunTime:0.0002s ]
+SQL: select id,book_name,book_img from xs_book order by last_update desc limit 3 [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000098s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000155s ]
+NOTIC: [8] Undefined variable: duShiOnebook /data/wwwroot/xs/Runtime/Cache/Home/23d3b4541d8aa2ec253d95c6c45c2493.php 第 206 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019937s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019997s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000066s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000115s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000043s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000094s ]
+
+[ 2016-09-09T11:01:03+08:00 ] 120.198.202.48 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000102s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000101s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000151s ]
+SQL: SHOW COLUMNS FROM `xs_book` [ RunTime:0.0011s ]
+SQL: SHOW COLUMNS FROM `xs_book` [ RunTime:0.0012s ]
+SQL: SHOW COLUMNS FROM `xs_read_count` [ RunTime:0.0008s ]
+SQL: select * from xs_read_count order BY rcount desc limit 3 [ RunTime:0.0004s ]
+SQL: select id,book_name,book_img,book_desc,book_author,book_sign from xs_book where id in (2076,2075,2074) [ RunTime:0.0003s ]
+SQL: select id,book_name,book_img,book_desc,book_author,book_sign from xs_book where book_sign like '%现代%' limit 6 [ RunTime:0.0003s ]
+SQL: select id,book_name,book_img,book_desc,book_author,book_sign from xs_book where book_sign like '%豪门%' limit 6 [ RunTime:0.0003s ]
+SQL: select id,book_name,book_img,book_desc,book_author,book_sign from xs_book where id in(2080) limit 1 [ RunTime:0.0002s ]
+SQL: select id,book_name,book_author from xs_book where id in(2092,2099,2119,2132) limit 5 [ RunTime:0.0003s ]
+SQL: select id,book_name,book_author from xs_book where id in(2099,2121,2122,2128) limit 5 [ RunTime:0.0002s ]
+SQL: select id,book_name,book_img,book_desc,book_author,book_sign from xs_book where id in(3000) limit 1 [ RunTime:0.0119s ]
+SQL: select id,book_name,book_author from xs_book where id in(2126,2102,2096,2092) limit 5 [ RunTime:0.0093s ]
+SQL: select id,book_name,book_img,book_desc,book_author,book_sign from xs_book where id in(2120) limit 1 [ RunTime:0.0020s ]
+SQL: select id,book_name,book_img from xs_book where id in(2100,2101,2102) limit 3 [ RunTime:0.0002s ]
+SQL: select id,book_name,book_img from xs_book order by last_update desc limit 3 [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000146s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000230s ]
+NOTIC: [8] Undefined variable: duShiOnebook /data/wwwroot/xs/Runtime/Cache/Home/23d3b4541d8aa2ec253d95c6c45c2493.php 第 206 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.028820s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028890s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000066s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000112s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000047s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000125s ]
+
+[ 2016-09-09T11:01:03+08:00 ] 163.177.93.219 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000106s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000069s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000122s ]
+SQL: SHOW COLUMNS FROM `xs_book` [ RunTime:0.0016s ]
+SQL: SHOW COLUMNS FROM `xs_book` [ RunTime:0.0024s ]
+SQL: SHOW COLUMNS FROM `xs_read_count` [ RunTime:0.0015s ]
+SQL: select * from xs_read_count order BY rcount desc limit 3 [ RunTime:0.0004s ]
+SQL: select id,book_name,book_img,book_desc,book_author,book_sign from xs_book where id in (2076,2075,2074) [ RunTime:0.0001s ]
+SQL: select id,book_name,book_img,book_desc,book_author,book_sign from xs_book where book_sign like '%校园%' limit 6 [ RunTime:0.0004s ]
+SQL: select id,book_name,book_img,book_desc,book_author,book_sign from xs_book where book_sign like '%穿越%' limit 6 [ RunTime:0.0003s ]
+SQL: select id,book_name,book_img,book_desc,book_author,book_sign from xs_book where id in(2080) limit 1 [ RunTime:0.0012s ]
+SQL: select id,book_name,book_author from xs_book where id in(2092,2099,2119,2132) limit 5 [ RunTime:0.0002s ]
+SQL: select id,book_name,book_author from xs_book where id in(2099,2121,2122,2128) limit 5 [ RunTime:0.0003s ]
+SQL: select id,book_name,book_img,book_desc,book_author,book_sign from xs_book where id in(3000) limit 1 [ RunTime:0.0003s ]
+SQL: select id,book_name,book_author from xs_book where id in(2126,2102,2096,2092) limit 5 [ RunTime:0.0003s ]
+SQL: select id,book_name,book_img,book_desc,book_author,book_sign from xs_book where id in(2120) limit 1 [ RunTime:0.0002s ]
+SQL: select id,book_name,book_img from xs_book where id in(2100,2101,2102) limit 3 [ RunTime:0.0002s ]
+SQL: select id,book_name,book_img from xs_book order by last_update desc limit 3 [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000110s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000170s ]
+NOTIC: [8] Undefined offset: 1 /data/wwwroot/xs/Runtime/Cache/Home/23d3b4541d8aa2ec253d95c6c45c2493.php 第 140 行.
+NOTIC: [8] Undefined offset: 1 /data/wwwroot/xs/Runtime/Cache/Home/23d3b4541d8aa2ec253d95c6c45c2493.php 第 140 行.
+NOTIC: [8] Undefined offset: 1 /data/wwwroot/xs/Runtime/Cache/Home/23d3b4541d8aa2ec253d95c6c45c2493.php 第 141 行.
+NOTIC: [8] Undefined offset: 1 /data/wwwroot/xs/Runtime/Cache/Home/23d3b4541d8aa2ec253d95c6c45c2493.php 第 141 行.
+NOTIC: [8] Undefined offset: 1 /data/wwwroot/xs/Runtime/Cache/Home/23d3b4541d8aa2ec253d95c6c45c2493.php 第 142 行.
+NOTIC: [8] Undefined offset: 2 /data/wwwroot/xs/Runtime/Cache/Home/23d3b4541d8aa2ec253d95c6c45c2493.php 第 140 行.
+NOTIC: [8] Undefined offset: 2 /data/wwwroot/xs/Runtime/Cache/Home/23d3b4541d8aa2ec253d95c6c45c2493.php 第 140 行.
+NOTIC: [8] Undefined offset: 2 /data/wwwroot/xs/Runtime/Cache/Home/23d3b4541d8aa2ec253d95c6c45c2493.php 第 141 行.
+NOTIC: [8] Undefined offset: 2 /data/wwwroot/xs/Runtime/Cache/Home/23d3b4541d8aa2ec253d95c6c45c2493.php 第 141 行.
+NOTIC: [8] Undefined offset: 2 /data/wwwroot/xs/Runtime/Cache/Home/23d3b4541d8aa2ec253d95c6c45c2493.php 第 142 行.
+NOTIC: [8] Undefined offset: 3 /data/wwwroot/xs/Runtime/Cache/Home/23d3b4541d8aa2ec253d95c6c45c2493.php 第 148 行.
+NOTIC: [8] Undefined offset: 3 /data/wwwroot/xs/Runtime/Cache/Home/23d3b4541d8aa2ec253d95c6c45c2493.php 第 148 行.
+NOTIC: [8] Undefined offset: 3 /data/wwwroot/xs/Runtime/Cache/Home/23d3b4541d8aa2ec253d95c6c45c2493.php 第 149 行.
+NOTIC: [8] Undefined offset: 3 /data/wwwroot/xs/Runtime/Cache/Home/23d3b4541d8aa2ec253d95c6c45c2493.php 第 149 行.
+NOTIC: [8] Undefined offset: 3 /data/wwwroot/xs/Runtime/Cache/Home/23d3b4541d8aa2ec253d95c6c45c2493.php 第 150 行.
+NOTIC: [8] Undefined offset: 4 /data/wwwroot/xs/Runtime/Cache/Home/23d3b4541d8aa2ec253d95c6c45c2493.php 第 148 行.
+NOTIC: [8] Undefined offset: 4 /data/wwwroot/xs/Runtime/Cache/Home/23d3b4541d8aa2ec253d95c6c45c2493.php 第 148 行.
+NOTIC: [8] Undefined offset: 4 /data/wwwroot/xs/Runtime/Cache/Home/23d3b4541d8aa2ec253d95c6c45c2493.php 第 149 行.
+NOTIC: [8] Undefined offset: 4 /data/wwwroot/xs/Runtime/Cache/Home/23d3b4541d8aa2ec253d95c6c45c2493.php 第 149 行.
+NOTIC: [8] Undefined offset: 4 /data/wwwroot/xs/Runtime/Cache/Home/23d3b4541d8aa2ec253d95c6c45c2493.php 第 150 行.
+NOTIC: [8] Undefined offset: 5 /data/wwwroot/xs/Runtime/Cache/Home/23d3b4541d8aa2ec253d95c6c45c2493.php 第 148 行.
+NOTIC: [8] Undefined offset: 5 /data/wwwroot/xs/Runtime/Cache/Home/23d3b4541d8aa2ec253d95c6c45c2493.php 第 148 行.
+NOTIC: [8] Undefined offset: 5 /data/wwwroot/xs/Runtime/Cache/Home/23d3b4541d8aa2ec253d95c6c45c2493.php 第 149 行.
+NOTIC: [8] Undefined offset: 5 /data/wwwroot/xs/Runtime/Cache/Home/23d3b4541d8aa2ec253d95c6c45c2493.php 第 149 行.
+NOTIC: [8] Undefined offset: 5 /data/wwwroot/xs/Runtime/Cache/Home/23d3b4541d8aa2ec253d95c6c45c2493.php 第 150 行.
+NOTIC: [8] Undefined variable: duShiOnebook /data/wwwroot/xs/Runtime/Cache/Home/23d3b4541d8aa2ec253d95c6c45c2493.php 第 206 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.033163s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.033209s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000049s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000076s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000029s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000057s ]
+
+[ 2016-09-09T11:01:03+08:00 ] 163.177.93.241 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000103s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000046s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000096s ]
+SQL: SHOW COLUMNS FROM `xs_book` [ RunTime:0.0023s ]
+SQL: SHOW COLUMNS FROM `xs_book` [ RunTime:0.0015s ]
+SQL: SHOW COLUMNS FROM `xs_read_count` [ RunTime:0.0016s ]
+SQL: select * from xs_read_count order BY rcount desc limit 3 [ RunTime:0.0005s ]
+SQL: select id,book_name,book_img,book_desc,book_author,book_sign from xs_book where id in (2076,2075,2074) [ RunTime:0.0005s ]
+SQL: select id,book_name,book_img,book_desc,book_author,book_sign from xs_book where book_sign like '%搞笑%' limit 6 [ RunTime:0.0004s ]
+SQL: select id,book_name,book_img,book_desc,book_author,book_sign from xs_book where book_sign like '%豪门%' limit 6 [ RunTime:0.0012s ]
+SQL: select id,book_name,book_img,book_desc,book_author,book_sign from xs_book where id in(2080) limit 1 [ RunTime:0.0003s ]
+SQL: select id,book_name,book_author from xs_book where id in(2092,2099,2119,2132) limit 5 [ RunTime:0.0002s ]
+SQL: select id,book_name,book_author from xs_book where id in(2099,2121,2122,2128) limit 5 [ RunTime:0.0003s ]
+SQL: select id,book_name,book_img,book_desc,book_author,book_sign from xs_book where id in(3000) limit 1 [ RunTime:0.0003s ]
+SQL: select id,book_name,book_author from xs_book where id in(2126,2102,2096,2092) limit 5 [ RunTime:0.0003s ]
+SQL: select id,book_name,book_img,book_desc,book_author,book_sign from xs_book where id in(2120) limit 1 [ RunTime:0.0002s ]
+SQL: select id,book_name,book_img from xs_book where id in(2100,2101,2102) limit 3 [ RunTime:0.0002s ]
+SQL: select id,book_name,book_img from xs_book order by last_update desc limit 3 [ RunTime:0.0044s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000108s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000166s ]
+NOTIC: [8] Undefined variable: duShiOnebook /data/wwwroot/xs/Runtime/Cache/Home/23d3b4541d8aa2ec253d95c6c45c2493.php 第 206 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.030169s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030231s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000054s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000097s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000029s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000063s ]
+
+[ 2016-09-09T11:01:04+08:00 ] 219.133.40.15 /Home/User/person.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000129s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000050s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000105s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000054s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000198s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003569s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003635s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000113s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000162s ]
+
+[ 2016-09-09T11:01:07+08:00 ] 219.133.40.15 /Home/User/pageLogin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000108s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000043s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000087s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000081s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000228s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002493s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002544s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000045s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000085s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000038s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000078s ]
+
+[ 2016-09-09T11:04:06+08:00 ] 101.226.99.197 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000110s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000045s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000088s ]
+SQL: SHOW COLUMNS FROM `xs_book` [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `xs_book` [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `xs_read_count` [ RunTime:0.0006s ]
+SQL: select * from xs_read_count order BY rcount desc limit 3 [ RunTime:0.0001s ]
+SQL: select id,book_name,book_img,book_desc,book_author,book_sign from xs_book where id in (2076,2075,2074) [ RunTime:0.0001s ]
+SQL: select id,book_name,book_img,book_desc,book_author,book_sign from xs_book where book_sign like '%校园%' limit 6 [ RunTime:0.0001s ]
+SQL: select id,book_name,book_img,book_desc,book_author,book_sign from xs_book where book_sign like '%穿越%' limit 6 [ RunTime:0.0001s ]
+SQL: select id,book_name,book_img,book_desc,book_author,book_sign from xs_book where id in(2080) limit 1 [ RunTime:0.0001s ]
+SQL: select id,book_name,book_author from xs_book where id in(2092,2099,2119,2132) limit 5 [ RunTime:0.0001s ]
+SQL: select id,book_name,book_author from xs_book where id in(2099,2121,2122,2128) limit 5 [ RunTime:0.0001s ]
+SQL: select id,book_name,book_img,book_desc,book_author,book_sign from xs_book where id in(3000) limit 1 [ RunTime:0.0001s ]
+SQL: select id,book_name,book_author from xs_book where id in(2126,2102,2096,2092) limit 5 [ RunTime:0.0001s ]
+SQL: select id,book_name,book_img,book_desc,book_author,book_sign from xs_book where id in(2120) limit 1 [ RunTime:0.0001s ]
+SQL: select id,book_name,book_img from xs_book where id in(2100,2101,2102) limit 3 [ RunTime:0.0001s ]
+SQL: select id,book_name,book_img from xs_book order by last_update desc limit 3 [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000135s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000209s ]
+NOTIC: [8] Undefined offset: 1 /data/wwwroot/xs/Runtime/Cache/Home/23d3b4541d8aa2ec253d95c6c45c2493.php 第 140 行.
+NOTIC: [8] Undefined offset: 1 /data/wwwroot/xs/Runtime/Cache/Home/23d3b4541d8aa2ec253d95c6c45c2493.php 第 140 行.
+NOTIC: [8] Undefined offset: 1 /data/wwwroot/xs/Runtime/Cache/Home/23d3b4541d8aa2ec253d95c6c45c2493.php 第 141 行.
+NOTIC: [8] Undefined offset: 1 /data/wwwroot/xs/Runtime/Cache/Home/23d3b4541d8aa2ec253d95c6c45c2493.php 第 141 行.
+NOTIC: [8] Undefined offset: 1 /data/wwwroot/xs/Runtime/Cache/Home/23d3b4541d8aa2ec253d95c6c45c2493.php 第 142 行.
+NOTIC: [8] Undefined offset: 2 /data/wwwroot/xs/Runtime/Cache/Home/23d3b4541d8aa2ec253d95c6c45c2493.php 第 140 行.
+NOTIC: [8] Undefined offset: 2 /data/wwwroot/xs/Runtime/Cache/Home/23d3b4541d8aa2ec253d95c6c45c2493.php 第 140 行.
+NOTIC: [8] Undefined offset: 2 /data/wwwroot/xs/Runtime/Cache/Home/23d3b4541d8aa2ec253d95c6c45c2493.php 第 141 行.
+NOTIC: [8] Undefined offset: 2 /data/wwwroot/xs/Runtime/Cache/Home/23d3b4541d8aa2ec253d95c6c45c2493.php 第 141 行.
+NOTIC: [8] Undefined offset: 2 /data/wwwroot/xs/Runtime/Cache/Home/23d3b4541d8aa2ec253d95c6c45c2493.php 第 142 行.
+NOTIC: [8] Undefined offset: 3 /data/wwwroot/xs/Runtime/Cache/Home/23d3b4541d8aa2ec253d95c6c45c2493.php 第 148 行.
+NOTIC: [8] Undefined offset: 3 /data/wwwroot/xs/Runtime/Cache/Home/23d3b4541d8aa2ec253d95c6c45c2493.php 第 148 行.
+NOTIC: [8] Undefined offset: 3 /data/wwwroot/xs/Runtime/Cache/Home/23d3b4541d8aa2ec253d95c6c45c2493.php 第 149 行.
+NOTIC: [8] Undefined offset: 3 /data/wwwroot/xs/Runtime/Cache/Home/23d3b4541d8aa2ec253d95c6c45c2493.php 第 149 行.
+NOTIC: [8] Undefined offset: 3 /data/wwwroot/xs/Runtime/Cache/Home/23d3b4541d8aa2ec253d95c6c45c2493.php 第 150 行.
+NOTIC: [8] Undefined offset: 4 /data/wwwroot/xs/Runtime/Cache/Home/23d3b4541d8aa2ec253d95c6c45c2493.php 第 148 行.
+NOTIC: [8] Undefined offset: 4 /data/wwwroot/xs/Runtime/Cache/Home/23d3b4541d8aa2ec253d95c6c45c2493.php 第 148 行.
+NOTIC: [8] Undefined offset: 4 /data/wwwroot/xs/Runtime/Cache/Home/23d3b4541d8aa2ec253d95c6c45c2493.php 第 149 行.
+NOTIC: [8] Undefined offset: 4 /data/wwwroot/xs/Runtime/Cache/Home/23d3b4541d8aa2ec253d95c6c45c2493.php 第 149 行.
+NOTIC: [8] Undefined offset: 4 /data/wwwroot/xs/Runtime/Cache/Home/23d3b4541d8aa2ec253d95c6c45c2493.php 第 150 行.
+NOTIC: [8] Undefined offset: 5 /data/wwwroot/xs/Runtime/Cache/Home/23d3b4541d8aa2ec253d95c6c45c2493.php 第 148 行.
+NOTIC: [8] Undefined offset: 5 /data/wwwroot/xs/Runtime/Cache/Home/23d3b4541d8aa2ec253d95c6c45c2493.php 第 148 行.
+NOTIC: [8] Undefined offset: 5 /data/wwwroot/xs/Runtime/Cache/Home/23d3b4541d8aa2ec253d95c6c45c2493.php 第 149 行.
+NOTIC: [8] Undefined offset: 5 /data/wwwroot/xs/Runtime/Cache/Home/23d3b4541d8aa2ec253d95c6c45c2493.php 第 149 行.
+NOTIC: [8] Undefined offset: 5 /data/wwwroot/xs/Runtime/Cache/Home/23d3b4541d8aa2ec253d95c6c45c2493.php 第 150 行.
+NOTIC: [8] Undefined variable: duShiOnebook /data/wwwroot/xs/Runtime/Cache/Home/23d3b4541d8aa2ec253d95c6c45c2493.php 第 206 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020459s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020518s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000071s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000110s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000046s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000086s ]
+
+[ 2016-09-09T11:04:08+08:00 ] 101.226.51.229 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000221s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000100s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000148s ]
+SQL: SHOW COLUMNS FROM `xs_book` [ RunTime:0.0011s ]
+SQL: SHOW COLUMNS FROM `xs_book` [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `xs_read_count` [ RunTime:0.0006s ]
+SQL: select * from xs_read_count order BY rcount desc limit 3 [ RunTime:0.0001s ]
+SQL: select id,book_name,book_img,book_desc,book_author,book_sign from xs_book where id in (2076,2075,2074) [ RunTime:0.0001s ]
+SQL: select id,book_name,book_img,book_desc,book_author,book_sign from xs_book where book_sign like '%现代%' limit 6 [ RunTime:0.0001s ]
+SQL: select id,book_name,book_img,book_desc,book_author,book_sign from xs_book where book_sign like '%豪门%' limit 6 [ RunTime:0.0001s ]
+SQL: select id,book_name,book_img,book_desc,book_author,book_sign from xs_book where id in(2080) limit 1 [ RunTime:0.0001s ]
+SQL: select id,book_name,book_author from xs_book where id in(2092,2099,2119,2132) limit 5 [ RunTime:0.0001s ]
+SQL: select id,book_name,book_author from xs_book where id in(2099,2121,2122,2128) limit 5 [ RunTime:0.0001s ]
+SQL: select id,book_name,book_img,book_desc,book_author,book_sign from xs_book where id in(3000) limit 1 [ RunTime:0.0001s ]
+SQL: select id,book_name,book_author from xs_book where id in(2126,2102,2096,2092) limit 5 [ RunTime:0.0001s ]
+SQL: select id,book_name,book_img,book_desc,book_author,book_sign from xs_book where id in(2120) limit 1 [ RunTime:0.0001s ]
+SQL: select id,book_name,book_img from xs_book where id in(2100,2101,2102) limit 3 [ RunTime:0.0001s ]
+SQL: select id,book_name,book_img from xs_book order by last_update desc limit 3 [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000180s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000281s ]
+NOTIC: [8] Undefined variable: duShiOnebook /data/wwwroot/xs/Runtime/Cache/Home/23d3b4541d8aa2ec253d95c6c45c2493.php 第 206 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.041107s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.041174s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000137s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000198s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000081s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000130s ]
+

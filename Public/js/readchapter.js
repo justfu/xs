@@ -343,7 +343,7 @@
             }
         },
 
-        _SetPages: function () {
+        _SetPages: function (content,title) {
 
             var maxX = parseInt((this._Args.ScreenW - 10) / this._Args.FontSize);
             //var maxY = parseInt((this._Args.ScreenH - 40) / this._Args.LineHeight);
@@ -353,86 +353,86 @@
             $(".ctx").css({ padding: "0 " + padding + "px" });
 
             var titlemaxX = parseInt((this._Args.ScreenW - padding * 2) / this._Args.ChapterFontSize);
+            $('.ctx').html(content);
+            //var arr = this._Args.Chapter.content.split(/\<p[^>]*\>/gi);
+            //
+            //var chaptertitie = title;
+            //alert(chaptertitie+'dsa');
+            //var temp = [];
+            //
+            //this._Args.Pages = [];
+            //
+            //var newTop = 1;//是否有标题 0:有 1:没有 默认1
+            //
+            ////标题处理
+            //if (chaptertitie && chaptertitie != '') {
+            //    newTop = 0;
+            //    var rows = Math.ceil(chaptertitie.length / titlemaxX);
+            //    for (var j = 0; j < rows ; j++) {
+            //        if (sumY + Reader._Args.ChapterFontSize >= this._Args.ScreenH - 40) {
+            //            this._Args.Pages.push(temp.join(""));
+            //            temp = [];
+            //            sumY = 0;
+            //        }
+            //        if (j == 0) {
+            //            temp.push(
+            //                "<p data-title='title' style='padding-bottom:" + Reader._Args.ChapterContentSize + "px;'></p>"
+            //            );
+            //            sumY += Reader._Args.ChapterContentSize;
+            //        }
+            //        sumY += Reader._Args.ChapterFontSize;
+            //        if (j < rows - 1) {
+            //            temp.push(
+            //                "<p data-title='title' style='font-size:" + Reader._Args.ChapterFontSize + "px;line-height:" + Reader._Args.ChapterLineHeight + "px;'>" + chaptertitie.substring(j * titlemaxX, (j + 1) * titlemaxX) + "</p>"
+            //            );
+            //        } else {
+            //            temp.push(
+            //                "<p data-title='title' style='font-size:" + Reader._Args.ChapterFontSize + "px;line-height:" + Reader._Args.ChapterLineHeight + "px;padding-bottom:" + Reader._Args.ChapterContentSize + "px;'>" + chaptertitie.substring(j * titlemaxX, (j + 1) * titlemaxX) + "</p>"
+            //            );
+            //            sumY += Reader._Args.ChapterContentSize;
+            //        }
+            //    }
+            //}
+            //
+            //var newpadding = 1;//是否设置段间距 0:设置 1:不设 默认1
 
-            var arr = this._Args.Chapter.Content.split(/\<p[^>]*\>/gi);
-
-            var chaptertitie = this._Args.Chapter.Title;
-
-            var temp = [];
-
-            this._Args.Pages = [];
-
-            var newTop = 1;//是否有标题 0:有 1:没有 默认1
-
-            //标题处理
-            if (chaptertitie && chaptertitie != '') {
-                newTop = 0;
-                var rows = Math.ceil(chaptertitie.length / titlemaxX);
-                for (var j = 0; j < rows ; j++) {
-                    if (sumY + Reader._Args.ChapterFontSize >= this._Args.ScreenH - 40) {
-                        this._Args.Pages.push(temp.join(""));
-                        temp = [];
-                        sumY = 0;
-                    }
-                    if (j == 0) {
-                        temp.push(
-                            "<p data-title='title' style='padding-bottom:" + Reader._Args.ChapterContentSize + "px;'></p>"
-                        );
-                        sumY += Reader._Args.ChapterContentSize;
-                    }
-                    sumY += Reader._Args.ChapterFontSize;
-                    if (j < rows - 1) {
-                        temp.push(
-                            "<p data-title='title' style='font-size:" + Reader._Args.ChapterFontSize + "px;line-height:" + Reader._Args.ChapterLineHeight + "px;'>" + chaptertitie.substring(j * titlemaxX, (j + 1) * titlemaxX) + "</p>"
-                        );
-                    } else {
-                        temp.push(
-                            "<p data-title='title' style='font-size:" + Reader._Args.ChapterFontSize + "px;line-height:" + Reader._Args.ChapterLineHeight + "px;padding-bottom:" + Reader._Args.ChapterContentSize + "px;'>" + chaptertitie.substring(j * titlemaxX, (j + 1) * titlemaxX) + "</p>"
-                        );
-                        sumY += Reader._Args.ChapterContentSize;
-                    }
-                }
-            }
-
-            var newpadding = 1;//是否设置段间距 0:设置 1:不设 默认1
-
-            for (var i = 0; i < arr.length ; i++) {
-                if (arr[i] != "") {
-                    if (newTop != 0) {//不是标题下面加一个段间距
-                        sumY += Reader._Args.PaddingHeight;
-                        newpadding = 0;
-                    }
-                    newTop = 1;
-                    var rows = Math.ceil(arr[i].length / maxX);
-                    for (var j = 0; j < rows ; j++) {
-                        if (sumY + Reader._Args.LineHeight >= this._Args.ScreenH - 40) {
-                            this._Args.Pages.push(temp.join(""));
-                            temp = [];
-                            sumY = 0;
-                            newpadding = 1;
-                        }
-                        sumY += Reader._Args.LineHeight;
-                        if (newpadding != 0) {
-                            temp.push(
-                                "<p>" + arr[i].substring(j * maxX, (j + 1) * maxX) + "</p>"
-                            );
-                        } else {
-                            temp.push(
-                                "<p style='padding-top:" + Reader._Args.PaddingHeight + "px;'>" + arr[i].substring(j * maxX, (j + 1) * maxX) + "</p>"
-                            );
-                        }
-
-                        newpadding = 1;
-                    }
-                }
-            }
-
-            if (temp.length > 0) {
-                this._Args.Pages.push(temp.join(""));
-            }
+            //for (var i = 0; i < arr.length ; i++) {
+            //    if (arr[i] != "") {
+            //        if (newTop != 0) {//不是标题下面加一个段间距
+            //            sumY += Reader._Args.PaddingHeight;
+            //            newpadding = 0;
+            //        }
+            //        newTop = 1;
+            //        var rows = Math.ceil(arr[i].length / maxX);
+            //        for (var j = 0; j < rows ; j++) {
+            //            if (sumY + Reader._Args.LineHeight >= this._Args.ScreenH - 40) {
+            //                this._Args.Pages.push(temp.join(""));
+            //                temp = [];
+            //                sumY = 0;
+            //                newpadding = 1;
+            //            }
+            //            sumY += Reader._Args.LineHeight;
+            //            if (newpadding != 0) {
+            //                temp.push(
+            //                    "<p>" + arr[i].substring(j * maxX, (j + 1) * maxX) + "</p>"
+            //                );
+            //            } else {
+            //                temp.push(
+            //                    "<p style='padding-top:" + Reader._Args.PaddingHeight + "px;'>" + arr[i].substring(j * maxX, (j + 1) * maxX) + "</p>"
+            //                );
+            //            }
+            //
+            //            newpadding = 1;
+            //        }
+            //    }
+            //}
+            //
+            //if (temp.length > 0) {
+            //    this._Args.Pages.push(temp.join(""));
+            //}
         },
 
-        _GetChapter: function (id, notdefault, callback, isnext) {
+        _GetChapter: function (id, notdefault, callback, isnext, BookId) {
 
             Util.Loading();
             Reader._Args.IsLoading = 1;
@@ -444,13 +444,11 @@
                 Util.CookieWrite("CLIENTID", clientid, 9999);
             }
 
-            ajaxService("/Service/ServiceMethod", "chapter_getdetail", { userid: this._Args.UserID, chapterid: id, notdefault: notdefault, stat_page: Reader._Args.Stat_Page },
+            ajaxService("getChapterData.html", "chapter_getdetail", { chapterid: id, bookId: _bookid},
                 function (response, status) {
+
                     Util.LoadingClear();
                     //超时
-                    var response={"Code":0,"ChpterHttpDetail":{"Code":0,"Message":"","Data":{"Id":7138608,"BookId":789866,"VolumeId":1,"Title":"第一章离婚","CreateTime":"\/Date(1452650552000)\/","Words":0,"AuthorId":559990,"IsVip":0,"Price":6,"Content":"\u003cp\u003e　　“倪乐卉，如果你真的爱我，就请你签字，我跟海莲都会感激你的。”严昌拓将离婚协议跟笔放在倪乐卉面前。\u003cp\u003e　　倪乐卉看着眼前这个男人，他们从小就认识，青梅竹马，结婚两年，他就要跟她离婚，他忘了他们恋爱时的甜蜜吗？忘了他们的海誓山盟吗？\u003cp\u003e　　为了一个女人，一个小三，他就要跟她离婚。\u003cp\u003e　　“你爱她吗？”倪乐卉淡漠的问道。\u003cp\u003e　　“爱。”严昌拓斩钉截铁的回答。\u003cp\u003e　　“你了解她吗？”倪乐卉又问道。\u003cp\u003e　　“……”严昌拓沉默，他跟倪乐卉从小一起长大，没有人比他更了解她，他爱海莲，却不了解海莲。\u003cp\u003e　　“妈知道吗？”倪乐卉再次问道。\u003cp\u003e　　“海莲怀孕了。”严昌拓愧疚的看着倪乐卉，他不想这么快跟她摊牌，可是海莲怀孕了，这让他猝不及防，只能向她摊牌。\u003cp\u003e　　小三怀孕了，她也怀孕了，他们结婚两年，也没刻意不要孩子，可她就是没怀上，也许是因为她的工作，不管什么原因，可现在她怀上了。\u003cp\u003e　　倪乐卉犹豫了几秒，准备将衣服兜里的诊断报告给严昌拓看时，他的话让她放弃了。\u003cp\u003e　　“乐卉，我妈年纪大了，她一直都想抱孙子，如果海莲肚子里怀着的是女儿，或许，我妈会站在你这边，可海莲肚子里是个男孩，严家几代单传，我妈……”\u003cp\u003e　　“我们离婚，是你的意思，还是你妈的意思？”倪乐卉听不下去了，打断严昌拓的话。\u003cp\u003e　　真是可笑，什么叫如果海莲肚子里怀着的是女儿，或许他妈会站在她这边，重男轻女，这时候告诉他们，她也怀孕了，如果她生下的是女儿，俞海莲生下的是儿子，这个婚一样会离，只是迟早的问题。\u003cp\u003e　　他们两家关系不错，这么多年来，她还真没看出来，他妈思想还这么封建。\u003cp\u003e　　“是我的意思，也是我妈的意思，海莲已经被我妈接到严家主宅了。”严昌拓停顿了几秒，又说道：“乐卉，我知道是我对不起你，可我跟海莲是真心相爱，现在海莲又怀孕了，我不能委屈了她，你是个善良的女人，成全我们吧。”\u003cp\u003e　　倪乐卉在心里冷笑，她善良，他们就该欺负她的善良吗？不能委屈小三，就让她委屈吗？她成全了他们，谁来成全她。\u003cp\u003e　　倪乐卉有她的骄傲，对于一段即将毁掉的婚姻，她也没什么可留恋的，一哭二闹三上吊，可以挽救一段婚姻，却挽救不了感情。\u003cp\u003e　　没有感情的婚姻，两夫妻行同陌路。\u003cp\u003e　　“确定你不后悔？”倪乐卉还是给了他最后一丝机会。\u003cp\u003e　　“不悔。”严昌拓斩钉截铁的点头。\u003cp\u003e　　倪乐卉不再犹豫，拿起笔利落的签下自己的名字。“严昌拓，记住你今天的话，假如你后悔了，请别来找我，我可以再婚，却绝不复婚，再见了我的前夫。”\u003cp\u003e　　倪乐卉放下笔，起身离开，她没有收拾东西，这里的东西她都不要了，值钱的也好，不值钱的也罢，她连人都不要了，还要这些东西做什么？\u003cp\u003e　　倪乐卉净身出户，最高兴的莫过于严妈跟俞海莲，原本她们还以为这婚没那么容易离，是个女人遇到丈夫有外遇，又为了小三要跟她离婚，绝不会轻易同意离婚，她们都想好后招，给倪乐卉一笔钱，只是让她们意外，倪乐卉居然爽快的签字了，什么都没要，净身出户。\u003cp\u003e　　四年后。\u003cp\u003e　　T市医科大学附属人民医院，产科门诊部。\u003cp\u003e　　“倪医生，你好。”\u003cp\u003e　　倪乐卉今天出诊，一来上班，门外就有许多排队等候的孕妇。\u003cp\u003e　　一周她只出诊一天，星期二出诊，她的号很难挂，想要挂她的号，早早就要来医院等，提前预约的号还是附加号。\u003cp\u003e　　“颜太太，我记得你预约的是下周星期二。”倪乐卉见到章傲蕾有些意外，她预约的是下周星期二，今天她就来了，是她记错了，还是……\u003cp\u003e　　“倪医生，我肚子有些不舒服，所以早早就来排队挂号，想让你给我看看。”章傲蕾有些过意不去，倪医生的号有限，她占了一个号，就意味着有人挂不了号。\u003cp\u003e　　倪乐卉见她脸色不是很糟糕，听她说肚子有些不舒服，也没在意，这一胎是她的第一胎，又是试管婴儿，她特别小心，除了定期产检，稍有一丁点的不适，她就会来医院，来专挂自己的号。\u003cp\u003e　　对她的身体情况，倪乐卉最清楚，一切正常，这个月中旬就是她的预产期，以倪乐卉对她的身体情况，早产的可能性不大，只会推后。\u003cp\u003e　　章傲蕾这是典型的产前忧郁症，越是得来不易的孩子，越是小心谨慎，就形成了一种无形的压力。\u003cp\u003e　　“颜先生呢？”倪乐卉见她大腹便便，行动有些不便，扶着她进1诊室，从章傲蕾怀上孩子，每次产检都是她，每次都是她独自来，不知道她情况的，还以为她是单亲妈妈。\u003cp\u003e　　“他忙。”章傲蕾笑着回答。\u003cp\u003e　　“忙不是拒绝陪你来产检的理由，若是有心，无论有多忙，都会抽出一点时间陪老婆产检，你的情况又特殊。”倪乐卉忍不住为章傲蕾打抱不平，章傲蕾肚子都这么大了，她老公还真放心她独自一人来产检。\u003cp\u003e　　听着倪乐卉的话，章傲蕾只是温和一笑。\u003cp\u003e　　“倪医生，这你就不对了，你不能因认识她，你就让她插队，我们还有这么多人都排着队。”\u003cp\u003e　　“倪医生，我们冲着你的临床经验才挂你的号，你不能徇私。”\u003cp\u003e　　“就是，挂你的号有多不容易，你又不是不知道，我都挂了一个月才挂到你的号。”\u003cp\u003e　　“你要是敢给她先看，我……我们就上院里投诉你。”\u003cp\u003e　　抱怨声响起，倪乐卉引起公愤了。\u003cp\u003e　　“倪医生。”章傲蕾愧疚的看着倪乐卉。“给你添麻烦了。”\u003cp\u003e　　“颜太太，你是几号？”倪乐卉问向章傲蕾，没给她回答的机会，倪乐卉直接从她手中拿走号单。“今天，我还就给她先看了，她没插你们的队，而是1号，你们让1号去院里告我吧。”\u003cp\u003e　　倪乐卉话一落，扶着章傲蕾进了1诊室，砰一声关门上锁，一气呵成。\u003cp\u003e　　“倪医生，颜太太是1号，为什么不让外面等的人知道？”助理不理解的问道，倪乐卉不语，助理也就不多问了。\u003cp\u003e　　章傲蕾怀孕38+3周，倪乐卉先给章傲蕾称体重，再让章傲蕾躺下，测血压，量宫底高度，量腹围，听胎心率，检查胎位……\u003cp\u003e　　血常规、尿常规、胎心监护上周就做过，倪乐卉就没再给她做，她来产检的次数很勤，一切检验都正常。\u003cp\u003e　　“倪医生，是不是……”\u003cp\u003e　　“别自己吓唬自己。”倪乐卉打断章傲蕾的话，又说道：“差不多到预产期了，此阶段的产检仍是以常规检查和胎心监护为主，你上周做过胎心监护，这次我就不给你做了，一切都正常，你这是产前忧郁症，别太给自己压力了，放宽心准备迎接你的宝宝到来，最重要的还是准妈妈养成每天自行检测胎动的习惯。”\u003cp\u003e　　给章傲蕾产检完，倪乐卉回到坐位上，助理将章傲蕾扶起，倪乐卉又叮嘱了一些注意事项。\u003cp\u003e　　此时，门外。\u003cp\u003e　　“什么态度？”\u003cp\u003e　　“什么素质？”\u003cp\u003e　　“这样的人也配当医生？”\u003cp\u003e　　怨怼声四起，产妇们很安静，怨怼很深的都是陪产的家属。\u003cp\u003e　　“1号是谁？”不知是谁高声问道，见没有人站出来，又喊道：“2号是谁？”\u003cp\u003e　　“我。”有人站了出来。\u003cp\u003e　　“你是2号，我是3号，走，我们去院里投诉去，我看看这个拽个二五八万的医生是谁，倪乐卉，记住，她叫倪乐卉。”\u003cp\u003e　　“老公，别闹了。”\u003cp\u003e　　“媳妇，我不能让你吃亏，这事你别管，你就安心在这里等着，走，2号。”说完，男人拉着2号就走。\u003cp\u003e　　“老公，别……”女子想追去阻止，她大着肚子，行动不便，差点就跌倒了，还好旁边有人扶着她，又是一阵抱怨声响起。\u003cp\u003e　　“你们安静点，颜太太就是1号。”助理扶着章傲蕾出来。\u003cp\u003e　　听到1号，众人静音了，怪不得3号叫1号没人站出来。\u003cp\u003e　　“抱歉，给你们添麻烦了。”章傲蕾歉意的说道。\u003cp\u003e　　“2号……2号……2号在吗？”助理叫道，见没人站出来，又叫3号。“3号在吗？”\u003cp\u003e　　“2号跟3号去院里投诉去了。”有人说道。\u003cp\u003e　　挂号单在他们身上，孕妇在没有挂号单也没用。\u003cp\u003e　　“4号。”助理又叫4号，4号在家人的陪同下进了1诊室。\u003cp\u003e　　午饭时间，倪乐卉被叫进产科主任办公室。\u003cp\u003e　　“倪乐卉，这个月你被投诉几次了？”产科主任温智帆问道。\u003cp\u003e　　“主任，这次纯属孕妇家属瞎胡闹。”倪乐卉无辜的说道。\u003cp\u003e　　“颜太太是1号，你为什么不说。”温智帆抓了抓头，明明很简单的一件事，一句话的事，她偏就让事情闹大。\u003cp\u003e　　“主任，你难道忘了，你可警告过我，上班时间，不许瞎聊天。”倪乐卉说道。\u003cp\u003e　　“这不是瞎聊天，这是工作需要。”温智帆没想到她会用他说过的话来反驳自己。\u003cp\u003e　　“无关病情，不是瞎聊天是什么？”倪乐卉将一缕发丝掠到耳后。\u003cp\u003e　　“你……”\u003cp\u003e　　“好了主任，我要去吃饭了。”倪乐卉转身朝门口走去，没走几步转身，说道：“对了，今天加号的比较多，我要加班，麻烦你下班后去幼儿园接一下涵函。”\u003cp\u003e　　本书由潇湘书院首发，请勿转载！","Check":0,"PreviousId":0,"NextId":7138802,"IsChanging":0,"CheckTime":"\/Date(-62135596800000)\/"},"Attachments":0},"SubInfo":{"UserId":0,"BookId":0,"ChapterId":0,"ChapterInfo":{"Success":0,"Vipdian":0,"Vipdian2":0,"Xiaoxiangbi":0,"Tiyanbi":0,"Yuanbao":0,"Fensi":0,"Mon":0,"Assess":0,"Liquan":0,"IsBaoyue":0,"IsTejia":0,"IsAuto":0,"BookId":0,"BookName":null,"NextLiquan":0,"Tejia":0,"ChapterTitle":null},"Per":"0","CoinLess":1,"IsChapterList":0,"BtnText":"","Auto":""},"UserLevel":0};
-
-
                     Reader._Args.IsLoading = 0;
                     //未正常获取到章节
                     if (response.Code != 0) {
@@ -463,194 +461,47 @@
                             Reader._Alert("章节不存在");
                             return;
                         }
-
-                            //帐号异常
-                        else if (response.Code == -1 || response.Code == 7 || response.Code == 11 || response.Code == 12) {
-                            Reader._Alert("账户异常");
-                            setTimeout(function () {
-                                Util.CookieWrite("USER_FLAG", "", -1);
-                                Util.CookieSessionWrite("Session_Code", "", -1);
-                                location.href = "/Page/Login";
-                            }, 1500);
-                            return;
-                        }
-
-
-                            //修改中
-                        else if (response.Code == 5) {
-                            var erresult = response.ChpterHttpDetail.Data;
-                            if (erresult != null && erresult.IsChanging == 1) {
-                                erresult.Content = "";
-                                Reader._Args.Chapter = erresult;
-                                Reader._Args.IsChanging = 1;
-                                Reader._SetPages();
-                                Reader._Args.Pages = [];
-                                Reader._SetHistoryPageIndex(Reader._Args.Chapter.Id, Reader._Args.Index);
-                                if (typeof callback == "function") {
-                                    callback();
-                                }
-                                return;
-                            }
-                        }
-
-
-                            //未订阅
-                        else if (response.Code == 3 || response.Code == 14) {
-                            if (response.SubInfo != null) {
-
-                                Reader._Args.Chapter = response.ChpterHttpDetail.Data;
-                                Reader._Args.Pages = [];
-                                Reader._Args.Index = 0;
-                                $(".ctx").html("");
-                                $(".chname > h3").html("");
-                                $(".chname > em").html("");
-
-                                var subdetail = response.SubInfo.ChapterInfo;
-
-                                //自动订阅
-                                if (subdetail.IsAuto == 1) {
-                                    $(".autosubcribe > span:eq(0)").removeClass("iconfont_checkbox").addClass("iconfont_checkedbox");
-                                } else {
-                                    $(".autosubcribe > span:eq(0)").removeClass("iconfont_checkedbox").addClass("iconfont_checkbox");
-                                }
-
-                                //余额是否充足
-                                Reader._Args.CoinLess = response.SubInfo.CoinLess;
-                                if (response.SubInfo.CoinLess == 1) {
-                                    $("#chkauto").attr("disabled", true);
-                                    $("#divsubscribe").html("余额不足，立即充值");
-                                } else {
-                                    $("#chkauto").attr("disabled", false);
-                                    $("#divsubscribe").html("订阅本章");
-                                }
-
-                                //章节名
-                                $("#chaptername").html(subdetail.ChapterTitle);
-
-                                //价格
-                                var htm;
-                                if (subdetail.Vipdian < subdetail.Vipdian2) {
-                                    htm = "价格：<em>" + subdetail.Vipdian2 + "潇湘币</em>" + subdetail.Vipdian + "潇湘币";
-                                    if (response.UserLevel > 0) {
-                                        htm = htm + "<span>（V" + response.UserLevel + "专享价）<span>";
-                                    }
-                                } else {
-                                    htm = "价格：" + subdetail.Vipdian2 + "潇湘币";
-                                }
-                                $(".price").html(htm);
-
-                                //余额
-                                $(".balance").html("余额：" + subdetail.Xiaoxiangbi + "潇湘币");
-
-                                var idindex = 1;
-                                //特价
-                                if (subdetail.IsTejia > 0) {
-                                    $("#special" + idindex).addClass("readsubcribe").html("全本订阅省" + response.SubInfo.Per + "%");
-                                    $("#special" + idindex).click(function () {
-                                        Reader.BuySpecial();
-                                    });
-                                    idindex++;
-                                }
-
-                                //包月
-                                if (subdetail.IsTejia > 0) {
-                                    $("#special" + idindex).addClass("readsubcribe").html("开通包月免费读本书");
-                                    $("#special" + idindex).click(function () {
-                                        Reader.BuyMonth();
-                                    });
-                                }
-
-                                Reader._Args.SubChapterId = id;
-                                $("#forsubscribe").css("z-index", "7").show();
-                                $(".readsubcribe").show();
-                                return;
-                            }
-                        }
-                        return;
                     }
-                    var result = response.ChpterHttpDetail.Data;
-
-                    if (result != null && result.BookId > 0) {
-
-                        if (Reader._Args.SubChapterId > 0) {
-                            $("#forsubscribe").hide();
-                            $(".valfail").hide();
-                            Reader._Args.SubChapterId = 0;
-                        }
-
-                        //成功获取章节                        
-                        Reader._Args.ChapterSource = 0;
-                        if (result.IsChanging == 1) {
-                            result.Content = "";
-                        }
+                    var result = response.content;
+                    Reader._Args.Chapter = result;
+                    Reader._Args.Chapter.Title=response.title;
+                    if (result != null) {
+                        //if (Reader._Args.SubChapterId > 0) {
+                        //    $("#forsubscribe").hide();
+                        //    $(".valfail").hide();
+                        //    Reader._Args.SubChapterId = 0;
+                        //}
+                        //
+                        ////成功获取章节
+                        //Reader._Args.ChapterSource = 0;
+                        //if (result.IsChanging == 1) {
+                        //    result.Content = "";
+                        //}
                         Reader._Args.Chapter = result;
 
                         //下一章是公告章节
-                        if (Reader._Args.LastIsNotice == 0 && isnext == 1 && parseInt(Reader._Args.Chapter.VolumeId) == 999999) {
-                            location.href = "/Page/EndContent?bookid=" + Reader._Args.BookID;
-                            return;
-                        }
-
-                        //隐藏订阅区域
+                        //if (Reader._Args.LastIsNotice == 0 && isnext == 1 && parseInt(Reader._Args.Chapter.VolumeId) == 999999) {
+                        //    location.href = "/Page/EndContent?bookid=" + Reader._Args.BookID;
+                        //    return;
+                        //}
+                        //
+                        ////隐藏订阅区域
                         Reader.HideSubscribeInfo();
-
-                        if (parseInt(Reader._Args.Chapter.VolumeId) == 999999)
-                            Reader._Args.LastIsNotice = 1;
-
-                        Reader._Args.IsChanging = result.IsChanging;
-                        Reader._SetPages();
-                        Reader._SetHistoryPageIndex(Reader._Args.Chapter.Id, Reader._Args.Index);
-                        if (typeof callback == "function") {
-                            callback();
-                        }
+                        //
+                        //if (parseInt(Reader._Args.Chapter.VolumeId) == 999999)
+                        //    Reader._Args.LastIsNotice = 1;
+                        //
+                        //Reader._Args.IsChanging = result.IsChanging;
+                        Reader._SetPages(result,'dsadsa');
+                        //Reader._SetHistoryPageIndex(Reader._Args.Chapter.Id, Reader._Args.Index);
+                        //if (typeof callback == "function") {
+                        //    callback();
+                        //}
 
                         // 引导
                         var _hasshow = Util.CookieValue("SHOW_READ_GUIDE");
                         if (!_hasshow || _hasshow == "") {
                             Reader.ShowGuide();
-                        }
-
-                        // 调用百度接口
-                        try {
-                            var qs = function (a) {
-                                var value = '';
-                                var rgx = new RegExp('(^|&)' + a + '=([^&]*)($|&)', 'i');
-                                var match = location.search.substr(1).match(rgx);
-                                if (match != null) {
-                                    value = decodeURIComponent(match[2]);
-                                }
-                                return value;
-                            }
-
-                            var token = qs('token');
-                            var novel_id = qs('novel_id');
-                            if (token == '') {
-                                token = Util.CookieValue('baidu_token');
-                            }
-                            if (novel_id == '') {
-                                novel_id = Util.CookieValue('baidu_novel_id');
-                            }
-
-                            if (token != '' && novel_id != '') {
-
-                                Util.CookieWrite('baidu_token', token, 60 * 24 * 30);
-                                Util.CookieWrite('baidu_novel_id', novel_id, 60 * 24 * 30);
-
-                                var url = 'http://m.xxsy.net/content.aspx?bookid=' + Reader._Args.BookID + '&chapterid=' + res[0].Id;
-                                var data = 'content={ "title":"' + res[0].Title + '", "URL":"' + encodeURIComponent(url) + '"}';
-
-                                $.ajax({
-                                    type: 'POST',
-                                    url: 'http://novelapi.m.baidu.com/cpbookmark/set?token=' + token + '&novel_id=' + novel_id + '&cp_id=10009&cp_secret=d8ef548f',
-                                    data: data,
-                                    success: function (data) {
-                                        console.log(data);
-                                    }
-                                });
-                            }
-
-                        } catch (e) {
-
                         }
                     } else {
                         Reader._Alert("章节不存在");

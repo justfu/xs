@@ -13,10 +13,116 @@ body{
     background:none;
 }
 .menu .active, .menu a{
-    background-color: #F400FF;
+    background-color: #00AEEF;
     color: #ffffff;
 }
 .menu .active, .menu a:hover{
-    background-color: orange;
-    color: #ffffff;
+    background-color: white;
+    color: #00AEEF;
+}
+.loginbox{
+    position: fixed;
+    background-color: white;
+    z-index: 2000;
+    width: 250px;
+    top: 50%;
+    left: 50%;
+    height:250px;
+    margin-left: -125px;
+    margin-top: -150px;
+    box-shadow:0 0 15px 0 rgba(0,0,0,.3);
+    border-radius: 20px;
+}
+
+.login_box .login_box_title{
+    background-color: #F7F7F7;
+    width: 440px;
+    height: 60px;
+    color: black;
+    font-size: 20px;
+}
+.login_box .login_box_body{
+    width: 440px;
+    height: 300px;
+}
+.login_box_body .login_user,.login_box_body .login_pwd{
+    margin-top: 30px;
+    margin-left: 33px;
+    width: 350px;
+    height: 40px;
+}
+.login_box_body .login_user input,.login_box_body .login_pwd input{
+    position: relative;
+    width: 180px;
+    top: 0px;
+    letter-spacing: 2px;
+    height: 30px;
+    border: 0px;
+    font-size: 12px;
+    font-family: 'Georgia';
+    border: 1px #DEDEDE solid;
+}
+.login_user input{
+    background-image: url(../images/user.png);
+    background-size: 30px 30px;
+    background-repeat: no-repeat;
+    padding-left: 40px;
+}
+.login_pwd input{
+    background-image: url(../images/mima.png);
+    background-size: 30px 30px;
+    background-repeat: no-repeat;
+    padding-left: 40px;
+}
+.login_box_body .check_code{
+    margin-top: 20px;
+    margin-left: 45px;
+    width: 200px;
+    height: 42px;
+}
+.check_code input{
+    font-family: 'Georgia';
+    width: 255px;
+    letter-spacing: 2px;
+    height: 39px;
+    border: 1px #DEDEDE solid;
+    font-size: 15px;
+    padding-left: 40px;
+    /*background-image: url('../img/check.png');*/
+    background-size: 40px 40px;
+    background-repeat: no-repeat;
+}
+.login_box_body .login_button{
+    background-color: #0077d9;
+    margin-top: 10px;
+    border: 0px;
+    margin-left: 45px;
+    color: white;
+    font-size: 20px;
+    width: 150px;
+    height:30px;
+    cursor: pointer;
+    -webkit-transition: ease 1.5s;
+    -moz-transition: ease 1.5s;
+    -ms-transition: ease 1.5s;
+    -o-transition: ease 1.5s;
+    transition: ease 1.5s;
+}
+.login_box_body .login_button:hover{
+    background-color: white;
+    color: #8B00FF;
+}
+@font-face {font-family: 'iconfont';
+    src: url('../font/iconfont.eot'); /* IE9*/
+    src: url('../font/iconfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('../font/iconfont.woff') format('woff'), /* chrome、firefox */
+    url('../font/iconfont.ttf') format('truetype'), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+    url('../font/iconfont.svg#iconfont') format('svg'); /* iOS 4.1- */
+}
+.iconfont{
+    font-family:"iconfont" !important;
+    font-size:16px;font-style:normal;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-stroke-width: 0.2px;
+    -moz-osx-font-smoothing: grayscale;
 }

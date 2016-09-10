@@ -1,0 +1,71 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Exo,'-apple-system','Open Sans',HelveticaNeue-Light,'Helvetica Neue Light','Helvetica Neue','Hiragino Sans GB','Microsoft YaHei',Helvetica,Arial,sans-serif;
+    overflow-x: hidden;
+}
+body{
+    background-color: #ECD9AC;
+    color: rgb(77, 77, 77);
+}
+#nextChapter{
+    margin-top: 20px;
+}
+#nextChapter ul{
+    list-style-type: none;
+}
+#nextChapter ul li{
+    width: 40%;
+    height: 50px;
+    background-color: #16bc5c;
+    float: left;
+    color: white;
+    line-height: 50px;
+    text-align: center;
+    margin-left: 7.5%;
+}
+#content{
+    padding-left: 10px;
+    /*padding-right: 10px;*/
+    letter-spacing: 3px;
+}
+#content p{
+    margin-top: 20px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+#tools1{
+    background-color: #ffffff;
+}
+#tools{
+    position: fixed;
+    bottom: 30px;
+    width: 50px;
+    height: 50px;
+    right: 3%;
+    border-radius: 25px;
+    /*background-color: #00AEEF;*/
+    background-image: url(../images/9190f76cac.png);
+    background-size: 50px 50px;
+}
+#list{
+    position: fixed;
+    right: 7%;
+    width: 80px;
+    background-color: #ffffff;
+    bottom: 80px;
+    z-index: 2000;
+    border-radius: 8px 8px;
+}
+#list ul{
+    border-radius: 5px 5px;
+    background-color: #ffffff;
+}
+#list ul li{
+    text-align: center;
+    height: 30px;
+    line-height: 30px;
+    padding: 5px 5px 5px 5px;
+    background-color: #ffffff;
+    border-bottom: 1px #000000 solid;
+}

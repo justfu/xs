@@ -13,6 +13,7 @@
     <script type="text/javascript" src="{$Think.const.JS_URL}app.js"></script>
     <script type="text/javascript" src="{$Think.const.JS_URL}jquery.min.js"></script>
     <script type="text/javascript" src="{$Think.const.JS_URL}jquery.rotate.js"></script>
+    <link rel="stylesheet" type="text/css" href="{$Think.const.CSS_URL}app.css">
 	
 </head>
 
@@ -22,9 +23,9 @@
 
 
 <div class="subhead">
-	<a href="" onclick="history.go(-1)">返回</a>
+	<a onclick="location.href='{:U('Index/index')}'">返回</a>
 	<a>本书详情</a>
-	<a href="/h5/shelf?h5=1" class="bs">书架</a>
+    <a href="__MODULE__/User/person.html" style="background: none;width: 60px;" class="bs">个人中心</a>
 </div>
 
 <div class="booksite">
@@ -43,7 +44,7 @@
 		 </div>				
     </div>
     
-		    <a href="#" class="cbut add_bs" bookId="533602"></a>
+		    <a href="#" id="collect" class="cbut add_bs" bookId="{$detail['id']}"></a>
         
     <div class="bookbutton">
         
@@ -113,9 +114,9 @@
 </div>
 
 
-			<div class="olnk"><script type="text/javascript" src="{$Think.const.JS_URL}168804228325.js"></script></div>
-		
-			<div class="olnk"><script type="text/javascript" src="{$Think.const.JS_URL}168804228298.js"></script></div>
+			<!--<div class="olnk"><script type="text/javascript" src="{$Think.const.JS_URL}168804228325.js"></script></div>-->
+		<!---->
+			<!--<div class="olnk"><script type="text/javascript" src="{$Think.const.JS_URL}168804228298.js"></script></div>-->
 		
 <h3 class="cat_tit2"><em></em>作品简介</h3>
 <div class="book_intro">
@@ -175,7 +176,7 @@
 </div>
 <div class="book_list" id="coverl_zta" style="display:none">
     <foreach name="chapterTitleDesc" item="v">
-		<a href="/h5/chapter?bookid=533602&cid=33448193&fpage=36&fmodule=23&_st=33_308-2_533602" title="字数:{$v.len}">
+		<a href="__CONTROLLER__/chapter.html?bookId={$detail['id']}" title="字数:{$v.len}">
             {$v.title}
 		</a>
     </foreach>
@@ -192,12 +193,12 @@
 <!--读过此书的人还喜欢start,每本书的url参数应该是fpage=36&fmodule=25&_st=36_25-x_bookid  -->
 <h3 class="cat_tit"><em></em>读过{$detail['book_name']}人还喜欢<span class="chanp mbfav_renew" id="refresh"><em id="rotate" style="background-color: #16bc5ca"></em>换一换</span></h3>
 <div class="mbfav_wap">
-    
-	    <div class="bookbox" bookid="400791" _link="/h5/book?bookid=400791&h5=1&fpage=36&fmodule=25&_st=36_25-1_400791">
+
+	    <div class="bookbox" bookid="" _link="">
 	        <div class="bookimg">
-	            
-			            <img src="picture/1448334319803.jpg" alt="妙手生香">
-			        
+
+			    <img src="" alt="妙手生香">
+
 	        </div>
 	        <div class="bookinfo">
 	            <h4 class="bookname">妙手生香</h4>
@@ -206,12 +207,12 @@
 	            <div class="mbfav_info"></div>
 	        </div>
 	    </div>
-    
-	    <div class="bookbox" bookid="508019" _link="/h5/book?bookid=508019&h5=1&fpage=36&fmodule=25&_st=36_25-2_508019">
+
+	    <div class="bookbox" bookid="" _link="">
 	        <div class="bookimg">
-	            
-			            <img src="picture/1467811804812.jpg" alt="重生之特警红颜">
-			        
+
+			            <img src="" alt="重生之特警红颜">
+
 	        </div>
 	        <div class="bookinfo">
 	            <h4 class="bookname">重生之特警红颜</h4>
@@ -220,12 +221,12 @@
 	            <div class="mbfav_info"><div class="topcor"></div>47% 的读者还看过这本书</div>
 	        </div>
 	    </div>
-    
-	    <div class="bookbox" bookid="363903" _link="/h5/book?bookid=363903&h5=1&fpage=36&fmodule=25&_st=36_25-3_363903">
+
+	    <div class="bookbox" bookid="" _link="">
 	        <div class="bookimg">
-	            
-			            <img src="picture/1417145768058.jpg" alt="特种兵王在都市">
-			        
+
+			            <img src="" alt="特种兵王在都市">
+
 	        </div>
 	        <div class="bookinfo">
 	            <h4 class="bookname">特种兵王在都市</h4>
@@ -234,91 +235,8 @@
 	            <div class="mbfav_info"><div class="topcor"></div>53% 的读者还看过这本书</div>
 	        </div>
 	    </div>
-    
-	    <div class="bookbox" bookid="501972" _link="/h5/book?bookid=501972&h5=1&fpage=36&fmodule=25&_st=36_25-4_501972">
-	        <div class="bookimg">
-	            
-			            <img src="picture/1464699635575.jpg" alt="病毒崛起">
-			        
-	        </div>
-	        <div class="bookinfo">
-	            <h4 class="bookname">病毒崛起</h4>
-	            <div class="author">作者：<span>墨香双鱼</span></div>
-	            <div class="cat">分类：<span>都市异能</span></div>
-	            <div class="mbfav_info"><div class="topcor"></div>52% 的读者还看过这本书</div>
-	        </div>
-	    </div>
-    
-	    <div class="bookbox" bookid="574578" _link="/h5/book?bookid=574578&h5=1&fpage=36&fmodule=25&_st=36_25-5_574578">
-	        <div class="bookimg">
-	            
-			            <img src="picture/1466058033086.jpg" alt="都市最强狂龙">
-			        
-	        </div>
-	        <div class="bookinfo">
-	            <h4 class="bookname">都市最强狂龙</h4>
-	            <div class="author">作者：<span>秋烧鱼</span></div>
-	            <div class="cat">分类：<span>都市生活</span></div>
-	            <div class="mbfav_info"><div class="topcor"></div>51% 的读者还看过这本书</div>
-	        </div>
-	    </div>
-    
-	    <div class="bookbox" bookid="561035" _link="/h5/book?bookid=561035&h5=1&fpage=36&fmodule=25&_st=36_25-6_561035">
-	        <div class="bookimg">
-	            
-			            <img src="picture/1466324628129.jpg" alt="人生加速器">
-			        
-	        </div>
-	        <div class="bookinfo">
-	            <h4 class="bookname">人生加速器</h4>
-	            <div class="author">作者：<span>尘土矣</span></div>
-	            <div class="cat">分类：<span>都市异能</span></div>
-	            <div class="mbfav_info"><div class="topcor"></div>34% 的读者还看过这本书</div>
-	        </div>
-	    </div>
-    
-	    <div class="bookbox" bookid="582339" _link="/h5/book?bookid=582339&h5=1&fpage=36&fmodule=25&_st=36_25-7_582339">
-	        <div class="bookimg">
-	            
-			            <img src="picture/1467812089412.jpg" alt="诛天证道">
-			        
-	        </div>
-	        <div class="bookinfo">
-	            <h4 class="bookname">诛天证道</h4>
-	            <div class="author">作者：<span>悄悄的躲起来</span></div>
-	            <div class="cat">分类：<span>都市重生</span></div>
-	            <div class="mbfav_info"><div class="topcor"></div>30% 的读者还看过这本书</div>
-	        </div>
-	    </div>
-    
-	    <div class="bookbox" bookid="573228" _link="/h5/book?bookid=573228&h5=1&fpage=36&fmodule=25&_st=36_25-8_573228">
-	        <div class="bookimg">
-	            
-			            <img src="picture/1464939214016.jpg" alt="美女上司的王牌高手">
-			        
-	        </div>
-	        <div class="bookinfo">
-	            <h4 class="bookname">美女上司的王牌高手</h4>
-	            <div class="author">作者：<span>饥饿的狼</span></div>
-	            <div class="cat">分类：<span>都市生活</span></div>
-	            <div class="mbfav_info"><div class="topcor"></div>47% 的读者还看过这本书</div>
-	        </div>
-	    </div>
-    
-	    <div class="bookbox" bookid="557076" _link="/h5/book?bookid=557076&h5=1&fpage=36&fmodule=25&_st=36_25-9_557076">
-	        <div class="bookimg">
-	            
-			            <img src="picture/1463378063627.jpg" alt="近战狂兵">
-			        
-	        </div>
-	        <div class="bookinfo">
-	            <h4 class="bookname">近战狂兵</h4>
-	            <div class="author">作者：<span>兔斯奇</span></div>
-	            <div class="cat">分类：<span>都市生活</span></div>
-	            <div class="mbfav_info"><div class="topcor"></div>39% 的读者还看过这本书</div>
-	        </div>
-	    </div>
-    
+
+
 </div>
 <!--读过此书的人还喜欢end-->
 
@@ -336,39 +254,40 @@
 
 
 <footer>
-	<!-- 登录之前 -->
+    <!-- 登录之前 -->
     <div class="fl" id="sp_unlogin">
-    	<a href="http://passport.zongheng.com/wap/user/login.do?fpage=36&fmodule=52" >登录</a> | 
-    	<a href="http://passport.zongheng.com/bdpass/wapRegister.do" >注册</a>
+        <a href="http://passport.zongheng.com/wap/user/login.do?fpage=33&fmodule=52" >登录</a> |
+        <a href="http://passport.zongheng.com/bdpass/wapRegister.do" >注册</a>
     </div>
     <!-- 登录之后 -->
     <div id="sp_nickname" class="fl" style="display: none">
-    	<a href="/h5/home"><span></span></a> | 
-	    <a href="/h5/user/logout?fpage=36&fmodule=53">退出</a>
+        <a href="/h5/home"><span></span></a> |
+        <a href="/h5/user/logout?fpage=33&fmodule=53">退出</a>
     </div>
-	<div class="fr">
-		<a href="/h5/help?fpage=36&fmodule=54">我要吐槽</a>
-	</div>
-	<div class="cl0"></div>
-	
-	
+    <div class="fr">
+        <a href="/h5/help?fpage=33&fmodule=54">我要吐槽</a>
+    </div>
+    <div class="cl0"></div>
 
-<form action="/h5/search" method="GET">
-	<div class="searchbox">
-		<div>
-			<input placeholder="请输入关键字" value="" maxlength="15" name="keywords">
-		</div>
-		<div class="search_go"></div>
-	</div>
-	<input type="hidden" name="field" id="field" value="all"/>
-</form>
 
-	
-	<div>
-		<a href="/adapter?tag=wap">极速版</a> | <a class="active">触屏版</a> | <a href="/adapter?tag=pc">电脑版</a> | <a href="http://news.zongheng.com/zhuanti/2015/appdl/index.html" >客户端</a>
-	</div>
-	<span class="copyright">©版权归百度文学旗下纵横中文网所有</span>
+
+    <form action="/h5/search" method="GET">
+        <div class="searchbox">
+            <div>
+                <input placeholder="请输入关键字" value="" maxlength="15" name="keywords">
+            </div>
+            <div class="search_go"></div>
+        </div>
+        <input type="hidden" name="field" id="field" value="all"/>
+    </form>
+
+
+    <!--<div>-->
+    <!--<a href="/adapter?tag=wap">极速版</a> | <a class="active">触屏版</a> | <a href="/adapter?tag=pc">电脑版</a> | <a href="http://news.zongheng.com/zhuanti/2015/appdl/index.html" >客户端</a>-->
+    <!--</div>-->
+    <span class="copyright">所有书籍均来自于互联网,如有侵犯,请联系<a href="http://wpa.qq.com/msgrd?v=3&uin=1034996580&site=qq&menu=yes">管理员</a>删除!</span>
 </footer>
+
 <script type="text/javascript">
 (function(){
     var logoned = $("#sp_nickname");
@@ -454,6 +373,35 @@
 
     $('.bookbox').bind('click',function(){
            location.href=$(this).attr('_link');
+    });
+    $('#collect').bind('click',function(){
+        var savebookId=$('#collect').attr('bookId');
+        var savechapterId=0;
+            $.ajax({
+                type:'post',
+                dataType:'json',
+                url:'__MODULE__/User/checkIsLogin.html',
+                success:function(msg){
+                    if(msg.code==200){
+                        $.ajax({
+                            type:'post',
+                            data:'bookId='+savebookId+'&chapterId='+savechapterId,
+                            dataType:'json',
+                            url:'__CONTROLLER__/saveReading.html',
+                            success:function(msg){
+                                if(msg.code==200){
+                                    alert('收藏成功');
+                                }else{
+                                    alert(msg.msg);
+                                }
+                            }
+                        })
+                    }else{
+                        alert('请先登录后在收藏');
+                        location.href='{:U('User/pageLogin')}?l=detail&bookId={$detail['id']}';
+                    }
+                }
+            })
     });
 </script>
 

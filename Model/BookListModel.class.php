@@ -46,4 +46,23 @@ class BookListModel extends Model{
         return $list->field('id')->where("book_id=$bookId")->limit(1)->select();
     }
 
+    public function checkChapterExist($chapterId){
+        $list=D('book_list');
+        return $list->field('count(*)')->where("id=$chapterId")->limit(1)->select()[0]['count(*)']?TURE:FALSE;
+    }
+
+    /*
+     * 获得当前bookid的最后一个章节的书
+     */
+    public function getLastChapter($bookId){
+        $list=D('book_list');
+        return $list->field('title')->where("book_id=$bookId")->order('id desc')->limit(1)->find();
+    }
+
+    //获得章节信息
+    public function getChapterInfo($chapterId){
+        $list=D('book_list');
+        return $list->field('title')->where("id=$chapterId")->limit(1)->find();
+    }
+
 }

@@ -1,0 +1,23 @@
+.bookbox{position:relative;zoom:1;overflow:auto;padding:14px 8px;border-bottom:1px solid #dfdfdf}
+.bookbox::after{visibility: hidden;display:block;font-size:0;content: ' ';clear: both;height:0;}
+.bookbox:hover{background:#f9f9f9}
+.bookbox .bookimg{float:left;margin-right:10px;width:74px;height:98px}
+.bookimg img{width:74px;height:98px}
+
+.bookinfo{ overflow:hidden;z-index:2}
+.bookbox .bookname{font-size:16px; color:#4c4c4c;height:29px; overflow:hidden;  display:-webkit-box;position: relative;}
+.bookbox .bookname div{-webkit-box-flex:1;height: 22px;line-height: 22px;overflow: hidden;}
+.bookbox .author,.bookbox .cat{ float:left;color:#8f8f8f;height:24px;font-size:13px}
+.bookbox .cat{ float:right;}
+.bookbox .tj{ float:left;width:20px;height:20px; line-height:20px;font-size:14px;background:#ff4644;color:#fff; text-align:center;border-radius:10px; overflow:hidden;font-family:姒涙垳缍�;padding:0;margin:0}
+.bookbox .intro{color:#4c4c4c; font-size:13px;line-height:20px;height:40px; overflow:hidden;padding-left:8px}
+.bookbox .update,.bookbox .intro_line{color:#4c4c4c; font-size:13px;line-height:24px;height:24px;overflow:hidden; text-overflow:ellipsis; white-space:nowrap}
+.bookbox .update span,.bookbox .intro_line span,.bookbox .num span,.bookbox .info span{color:#a8a8a8}
+.bookbox .num{color:#8f8f8f;padding-left:18px;font-size:13px;background-size:150px;background-position:-126px -274px;line-height:24px;height:24px;}
+.bookbox .info{color:#4c4c4c; font-size:13px;line-height:23px;height:auto;}
+.bookbox .delbutton{z-index:999;position: absolute;right: 8px;top: 14px;}
+.bookbox .delbutton a{display:inline-block;width:55px;height:30px;font-size:13px;line-height:30px;border-radius:4px; text-align:center;background:#f2f2f2;color:#4c4c4c;}
+.bookbox .delbutton .add_but{border:1px solid #ff4643;background: none;color: #ff4643;box-sizing:border-box;}
+.bookbox .topnum{ position:absolute;width:16px;height:16px; border-radius:2px;right:10px;top:15px; text-align:center;color:#aaa; line-height:16px; background:#f1f1f1}
+.bookbox .bookname .iTit{overflow:hidden;max-width:6em;display: block;height:22px;line-height:22px}
+.bookbox .bookname .update_tips{background: #ff4644;color: #fff;font-size: 12px;padding:1px;border-radius: 2px;margin-left: 3px}

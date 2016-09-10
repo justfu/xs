@@ -23,3 +23,23 @@ function getTimeDifference($time){
         return $day.'天前';
     }
 }
+
+function my_log($content)
+{
+    $logs = new Tools\LogModel();
+    $data = array();
+    $data['msg'] = $content;
+    $logs->add($data);
+}
+
+function getLen($len){
+    if($len>10000){
+        return ceil($len/10000).'万字';
+    }elseif($len>1000){
+        return ceil($len/1000).'千字';
+    }elseif($len>100){
+        return ceil($len/100).'百字';
+    }else{
+        return $len.'字';
+    }
+}

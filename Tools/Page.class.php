@@ -11,14 +11,16 @@ class Page{
     private $modelname;
     private $fields;//当前表需要分页的字段;减少数据库读取压力,避免读取不必要的字段
     private $where;//分页条件
+    private $order;
 
     /*
      * 初始化分页类
      */
-    public function __construct($model,$fields=array(),$where){
+    public function __construct($model,$fields=array(),$where,$order=''){
          $this->where=$where;
          $this->modelname=$model;
          $this->model=D($model);
+         $this->order=$order;
          foreach($fields as $k => $v){
              $this->fields.=$v.',';
          }
@@ -49,6 +51,6 @@ class Page{
     public function returnPageData($nowpage){
         $this->getAllCounts();
         $limit=$this->pageCount*($nowpage-1).','.$this->pageCount;
-        return $this->model->field($this->fields)->limit($limit)->where("$this->where")->select();
+        return $this->model->field($this->fields)->limit($limit)->where("$this->where")->order("$this->order")->select();
     }
 }

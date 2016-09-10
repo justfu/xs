@@ -17,7 +17,7 @@ class IndexController extends Controller {
         //获得都市类的书籍
         $dsbooks='2099,2121,2122,2128';
         $dsBooks=$bookModel->getBooks($dsbooks);
-        $dsOneBook=$bookModel->getOneBook(2131);
+        $dsOneBook=$bookModel->getOneBook(3000);
 
         //获得豪门类的数据
         $hmbooks='2126,2102,2096,2092';

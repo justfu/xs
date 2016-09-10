@@ -1,0 +1,153 @@
+
+
+
+
+
+
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>搜索结果</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no">
+    <link rel="stylesheet" type="text/css" href="http://static.zongheng.com/h5/v2/css/mobile.css">
+    <script type="text/javascript" src="{$Think.const.JS_URL}zepto.min.js"></script>
+</head>
+
+<body>
+<div class="subhead">
+    <a href="/Home/Book/searchShow.html">返回</a>
+    <a>搜索结果</a>
+    <a href="__MODULE__/Index/index.html" class="ind">首页</a>
+</div>
+<form action="/h5/search" method="GET">
+    <div class="search_t">
+        <div class="searchbox">
+            <div><input placeholder="请输入关键字" value="{$keywords}" maxlength="15" name="keywords" id="keywords"></div>
+            <div class="search_go"></div>
+        </div>
+    </div>
+    <input type="hidden" name="field" id="field" value="all"/>
+</form>
+<h3 class="cat_tit2"><em></em>搜索"{$keywords}"的结果：</h3>
+
+<div id="search_rwap" class="book_slist">
+
+</div>
+<div id="view_more" class="sbut">
+</div>
+
+
+<footer>
+    <!-- 登录之前 -->
+    <div class="fl" id="sp_unlogin">
+        <a href="http://passport.zongheng.com/wap/user/login.do?fpage=33&fmodule=52" >登录</a> |
+        <a href="http://passport.zongheng.com/bdpass/wapRegister.do" >注册</a>
+    </div>
+    <!-- 登录之后 -->
+    <div id="sp_nickname" class="fl" style="display: none">
+        <a href="/h5/home"><span></span></a> |
+        <a href="/h5/user/logout?fpage=33&fmodule=53">退出</a>
+    </div>
+    <div class="fr">
+        <a href="/h5/help?fpage=33&fmodule=54">我要吐槽</a>
+    </div>
+    <div class="cl0"></div>
+
+
+
+    <form action="/h5/search" method="GET">
+        <div class="searchbox">
+            <div>
+                <input placeholder="请输入关键字" value="" maxlength="15" name="keywords">
+            </div>
+            <div class="search_go"></div>
+        </div>
+        <input type="hidden" name="field" id="field" value="all"/>
+    </form>
+
+
+    <!--<div>-->
+    <!--<a href="/adapter?tag=wap">极速版</a> | <a class="active">触屏版</a> | <a href="/adapter?tag=pc">电脑版</a> | <a href="http://news.zongheng.com/zhuanti/2015/appdl/index.html" >客户端</a>-->
+    <!--</div>-->
+    <span class="copyright">所有书籍均来自于互联网,如有侵犯,请联系<a href="http://wpa.qq.com/msgrd?v=3&uin=1034996580&site=qq&menu=yes">管理员</a>删除!</span>
+</footer>
+
+<script>
+    var keyword = "{$keywords}";
+    function loadSearchR(keyword,page,num){
+        $.ajax({
+            url: '__CONTROLLER__/ajaxSearch',
+            data:{
+                keywords:keyword,
+                pageNum:page,
+                field:"all",
+                pageCount:num
+            },
+            error: function(){},
+            dataType : 'json',
+            beforeSend: function(){
+                if(page==1){
+                    $("#search_rwap").html(loadingItem);
+                    $("#view_more").html('');
+                }else{
+                    $("#view_more").html('<span class="view_more">更多内容读取中...</span>')
+                }
+            },
+            success: function(data){
+
+                if(data.status1==-1){
+                    if(page==1){
+                        $("#search_rwap").html('<div style="height:200px;line-height:200px;text-align:center">╮(╯_╰)╭ ~搜不到的说</div>');
+                        $("#view_more").html("");
+                        return false;
+                    }else{
+                        $("#view_more").html(noMoreItem);
+                        return false;
+                    }
+                }
+                if(data.ajaxResult==2) {
+                    var curData = eval('var a=' + data.data);
+
+                    var insertHtml = "";
+//                alert(a.length);
+//                $(a).each(function(i,item){
+//                    alert(item.id);
+//                });
+                    for (i = 0; i < a.length; i++) {
+                        insertHtml += '<div class="bookbox" bookId="' + a[i].id + '"><div class="bookimg">';
+                        insertHtml += '<img src=' + a[i].book_img + ' orgsrc=' + a[i].book_img + '>';
+//                    insertHtml+='<img src='+a[i].book_img+'>';
+                        insertHtml += '</div><div class="bookinfo"><h4 class="bookname"><div>' + a[i].book_name + '</div></h4>';
+                        insertHtml += '<div class="author">' + a[i].book_author + '</div>';
+                        insertHtml += '<div class="cat"></div><div class="cl0"></div>';
+                        if (a[i].is_over == 2) {
+                            insertHtml += '<div class="update"><span>已完结</span></div>';
+                        } else {
+                            insertHtml += '<div class="update"><span>更新至：</span>' + a[i].lastChapterTitle + '</div>';
+                        }
+                        insertHtml += '<div class="intro_line"><span>简介：</span>' + a[i].book_desc + '</div></div></div>';
+                    }
+
+                page==1?$("#search_rwap").html(insertHtml):$("#search_rwap").append(insertHtml);
+                $(".bookbox").unbind("click").click(function(){
+                    location.href='detail.html?bookId='+$(this).attr('bookId');
+                });
+                a.length<num?$("#view_more").html(noMoreItem):
+                        $("#view_more").html('<span class="view_more" onclick="loadSearchR(\''+keyword+'\','+(page+1)+','+num+')">查看更多</span>');
+                imgload($(".bookimg img"));
+                }else{
+                    insertHtml='<div style="text-align: center">╮(╯_╰)╭ ~搜不到的说</div>';
+                    $("#search_rwap").html(insertHtml);
+                }
+            },
+            complete: function(){},
+            timeout : 10000
+        })
+    }
+    $(function(){
+        loadSearchR(keyword,1,5);
+    });
+</script>
+</body>
+</html>

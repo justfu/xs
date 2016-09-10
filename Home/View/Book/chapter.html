@@ -63,7 +63,7 @@
             </div>
             <div id="chapterlist">
                 <foreach name="chapterData" item="v">
-                <a href="">
+                <a href="__CONTROLLER__/reading.html?bookId={$bookDetail['id']}&chapterId={$v.id}">
                     <div class='chapterList clearfix '>
                         <span class="listLeft">{$v.title}</span>
                         <span class="listRight free">免费</span>
