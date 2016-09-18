@@ -5,12 +5,18 @@
     <script type="text/javascript" src="{$Think.const.JS_URL}jquery.min.js"></script>
     <link rel="stylesheet" type="text/css" href="{$Think.const.CSS_URL}read.css">
     <link rel="stylesheet" type="text/css" href="{$Think.const.CSS_URL}app.css">
+    <link rel="stylesheet" type="text/css" href="{$Think.const.CSS_URL}loading.css">
     <!--<link href="//cdn.bootcss.com/bootstrap/4.0.0-alpha.3/css/bootstrap.css" rel="stylesheet">-->
     <title>{$detail['book_name']}</title>
 </head>
 <body>
      <div id="title" style="font-size: 30px"></div>
      <div style="width: 100%;" id="content">
+         <!--<div style='z-index:2000;text-align: center'><img width='150px' src='{$Think.const.IMG_URL}refresh.gif' /></div>-->
+         <div class="spinner">
+             <div class="double-bounce1"></div>
+             <div class="double-bounce2"></div>
+         </div>
      </div>
     <div id="nextChapter">
         <ul>
@@ -22,6 +28,7 @@
     <div id="list" style="display: none">
     <ul>
          <li id="back">首页</li>
+         <li id="category">目录</li>
          <li id="save">收藏</li>
         <php>$username=session('username');echo empty($username)?("<li id='login'>登陆"):("<li id='login' tag='1'>".$username);</php></li>
          <li id="aa">A+</li>
@@ -61,6 +68,7 @@
     var q=0;
     $().ready(function(){
         //初始化
+        var refresh='<div class="spinner"><div class="double-bounce1"></div><div class="double-bounce2"></div></div>';
         var tag=$('#login').attr('tag');
         if(tag==1){
             $('#logout').show();
@@ -82,11 +90,21 @@
                     $('#content').html(data.content);
                     next=data.nextChapterId;
                     pre=data.preChapterId;
+                    if(data.code==404){
+                        $('#next').html('尾页');
+                        $('#next').bind('click',function(){
+                            location.href='__CONTROLLER__/detail.html?bookId='+bookId;
+                        });
+                    }else if(data.code==403){
+                        $('#prev').html('首页');
+                        $('#prev').bind('click',function(){
+                            location.href='__CONTROLLER__/detail.html?bookId='+bookId;
+                        });
+                    }
                     window.scrollTo(0,0);
                 }
             });
         }
-    var refresh="<div style='z-index:2000;text-align: center'><img width='150px' src='{$Think.const.IMG_URL}refresh.gif' /></div>";
         $('#next').bind('click',function(){
             $('#content').html(refresh);
            getChapterData({$detail['id']},next);
@@ -104,6 +122,9 @@
         $('#back').bind('click',function(){
              location.href='__MODULE__/Index/index.html';
         });
+        $('#category').bind('click',function(){
+            location.href='__CONTROLLER__/chapter.html?bookId={$detail['id']}';
+        })
         $('#aa').bind('click',function(){
             var fontsize=$('#content').css('fontSize');
             fontsize=parseInt(fontsize.substring(0,2));

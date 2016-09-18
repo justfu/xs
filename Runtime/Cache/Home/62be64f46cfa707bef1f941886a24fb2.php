@@ -10,9 +10,9 @@
 </head>
 <body>
 <h1 align="center" class="title" style="font-family: 'Trebuchet MS', sans-serif;">注册 Read-Read 账号</h1>
-<form method="post" id="loginform" action="/Home/User/registerAction.html">
+<form method="post" id="loginform" action="/Home/User/registerAction">
     <div class="login">
-        <input type="text" name="username" id="username" class="tel" placeholder="请输入用户名">
+        <input type="text" name="username" id="username" class="tel" maxlength="6" placeholder="请输入用户名">
         <input type="text" name="email" class="tel" id="email" placeholder="请输入邮箱号">
         <input type="text" name="tel" class="tel" id="tel" placeholder="请输入手机号">
         <input type="password" name="password" class="tel" id="password" placeholder="请输入密码">
@@ -31,7 +31,8 @@
             var email=$('#email').val();
             var password=$('#password').val();
             var password1=$('#password1').val();
-            if(username==""){
+            var filter  = /^([a-zA-Z0-9_\.\-])+\@(([a-zA-Z0-9\-])+\.)+([a-zA-Z0-9]{2,4})+$/;
+                if(username==""){
                 alert('请填写用户名');
                 return false;
             }else if(email==""){
@@ -49,7 +50,13 @@
             }else if(password!==password1){
                 alert('两次输入密码不匹配,请重新输入!!!');
                 return false;
-            }else{
+            }else if(username.length>6){
+                alert('用户名超出长度!!');
+                return false;
+            }else if(!filter.test(email)){
+                alert('邮箱格式不正确!');
+                return false;
+            } else{
                 return true;
             }
         }

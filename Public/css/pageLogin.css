@@ -1,7 +1,7 @@
 *{
     padding: 0px;
     margin: 0px;
-    font-family: "Helvetica Neue", Helvetica, "Hiragino Sans GB", "Microsoft YaHei", Arial, sans-serif;
+    font-family: "Alright Sans LP","Avenir Next","Helvetica Neue",Helvetica,Arial,"PingFang SC","Source Han Sans SC","Hiragino Sans GB","Microsoft YaHei","WenQuanYi MicroHei",sans-serif;
 }
 
 *:focus {outline: none;}
@@ -12,7 +12,7 @@
     left: 50%;
     margin-left: -45%;
     margin-top: 20px;
-    background-color: yellowgreen;
+    /*background-color: yellowgreen;*/
     border-radius: 20px;
 }
 .login .tel,.login .password{

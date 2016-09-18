@@ -40,23 +40,33 @@
 
 <footer>
     <!-- 登录之前 -->
+    <php>
+        $username=session('username');
+        if(empty($username)){
+    </php>
     <div class="fl" id="sp_unlogin">
-        <a href="http://passport.zongheng.com/wap/user/login.do?fpage=33&fmodule=52" >登录</a> |
-        <a href="http://passport.zongheng.com/bdpass/wapRegister.do" >注册</a>
+        <a href="__MODULE__/User/pageLogin.html" >登陆</a> |
+        <a href="__MODULE__/User/register.html" >注册</a>
     </div>
+    <php>
+        }else{
+    </php>
     <!-- 登录之后 -->
-    <div id="sp_nickname" class="fl" style="display: none">
-        <a href="/h5/home"><span></span></a> |
-        <a href="/h5/user/logout?fpage=33&fmodule=53">退出</a>
+    <div id="sp_nickname" class="fl">
+        <a href="__MODULE__/User/person.html"><span><php>$username=session('username');echo empty($username)?'登陆':$username;</php></span></a> |
+        <a href="__MODULE__/User/logOutAction.html">退出</a>
     </div>
+    <php>
+        }
+    </php>
     <div class="fr">
-        <a href="/h5/help?fpage=33&fmodule=54">我要吐槽</a>
+        <a onclick="alert('谁要你吐槽的啊!!')">我要吐槽</a>
     </div>
     <div class="cl0"></div>
 
 
 
-    <form action="/h5/search" method="GET">
+    <form action="" method="GET">
         <div class="searchbox">
             <div>
                 <input placeholder="请输入关键字" value="" maxlength="15" name="keywords">

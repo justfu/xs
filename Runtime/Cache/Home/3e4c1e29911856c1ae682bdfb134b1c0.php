@@ -39,7 +39,7 @@
     <script>
         $().ready(function(){
               $('.return').bind('click',function(){
-                   location.href='/Home/Book/detail?bookId='+<?php echo ($bookId); ?>;
+                   location.href=history.go(-1);
               });
         });
     </script>
@@ -52,7 +52,7 @@
     </div>
     <div style="height: 8px;"></div>
 
-    <div class="m2" id="chapter" style='display:'>
+    <div class="m2" id="chapter" style='display:block'>
 
 
 
@@ -82,7 +82,7 @@
                     "><</a></li>
                 <li>
                     <select id="selPage">
-                        <?php $__FOR_START_1014949155__=0;$__FOR_END_1014949155__=$pageCount;for($i=$__FOR_START_1014949155__;$i < $__FOR_END_1014949155__;$i+=1){ ?><option value="<?php echo ($i+1); ?>" <?php if($nowpage == $i+1): ?>selected<?php endif; ?> >第<?php echo ($i+1); ?>/ <?php echo ($pageCount); ?>页</option><?php } ?>
+                        <?php $__FOR_START_738107161__=0;$__FOR_END_738107161__=$pageCount;for($i=$__FOR_START_738107161__;$i < $__FOR_END_738107161__;$i+=1){ ?><option value="<?php echo ($i+1); ?>" <?php if($nowpage == $i+1): ?>selected<?php endif; ?> >第<?php echo ($i+1); ?>/ <?php echo ($pageCount); ?>页</option><?php } ?>
                     </select>
                     <script>
                         $('#selPage').change(function(){

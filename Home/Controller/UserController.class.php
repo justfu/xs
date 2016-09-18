@@ -57,7 +57,7 @@ class UserController extends Controller{
     public function pageLogin(){
         $l=I('get.l');
         $bookId=I('get.bookId');
-        if(!empty($a)){
+        if(!empty($l)){
             $this->assign('type',$l);
             $this->assign('bookId',$bookId);
         }
@@ -81,8 +81,8 @@ class UserController extends Controller{
         }else{
             session('user_id',$res['id'],3600);
             session('username',$res['username'],3600);
-            if(!empty($l)){
-                $this->redirect(__MODULE__.'/Book/detail',array('bookId'=>$bookId),2,'<h1>登录成功!<h1></h1>');
+            if(!empty($l)&&!empty($bookId)){
+                $this->redirect(__MODULE__.'/Book/detail',array('bookId'=>$bookId),0,'<h1>登录成功!<h1></h1>');
             }
             $this->redirect('person','',0,'正在跳转到个人中心!');
         }
@@ -121,7 +121,7 @@ class UserController extends Controller{
     public function person(){
         $username=session('username');
         $uid=session('user_id');
-        if(empty($username)){
+        if(empty($username)||empty($uid)){
             $this->error('您未登录,请登录后访问','pageLogin.html');
         }
         $userModel=new \Model\UserModel();
@@ -165,9 +165,13 @@ class UserController extends Controller{
              'email'    => $email,
              'tel'      => $tel,
              'password' => md5($password),
+             'addtime'  => time()
          );
          if($userModel2->add($arr)){
-             $this->redirect(U(Index/index),'',2,'注册成功!');
+             $user_id=$userModel->getIdByName($username);
+             session('username',$user_id,3600);
+             session('username',$username,3600);
+             $this->redirect('person','',0,'正在跳转到个人中心!');
          }else{
              $this->error('注册失败!');
          }

@@ -2,12 +2,13 @@
 namespace Home\Controller;
 use Model\BookListModel;
 use Model\BookModel;
+use Model\CollectModel;
 use Think\Controller;
 use Think\Log;
 class BookController extends Controller{
     public function detail($bookId){
-
         //取得当前bookid值的书籍详情
+        $bookId=intval($bookId);
         $bookModel=new \Model\BookModel();
         $detail=$bookModel->getBookDetail($bookId);
 
@@ -18,6 +19,13 @@ class BookController extends Controller{
         $detail=$detail[0];
         $detail['rcount']=$rcount;
 
+        if(!empty($detail['book_name'])) {
+            if ($res = $rCountModel->where("book_id=$bookId")->find()) {
+                $rCountModel->where("book_id=$bookId")->setInc('rcount');
+            } else {
+                $rCountModel->add(array('rcount' => 0, 'book_id' => $bookId));
+            }
+        }
         //取得当前书籍的最新篇章
         $listModel=new \Model\BookListModel();
         $newChapter=$listModel->getMostNewChapter($bookId);
@@ -90,19 +98,16 @@ class BookController extends Controller{
             $firstChapterId = $bookListModel->getFirstChapterIdByBookId($bookId)[0]['id'];
             $res = $bookListModel->getChapterContent($bookId, $firstChapterId);
 //            $nextChapterId = $res[0]['id'] + 1;
-        }else{
+        }else {
             $res = $bookListModel->getChapterContent($bookId, $ChapterId);
         }
-        $nowChapterId=$res[0]['id'];
-        if ($bookListModel->checkChapterExist($nowChapterId+1)) {
-            $res[0]['nextChapterId'] = $res[0]['id']+1;
-        } else {
-            $res[0]['content'] = '小说已经撸完!!!';
+        $res[0]['nextChapterId'] = $bookListModel->getNextChapterId($bookId,$res[0]['id']);
+        $res[0]['preChapterId'] = $bookListModel->getPreChapterId($bookId,$res[0]['id']);
+        if (empty($res[0]['nextChapterId'])) {
+            $res[0]['code']    = '404';
         }
-        if ($bookListModel->checkChapterExist($nowChapterId-1)) {
-            $res[0]['preChapterId'] = $res[0]['id']-1;
-        } else {
-            $res[0]['preChapterId'] = 0;
+        if (empty($res[0]['preChapterId'])) {
+            $res[0]['code']    = '403';
         }
          echo json_encode($res[0]);
     }
@@ -283,13 +288,21 @@ class BookController extends Controller{
         if(empty($uid)){
             E('您未登录');
         }
-        $collect=D('collect');
         $arr=array();
-        $arr['uid']=$uid;
-        $arr['book_id']=$bookId;
-        $arr['chapter_id']=$chapterId;
-        $arr['time']=time();
-        $res=$collect->add($arr);
+        $collect=new CollectModel();
+        if($res=$collect->checkCollectExit($bookId,$uid)){
+            $arr['id']=$res;
+            $arr['chapter_id']=$chapterId;
+            $arr['time']=time();
+            $collect->save($arr);
+        }else{
+            $arr['uid']=$uid;
+            $arr['book_id']=$bookId;
+            $arr['chapter_id']=$chapterId;
+            $arr['time']=time();
+            $res=$collect->add($arr);
+        }
+
         if(!$res){
             $data['code'] = 300;
             $data['msg'] = '收藏失败';
@@ -392,4 +405,5 @@ class BookController extends Controller{
         $this->assign('mostNew',$mostNew);
         $this->display();
     }
+
 }

@@ -44,6 +44,7 @@
 
 <script type="text/javascript">
     $().ready(function(){
+        window.m=1;
         var username='{$username}';
         $.ajax({
             type:'post',
@@ -100,8 +101,7 @@
                 dataType:'json',
                 data:'page='+page,
                 success:function(msg){
-
-                    if(msg==''){
+                    if(msg==''&&$('.bookbox').attr('bookid')==undefined){
                         var html='<div style="text-align: center;margin-top:150px;border-bottom: 1px solid gray">您还没有收藏书籍哦 赶快去首页看书吧</div>'
                         $('.collect').append(html);
                     }else {
@@ -145,7 +145,7 @@
                                 if(msg.code==200){
                                     ob.parent().parent().remove();
                                 }else{
-                                    alert(msg.msg);
+                                    console.log(msg.msg);
                                 }
                             }
                         });
@@ -153,6 +153,7 @@
                     });
                 }
             });
+            m++;
         }
 
 

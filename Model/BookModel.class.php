@@ -127,7 +127,7 @@ class BookModel extends Model{
      */
     public function getBookDetail($bookId){
         $book=D('book');
-        $res=$book->limit(1)->select($bookId);
+        $res=$book->limit(1)->select("$bookId");
         return $res;
     }
 

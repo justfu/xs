@@ -28,4 +28,9 @@ class UserModel extends Model{
         $res=$userModel->where("username='$username'")->find();
         return empty($res)?false:true;
     }
+
+    public function getIdByName($username){
+        $userModel=D('user2');
+        return $userModel->where("username='$username'")->find()['id'];
+    }
 }

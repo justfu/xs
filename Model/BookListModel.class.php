@@ -65,4 +65,28 @@ class BookListModel extends Model{
         return $list->field('title')->where("id=$chapterId")->limit(1)->find();
     }
 
+    //获得小说下一章节Id
+    public function getNextChapterId($bookId,$chapterId){
+        $list=M('book_list');
+        $res=$list->field('id')->where("book_id=$bookId")->select();
+        for($i=0;$i<count($res);$i++){
+           if($res[$i]['id']==$chapterId){
+               $nextIndex=$res[$i+1]['id'];
+           }
+        }
+        return $nextIndex;
+    }
+
+    //获得小说上一章节Id
+    public function getPreChapterId($bookId,$chapterId){
+        $list=M('book_list');
+        $res=$list->field('id')->where("book_id=$bookId")->select();
+        for($i=0;$i<count($res);$i++){
+            if($res[$i]['id']==$chapterId){
+                $preIndex=$res[$i-1]['id'];
+            }
+        }
+        return $preIndex;
+    }
+
 }

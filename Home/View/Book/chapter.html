@@ -39,7 +39,7 @@
     <script>
         $().ready(function(){
               $('.return').bind('click',function(){
-                   location.href='__CONTROLLER__/detail?bookId='+{$bookId};
+                   location.href=history.go(-1);
               });
         });
     </script>
@@ -52,7 +52,7 @@
     </div>
     <div style="height: 8px;"></div>
 
-    <div class="m2" id="chapter" style='display:'>
+    <div class="m2" id="chapter" style='display:block'>
 
 
 
